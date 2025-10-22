@@ -13,6 +13,7 @@ requests = "*"
 rclone-python = "*"
 matplotlib = "*"
 seaborn = "*"
+folium = "*"
 
 [dev-packages]
 ipykernel = "*"

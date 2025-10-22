@@ -1,9 +1,35 @@
 <img width="1509" height="716" alt="image" src="https://github.com/user-attachments/assets/0e8f4462-582f-4a4b-9b6a-fabaa50b07a9" />
 
+# Download the Dataset:
+
+To download the World-POI dataset, please visit our [OSF repository](https://osf.io/p96uf/files).
+
+We filter the integrated **631 GB (295,176,261 rows)** dataset to provide multiple smaller versions of the dataset to cater to different use cases.
+
+_Please note that we don't provide the full dataset due to its large size, but you can follow the instructions in this repository to reproduce the full dataset._
+
+## Tabular Data:
+
+| name                                                           | description                                              | Size   | #POIs      |
+| -------------------------------------------------------------- | -------------------------------------------------------- | ------ | ---------- |
+| [World-POI-levenshtein_0.5.csv](https://osf.io/p96uf/download) | Filtered dataset with Levenshtein similarity score > 0.5 | 8.4 GB | 7,789,246  |
+| [World-POI-levenshtein_0.3.csv](https://osf.io/p96uf/download) | Filtered dataset with Levenshtein similarity score > 0.3 | 18 GB  | 16,146,764 |
+| [World-POI-trigrams_0.5.csv](https://osf.io/p96uf/download)    | Filtered dataset with Trigram similarity score > 0.5     | 7.8 GB | 7,205,821  |
+| [World-POI-trigrams_0.3.csv](https://osf.io/p96uf/download)    | Filtered dataset with Trigram similarity score > 0.3     | 13 GB  | 1,120,944  |
+
+## Graph Data:
+
+| name                                                                      | description                                                                    | Size   | #Edges      |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------ | ----------- |
+| [World-POI-graph_10nn-levenshtein_0.5.csv](https://osf.io/p96uf/download) | Graph dataset with Levenshtein similarity score > 0.5 and 10 nearest neighbors | 5 GB   | 77,892,460  |
+| [World-POI-graph_10nn-levenshtein_0.3.csv](https://osf.io/p96uf/download) | Graph dataset with Levenshtein similarity score > 0.3 and 10 nearest neighbors | 11 GB  | 161,467,640 |
+| [World-POI-graph_10nn-trigrams_0.5.csv](https://osf.io/p96uf/download)    | Graph dataset with Trigram similarity score > 0.5 and 10 nearest neighbors     | 4.6 GB | 72,058,210  |
+| [World-POI-graph_10nn-trigrams_0.3.csv](https://osf.io/p96uf/download)    | Graph dataset with Trigram similarity score > 0.3 and 10 nearest neighbors     | 7.2 GB | 112,094,410 |
+
 # Reproducing Results from the Paper
 
 This document outlines the steps required to reproduce the results presented in our paper:  
-**_"F-OSM: Enriched Foursquare POI Dataset with OpenStreetMap Available as Structured and Graph Data"_**.
+**_"World-POI: Global Point-of-Interest Data Enriched from FourSquare and OpenStreetMap as Tabular and Graph Data"_**.
 
 All source code, sample datasets, and processing scripts used in the study are provided in this repository. By following the instructions below, you will be able to recreate the full data processing pipeline, perform enrichment using OpenStreetMap (OSM) data, and generate both structured and graph-based representations of the final dataset. This includes environment setup, data acquisition, preprocessing, and evaluation scripts.
 
@@ -104,7 +130,7 @@ Then, connect to the database using the following command:
 
 ### Foursquare Data:
 
-To import the downloaded Foursquare data into PostgreSQL, we first create the `foursquare` table in the `fsq-osm` database. You can use the following SQL command to create the table:
+To import the [downloaded](code/datacollection/foursquare.sql) Foursquare data into PostgreSQL, we first create the `foursquare` table in the `fsq-osm` database. You can use the following SQL command to create the table:
 
 ```sql
 CREATE TABLE foursquare (
@@ -230,10 +256,12 @@ After importing the data into PostgreSQL, we need to process the data to prepare
 
 We use PostGIS to calculate the geometry from the latitude and longitude values in the `foursquare` and `osm` tables.
 For the `foursquare` table, we add a new column called `fsq_geom` to store the geometry. The `fsq_geom` column is of type `geometry(Point, 4326)`, which is a point geometry in the WGS 84 coordinate system (EPSG:4326).
-To add the `fsq_geom` column, we first need to ensure that the PostGIS extension is enabled in the database. You can enable it using the following command:
+To add the `fsq_geom` column, we first need to ensure that the PostGIS extension is enabled in the database. We also use other extensions for the future steps. You can enable them using the following command:
 
 ```sql
 CREATE EXTENSION IF NOT EXISTS postgis;
+CREATE EXTENSION IF NOT EXISTS pg_trgm
+CREATE EXTENSION IF NOT EXISTS fuzzystrmatch;
 ```
 
 Next, we can add the `fsq_geom` column to the `foursquare` table and calculate the geometry using the latitude and longitude values. The latitude and longitude columns in the `foursquare` table are named `latitude` and `longitude`, respectively.
@@ -317,6 +345,29 @@ UPDATE fsq_osm
 SET fsq_osm_name_similarity_score = GREATEST(similarity(LOWER(fsq_name), LOWER(osm_name)), 0.0);
 ```
 
+```sql
+CREATE OR REPLACE FUNCTION levenshtein_similarity(a text, b text)
+RETURNS double precision
+LANGUAGE sql
+IMMUTABLE
+AS $$
+  SELECT CASE
+    WHEN a IS NULL OR b IS NULL THEN NULL
+    WHEN length(a) = 0 AND length(b) = 0 THEN 1.0
+    ELSE 1.0 - levenshtein(a, b)::float / GREATEST(length(a), length(b))
+  END;
+$$;
+```
+
+```sql
+ALTER TABLE fsq_osm
+ADD COLUMN fsq_osm_name_similarity_score_lev double precision;
+
+UPDATE fsq_osm
+SET fsq_osm_name_similarity_score_lev =
+    levenshtein_similarity(fsq_name, osm_name);
+```
+
 # Exporting the Final Dataset
 
 To export the final dataset, we can use the `\copy` command to export the `fsq_osm` table to a CSV file. You can use the following SQL command:
@@ -336,6 +387,13 @@ CREATE TABLE fsq_osm_filtered_5 AS
 SELECT *
 FROM fsq_osm
 WHERE fsq_osm_name_similarity_score > 0.5;
+```
+
+```
+CREATE TABLE fsq_osm_filtered_5_lev AS
+SELECT *
+FROM fsq_osm
+WHERE fsq_osm_name_similarity_score_lev > 0.5;
 ```
 
 This command creates a new table called `fsq_osm_filtered_5` that contains only the rows from the `fsq_osm` table where the `name_similarity_score` is greater than 0.5.
@@ -381,4 +439,40 @@ JOIN LATERAL (
 CREATE INDEX ON fsq_nn10 (fsq_place_id_source);
 CREATE INDEX ON fsq_nn10 (fsq_place_id_destination);
 ANALYZE fsq_nn10;
+```
+
+To make the lookup table for visualization:
+
+```sql
+CREATE TABLE fsq_osm_lookup AS
+SELECT fsq_place_id, fsq_name, fsq_latitude, fsq_longitude, fsq_category_labels
+FROM fsq_osm_filtered_5;
+```
+
+```sql
+
+CREATE TABLE fsq_graph_10_visualization AS
+SELECT
+s.fsq_place_id AS fsq_place_id_source,
+s.fsq_latitude AS fsq_latitude_source,
+s.fsq_longitude AS fsq_longitude_source,
+d.fsq_place_id AS fsq_place_id_destination,
+d.fsq_latitude AS fsq_latitude_destination,
+d.fsq_longitude AS fsq_longitude_destination,
+ST_Distance(s.fsq_geom::geography, d.fsq_geom::geography) AS distance_m
+FROM fsq_osm_filtered_5 AS s
+JOIN LATERAL (
+SELECT fsq_place_id,fsq_latitude,fsq_longitude, fsq_geom
+FROM fsq_osm_filtered_5 AS d
+WHERE d.fsq_place_id <> s.fsq_place_id
+-- K-NN using geometry index; fast and exact for ordering
+ORDER BY s.fsq_geom <-> d.fsq_geom
+LIMIT 10
+) AS d ON TRUE;
+
+-- 3) Index the result for fast lookups
+CREATE INDEX ON fsq_nn10 (fsq_place_id_source);
+CREATE INDEX ON fsq_nn10 (fsq_place_id_destination);
+ANALYZE fsq_nn10;
+
 ```
