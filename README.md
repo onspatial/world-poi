@@ -10,12 +10,12 @@ _Please note that we don't provide the full dataset due to its large size, but y
 
 ## Tabular Data:
 
-| name                                                              | description                                              | Size   | #POIs      |
-| ----------------------------------------------------------------- | -------------------------------------------------------- | ------ | ---------- |
-| [World_POI_levenshtein_0.5.csv](https://osf.io/p96uf/files/avtf4) | Filtered dataset with Levenshtein similarity score > 0.5 | 8.4 GB | 7,789,246  |
-| [World_POI_levenshtein_0.3.csv](https://osf.io/p96uf/files/tbd)   | Filtered dataset with Levenshtein similarity score > 0.3 | 18 GB  | 16,146,764 |
-| [World_POI_trigrams_0.5.csv](https://osf.io/p96uf/files/tbd)      | Filtered dataset with Trigram similarity score > 0.5     | 7.8 GB | 7,205,821  |
-| [World_POI_trigrams_0.3.csv](https://osf.io/p96uf/files/tdb)      | Filtered dataset with Trigram similarity score > 0.3     | 13 GB  | 1,120,944  |
+| name                                                                | description                                              | Size   | #POIs      |
+| ------------------------------------------------------------------- | -------------------------------------------------------- | ------ | ---------- |
+| [World_POI_levenshtein_0.5.csv](https://osf.io/p96uf/files/avtf4)   | Filtered dataset with Levenshtein similarity score > 0.5 | 8.4 GB | 7,789,246  |
+| [World_POI_levenshtein_0.3.csv](https://osf.io/p96uf/files/gv5ej)   | Filtered dataset with Levenshtein similarity score > 0.3 | 18 GB  | 16,146,764 |
+| [World_POI_trigrams_0.5.csv](https://osf.io/p96uf/files/pxamv)      | Filtered dataset with Trigram similarity score > 0.5     | 7.8 GB | 7,205,821  |
+| [World_POI_trigrams_0.3.csv](https://osf.io/p96uf/files/sj25r)      | Filtered dataset with Trigram similarity score > 0.3     | 13 GB  | 1,120,944  |
 
 ## Graph Data:
 
