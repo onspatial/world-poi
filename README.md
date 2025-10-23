@@ -66,7 +66,7 @@ Make sure your environment matches these versions to avoid compatibility issues 
 
 # Data Preparation
 
-## Download the Data
+## Download the input data
 
 ### Foursquare Data
 
