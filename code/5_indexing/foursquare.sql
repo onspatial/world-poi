@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS idx_fsq_geom ON foursquare USING GIST (fsq_geom);

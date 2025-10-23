@@ -10,21 +10,21 @@ _Please note that we don't provide the full dataset due to its large size, but y
 
 ## Tabular Data:
 
-| name                                                           | description                                              | Size   | #POIs      |
-| -------------------------------------------------------------- | -------------------------------------------------------- | ------ | ---------- |
-| [World-POI-levenshtein_0.5.csv](https://osf.io/p96uf/download) | Filtered dataset with Levenshtein similarity score > 0.5 | 8.4 GB | 7,789,246  |
-| [World-POI-levenshtein_0.3.csv](https://osf.io/p96uf/download) | Filtered dataset with Levenshtein similarity score > 0.3 | 18 GB  | 16,146,764 |
-| [World-POI-trigrams_0.5.csv](https://osf.io/p96uf/download)    | Filtered dataset with Trigram similarity score > 0.5     | 7.8 GB | 7,205,821  |
-| [World-POI-trigrams_0.3.csv](https://osf.io/p96uf/download)    | Filtered dataset with Trigram similarity score > 0.3     | 13 GB  | 1,120,944  |
+| name                                                              | description                                              | Size   | #POIs      |
+| ----------------------------------------------------------------- | -------------------------------------------------------- | ------ | ---------- |
+| [World_POI_levenshtein_0.5.csv](https://osf.io/p96uf/files/avtf4) | Filtered dataset with Levenshtein similarity score > 0.5 | 8.4 GB | 7,789,246  |
+| [World_POI_levenshtein_0.3.csv](https://osf.io/p96uf/files/tbd)   | Filtered dataset with Levenshtein similarity score > 0.3 | 18 GB  | 16,146,764 |
+| [World_POI_trigrams_0.5.csv](https://osf.io/p96uf/files/tbd)      | Filtered dataset with Trigram similarity score > 0.5     | 7.8 GB | 7,205,821  |
+| [World_POI_trigrams_0.3.csv](https://osf.io/p96uf/files/tdb)      | Filtered dataset with Trigram similarity score > 0.3     | 13 GB  | 1,120,944  |
 
 ## Graph Data:
 
-| name                                                                      | description                                                                    | Size   | #Edges      |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------ | ----------- |
-| [World-POI-graph_10nn-levenshtein_0.5.csv](https://osf.io/p96uf/download) | Graph dataset with Levenshtein similarity score > 0.5 and 10 nearest neighbors | 5 GB   | 77,892,460  |
-| [World-POI-graph_10nn-levenshtein_0.3.csv](https://osf.io/p96uf/download) | Graph dataset with Levenshtein similarity score > 0.3 and 10 nearest neighbors | 11 GB  | 161,467,640 |
-| [World-POI-graph_10nn-trigrams_0.5.csv](https://osf.io/p96uf/download)    | Graph dataset with Trigram similarity score > 0.5 and 10 nearest neighbors     | 4.6 GB | 72,058,210  |
-| [World-POI-graph_10nn-trigrams_0.3.csv](https://osf.io/p96uf/download)    | Graph dataset with Trigram similarity score > 0.3 and 10 nearest neighbors     | 7.2 GB | 112,094,410 |
+| name                                                                         | description                                                                    | Size   | #Edges      |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------ | ----------- |
+| [World_POI_graph_10nn_levenshtein_0.5.csv](https://osf.io/p96uf/files/kxctm) | Graph dataset with Levenshtein similarity score > 0.5 and 10 nearest neighbors | 5 GB   | 77,892,460  |
+| [World_POI_graph_10nn_levenshtein_0.3.csv](https://osf.io/p96uf/files/2x3g5) | Graph dataset with Levenshtein similarity score > 0.3 and 10 nearest neighbors | 11 GB  | 161,467,640 |
+| [World_POI_graph_10nn_trigrams_0.5.csv](https://osf.io/p96uf/files/2qbfm)    | Graph dataset with Trigram similarity score > 0.5 and 10 nearest neighbors     | 4.6 GB | 72,058,210  |
+| [World_POI_graph_10nn_trigrams_0.3.csv](https://osf.io/p96uf/files/nmu7j)    | Graph dataset with Trigram similarity score > 0.3 and 10 nearest neighbors     | 7.2 GB | 112,094,410 |
 
 # Reproducing Results from the Paper
 
@@ -70,16 +70,17 @@ Make sure your environment matches these versions to avoid compatibility issues 
 
 ### Foursquare Data
 
-To obtain the Foursquare POI data, run the script [**foursquare.py**](code/datacollection/foursquare.py). This script downloads the complete dataset and saves it in the `data/` directory as a single file named `foursquare.csv`. We drop the geometry column (`geom`) from the dataset to avoid datatype issues during import into PostgreSQL and name the cleaned file `foursquare_clean.csv`. This prevents binary-string errors during import. Geometries are later reconstructed using the latitude and longitude fields.
+To obtain the Foursquare POI data, run the script [**download.py**](code/1_data_collection/foursquare.py) and [**foursquare.py**](code/2_pre_import/foursquare.py). These scripts download the complete dataset and save it in the `data/` directory as a single file named `foursquare.csv`. We drop the geometry column (`geom`) from the dataset to avoid datatype issues during import into PostgreSQL and name the cleaned file `foursquare_clean.csv`. This prevents binary-string errors during import. Geometries are later reconstructed using the latitude and longitude fields.
 
 ```bash
-python code/datacollection/foursquare.py
+python code/1_data_collection/foursquare.py
+python code/2_pre_import/foursquare.py
 ```
 
-**Memory Note:** The script concatenates large amounts of data and may consume substantial memory. If you encounter performance issues, we recommend using the provided Bash script [concat.sh](code/datacollection/concat.sh), which performs more memory-efficient concatenation:
+**Memory Note:** The script concatenates large amounts of data and may consume substantial memory. If you encounter performance issues, we recommend using the provided Bash script [concat.sh](code/2_pre_import/concat.sh), which performs more memory-efficient concatenation:
 
 ```bash
-bash code/datacollection/concat.sh
+bash code/2_pre_import/concat.sh
 ```
 
 ### OpenStreetMap (OSM) Data:
@@ -260,7 +261,7 @@ To add the `fsq_geom` column, we first need to ensure that the PostGIS extension
 
 ```sql
 CREATE EXTENSION IF NOT EXISTS postgis;
-CREATE EXTENSION IF NOT EXISTS pg_trgm
+CREATE EXTENSION IF NOT EXISTS pg_trgm;
 CREATE EXTENSION IF NOT EXISTS fuzzystrmatch;
 ```
 
@@ -331,7 +332,8 @@ To calculate the similarity between the Foursquare and OSM data, we use two appr
 Using the name_similarity_score, you can see how similar the names are and using coordinate distance you can see how close the location in spatially.
 
 ```sql
-ALTER TABLE fsq_osm ADD COLUMN fsq_osm_name_similarity_score DOUBLE PRECISION;
+ALTER TABLE fsq_osm ADD COLUMN fsq_osm_name_similarity_score_trg DOUBLE PRECISION;
+ALTER TABLE fsq_osm ADD COLUMN fsq_osm_name_similarity_score_lev DOUBLE PRECISION;
 ALTER TABLE fsq_osm ADD COLUMN fsq_osm_distance DOUBLE PRECISION;
 ```
 
@@ -342,7 +344,7 @@ SET fsq_osm_distance = ST_Distance(fsq_geom, osm_geom);
 
 ```sql
 UPDATE fsq_osm
-SET fsq_osm_name_similarity_score = GREATEST(similarity(LOWER(fsq_name), LOWER(osm_name)), 0.0);
+SET fsq_osm_name_similarity_score_trg = GREATEST(similarity(LOWER(fsq_name), LOWER(osm_name)), 0.0);
 ```
 
 ```sql
@@ -360,9 +362,6 @@ $$;
 ```
 
 ```sql
-ALTER TABLE fsq_osm
-ADD COLUMN fsq_osm_name_similarity_score_lev double precision;
-
 UPDATE fsq_osm
 SET fsq_osm_name_similarity_score_lev =
     levenshtein_similarity(fsq_name, osm_name);
@@ -378,67 +377,70 @@ To export the final dataset, we can use the `\copy` command to export the `fsq_o
 
 This command exports the `fsq_osm` table to a CSV file named `fsq_osm.csv` in the current directory. The `CSV HEADER` option ensures that the column names are included in the first row of the CSV file.
 
+Please note that the exported CSV file is very large (over 600 GB) due to the size of the `fsq_osm` table. Make sure you have enough disk space to store the file.
+
 # Filter dataset based on similarity score and distance
 
-To filter the dataset based on similarity score, you can use the following SQL command:
+To filter the dataset based on Trigram similarity score, you can use the following SQL command:
 
 ```sql
-CREATE TABLE fsq_osm_filtered_5 AS
+CREATE TABLE World_POI_trigrams_05 AS
 SELECT *
 FROM fsq_osm
-WHERE fsq_osm_name_similarity_score > 0.5;
+WHERE fsq_osm_name_similarity_score_trg > 0.5;
 ```
 
-```
-CREATE TABLE fsq_osm_filtered_5_lev AS
+This command creates a new table called `World_POI_trigrams_05` that contains only the rows from the `fsq_osm` table where the `name_similarity_score_trg` is greater than 0.5.
+
+To filter the dataset based on Levenshtein similarity score, you can use the following SQL command:
+
+```sql
+CREATE TABLE World_POI_levenshtein_05 AS
 SELECT *
 FROM fsq_osm
 WHERE fsq_osm_name_similarity_score_lev > 0.5;
 ```
 
-This command creates a new table called `fsq_osm_filtered_5` that contains only the rows from the `fsq_osm` table where the `name_similarity_score` is greater than 0.5.
+This command creates a new table called `World_POI_levenshtein_05` that contains only the rows from the `fsq_osm` table where the `name_similarity_score_lev` is greater than 0.5.
 
 ```sql
 CREATE TABLE fsq_osm_filtered_usa_3 AS
 SELECT *
 FROM fsq_osm
-WHERE fsq_osm_name_similarity_score > 0.3 AND fsq_country='US' ;
+WHERE fsq_osm_name_similarity_score_trg > 0.3 AND fsq_country='US' ;
 ```
 
-This command creates a new table called `fsq_osm_filtered_usa_3` that contains only the rows from the `fsq_osm` table where the `name_similarity_score` is greater than 0.3 and the country is 'US'.
+This command creates a new table called `fsq_osm_filtered_usa_3` that contains only the rows from the `fsq_osm` table where the `name_similarity_score_trg` is greater than 0.3 and the country is 'US'.
 
-T export it to csv:
+To export the table to csv:
 
 ```sql
-\copy fsq_osm_filtered_5 TO 'fsq_osm_filtered_5.csv' WITH (FORMAT csv, HEADER, QUOTE '"', ESCAPE '"', NULL '', FORCE_QUOTE *);
+\copy World_POI_levenshtein_05 TO 'World_POI_levenshtein_05.csv' WITH (FORMAT csv, HEADER, QUOTE '"', ESCAPE '"', NULL '', FORCE_QUOTE *);
 ```
 
 # Generate a Graph from the data
 
 ```sql
--- 1) Ensure a spatial index (run once)
-CREATE INDEX IF NOT EXISTS fsq_osm_filtered_5_gix ON fsq_osm_filtered_5 USING GIST (fsq_geom);
+CREATE INDEX IF NOT EXISTS World_POI_levenshtein_05_gix ON World_POI_levenshtein_05 USING GIST (fsq_geom);
 
--- 2) Build the (source, destination, distance_m) table
-CREATE TABLE fsq_graph_10 AS
+CREATE TABLE World_POI_graph_10nn_levenshtein_05 AS
 SELECT
   s.fsq_place_id  AS fsq_place_id_source,
   d.fsq_place_id  AS fsq_place_id_destination,
   ST_Distance(s.fsq_geom::geography, d.fsq_geom::geography) AS distance_m
-FROM fsq_osm_filtered_5 AS s
+FROM World_POI_levenshtein_05 AS s
 JOIN LATERAL (
   SELECT fsq_place_id, fsq_geom
-  FROM fsq_osm_filtered_5 AS d
+  FROM World_POI_levenshtein_05 AS d
   WHERE d.fsq_place_id <> s.fsq_place_id
   -- K-NN using geometry index; fast and exact for ordering
   ORDER BY s.fsq_geom <-> d.fsq_geom
   LIMIT 10
 ) AS d ON TRUE;
 
--- 3) Index the result for fast lookups
-CREATE INDEX ON fsq_nn10 (fsq_place_id_source);
-CREATE INDEX ON fsq_nn10 (fsq_place_id_destination);
-ANALYZE fsq_nn10;
+CREATE INDEX ON World_POI_graph_10nn_levenshtein_05 (fsq_place_id_source);
+CREATE INDEX ON World_POI_graph_10nn_levenshtein_05 (fsq_place_id_destination);
+ANALYZE World_POI_graph_10nn_levenshtein_05;
 ```
 
 To make the lookup table for visualization:
@@ -446,7 +448,7 @@ To make the lookup table for visualization:
 ```sql
 CREATE TABLE fsq_osm_lookup AS
 SELECT fsq_place_id, fsq_name, fsq_latitude, fsq_longitude, fsq_category_labels
-FROM fsq_osm_filtered_5;
+FROM World_POI_levenshtein_05;
 ```
 
 ```sql
@@ -460,10 +462,10 @@ d.fsq_place_id AS fsq_place_id_destination,
 d.fsq_latitude AS fsq_latitude_destination,
 d.fsq_longitude AS fsq_longitude_destination,
 ST_Distance(s.fsq_geom::geography, d.fsq_geom::geography) AS distance_m
-FROM fsq_osm_filtered_5 AS s
+FROM World_POI_levenshtein_05 AS s
 JOIN LATERAL (
 SELECT fsq_place_id,fsq_latitude,fsq_longitude, fsq_geom
-FROM fsq_osm_filtered_5 AS d
+FROM World_POI_levenshtein_05 AS d
 WHERE d.fsq_place_id <> s.fsq_place_id
 -- K-NN using geometry index; fast and exact for ordering
 ORDER BY s.fsq_geom <-> d.fsq_geom
