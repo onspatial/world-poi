@@ -1,4 +1,4 @@
-<img width="1509" height="716" alt="image" src="https://github.com/user-attachments/assets/0e8f4462-582f-4a4b-9b6a-fabaa50b07a9" />
+<img width="3093" height="1480" alt="fsq_osm_coordinates_trg2m" src="https://github.com/user-attachments/assets/90409db6-34f2-4a58-98ee-f136af26bbbe" />
 
 # Download the Dataset:
 
@@ -63,6 +63,8 @@ pip install pandas==2.2.3 \
 ```
 
 Make sure your environment matches these versions to avoid compatibility issues during data processing or analysis.
+
+<img width="1250" height="570" alt="pipeline" src="https://github.com/user-attachments/assets/c850d80c-3804-439f-bcf0-4c10b6ee5d46" />
 
 # Data Preparation
 
