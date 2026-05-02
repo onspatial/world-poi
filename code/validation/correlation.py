@@ -128,6 +128,7 @@ def get_population_df(keep_population_value=False):
     if os.path.exists(save_path):
         return get_df(save_path)
     population_df = get_df("data/population.csv")
+    population_df = population_df[population_df["population"] > 1000].copy()
     population_df = population_df.rename(
         columns={"X": "longitude", "Y": "latitude", "population": "value"}
     )
@@ -324,7 +325,7 @@ def get_results_category(category, grid_level=0):
             grid_edge_km = result.get("grid_edge_km", numpy.nan)
             if levenshtein_score> 0.25 or trigrams_score > 0.25:
                 print(f"Similarity threshold: {t}, Category: {category}, Grid Level: {grid_level}, Grid edge: {grid_edge_km} KM, Grid algorithm: {grid_algorithm} -> Correlation for levenshtein & trigrams: {levenshtein_score:.4f} & {trigrams_score:.4f}")
-                results_categories.append(result)
+            results_categories.append(result)
         return results_categories
     
 
