@@ -128,7 +128,7 @@ def get_population_df(keep_population_value=False):
     if os.path.exists(save_path):
         return get_df(save_path)
     population_df = get_df("data/population.csv")
-    population_df = population_df[population_df["population"] > 1000].copy()
+    # population_df = population_df[population_df["population"] > 1000].copy()
     population_df = population_df.rename(
         columns={"X": "longitude", "Y": "latitude", "population": "value"}
     )
@@ -385,4 +385,4 @@ if __name__ == "__main__":
         
         
 
-        save_json(top_categories, f"data/analysis/top_categories_{grid_level}_h3.json")
+        save_json(top_categories, f"data/analysis/correlation_analysis_h3grid_resolution_{grid_level}.json")

@@ -14,10 +14,11 @@ rclone-python = "*"
 matplotlib = "*"
 seaborn = "*"
 folium = "*"
+shapely = "*"
 
 [dev-packages]
 ipykernel = "*"
 
 [requires]
-python_version = "3.12"
-python_full_version = "3.12.9"
+python_version = "3.14"
+python_full_version = "3.14.5"
