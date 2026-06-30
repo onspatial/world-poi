@@ -4,18 +4,20 @@
 
 To download the World-POI dataset, please visit our [OSF repository](https://osf.io/p96uf/files).
 
-We filter the integrated **631 GB (295,176,261 rows)** dataset to provide multiple smaller versions of the dataset to cater to different use cases.
+We filter the integrated **631 GB dataset (295,176,261 rows)** to provide multiple smaller versions tailored to different use cases. In addition, we create a larger joined dataset using a 150-meter radius, which is approximately **1.2 TB (1,513,806,686 records)**. We also provide filtered versions of this dataset for download based on similarity scores and distance thresholds.
+
+We also ran the query using a 200-meter radius, resulting in a **2 TB dataset (2,421,541,453 records)**. However, due to computational limitations, we do not process this dataset further.
 
 _Please note that we don't provide the full dataset due to its large size, but you can follow the instructions in this repository to reproduce the full dataset._
 
 ## Tabular Data:
 
-| name                                                                | description                                              | Size   | #Records      |
-| ------------------------------------------------------------------- | -------------------------------------------------------- | ------ | ---------- |
-| [World_POI_levenshtein_0.5.csv](https://osf.io/p96uf/files/avtf4)   | Filtered dataset with Levenshtein similarity score > 0.5 | 8.4 GB | 9,357,099  |
-| [World_POI_levenshtein_0.3.csv](https://osf.io/p96uf/files/gv5ej)   | Filtered dataset with Levenshtein similarity score > 0.3 | 18 GB  | 18,965,274 |
-| [World_POI_trigrams_0.5.csv](https://osf.io/p96uf/files/pxamv)      | Filtered dataset with Trigram similarity score > 0.5     | 7.8 GB | 8,744,036  |
-| [World_POI_trigrams_0.3.csv](https://osf.io/p96uf/files/sj25r)      | Filtered dataset with Trigram similarity score > 0.3     | 13 GB  | 13,368,159  |
+| name                                                              | description                                              | Size   | #Records   |
+| ----------------------------------------------------------------- | -------------------------------------------------------- | ------ | ---------- |
+| [World_POI_levenshtein_0.5.csv](https://osf.io/p96uf/files/avtf4) | Filtered dataset with Levenshtein similarity score > 0.5 | 8.4 GB | 9,357,099  |
+| [World_POI_levenshtein_0.3.csv](https://osf.io/p96uf/files/gv5ej) | Filtered dataset with Levenshtein similarity score > 0.3 | 18 GB  | 18,965,274 |
+| [World_POI_trigrams_0.5.csv](https://osf.io/p96uf/files/pxamv)    | Filtered dataset with Trigram similarity score > 0.5     | 7.8 GB | 8,744,036  |
+| [World_POI_trigrams_0.3.csv](https://osf.io/p96uf/files/sj25r)    | Filtered dataset with Trigram similarity score > 0.3     | 13 GB  | 13,368,159 |
 
 ## Graph Data:
 
@@ -299,7 +301,7 @@ CREATE INDEX IF NOT EXISTS idx_osm_geom ON osm USING GIST (osm_geom);
 To join the Foursquare and OSM data, we can use the ST_DWithin function to identify points that fall within a specified distance of each other. A threshold of 0.0005 degrees (approximately 55 meters) can be used to treat two points as the same location. Using a larger distance will produce a much larger joined table.
 
 ```sql
-CREATE TABLE fsq_osm AS
+CREATE TABLE fsq_osm_50m AS
 SELECT f.*, o.*
 FROM foursquare f
 LEFT OUTER JOIN osm o
@@ -317,6 +319,23 @@ ON ST_DWithin(f.fsq_geom, o.osm_geom, 0.001)
 WHERE f.fsq_country='US';
 ```
 
+We increase the distance to 0.0015 degrees (approximately 150 meters) to create a new table called fsq_osm_150m that contains the joined records from both datasets within this larger distance threshold. The resulting table is approximately **1.2 TB (1,513,806,686 records)** which is significantly larger than the previous table. This larger distance threshold allows for more potential matches between Foursquare and OSM points, resulting in a more comprehensive dataset; however, it may also introduce more noise and false positives in the matching process as well as huge storage requirements and processing time.
+
+```sql
+CREATE TABLE fsq_osm_150m AS
+SELECT f.*, o.*
+FROM foursquare f
+LEFT OUTER JOIN osm o
+ON ST_DWithin(f.fsq_geom, o.osm_geom, 0.0015);
+```
+
+To make the filtering process more efficient, we can create a spatial index on the `fsq_geom` and `osm_geom` columns in the `fsq_osm` table. This will speed up the spatial queries and improve performance.
+
+```sql
+CREATE INDEX IF NOT EXISTS idx_fsq_osm_150m_fsq_geom ON fsq_osm_150m USING GIST (fsq_geom);
+CREATE INDEX IF NOT EXISTS idx_fsq_osm_150m_osm_geom ON fsq_osm_150m USING GIST (osm_geom);
+```
+
 ## Data Type Conversion
 
 In the fsq_osm table, osm_name and osm_extratags are stored as text that contains hstore-formatted strings. To compare Foursquare and OSM names, extract the OSM name into a plain TEXT column while leaving the address as hstore-formatted text to save space.
@@ -325,6 +344,13 @@ In the fsq_osm table, osm_name and osm_extratags are stored as text that contain
 ALTER TABLE fsq_osm
 ALTER COLUMN osm_name TYPE text
 USING (osm_name::hstore -> 'name');
+```
+
+Also for the name similarity score, we can create an index on the `fsq_name` and `osm_name` columns in the `fsq_osm` table. This will speed up the text similarity queries and improve performance.
+
+```sql
+CREATE INDEX IF NOT EXISTS idx_fsq_osm_150m_fsq_name ON fsq_osm_150m USING GIN (fsq_name gin_trgm_ops);
+CREATE INDEX IF NOT EXISTS idx_fsq_osm_150m_osm_name ON fsq_osm_150m USING GIN (osm_name gin_trgm_ops);
 ```
 
 # Calculating the Similarity:
