@@ -360,18 +360,18 @@ To calculate the similarity between the Foursquare and OSM data, we use two appr
 Using the name_similarity_score, you can see how similar the names are and using coordinate distance you can see how close the location in spatially.
 
 ```sql
-ALTER TABLE fsq_osm ADD COLUMN fsq_osm_name_similarity_score_trg DOUBLE PRECISION;
-ALTER TABLE fsq_osm ADD COLUMN fsq_osm_name_similarity_score_lev DOUBLE PRECISION;
-ALTER TABLE fsq_osm ADD COLUMN fsq_osm_distance DOUBLE PRECISION;
+ALTER TABLE fsq_osm_150m ADD COLUMN fsq_osm_name_similarity_score_trg DOUBLE PRECISION;
+ALTER TABLE fsq_osm_150m ADD COLUMN fsq_osm_name_similarity_score_lev DOUBLE PRECISION;
+ALTER TABLE fsq_osm_150m ADD COLUMN fsq_osm_distance DOUBLE PRECISION;
 ```
 
 ```sql
-UPDATE fsq_osm
+UPDATE fsq_osm_150m
 SET fsq_osm_distance = ST_Distance(fsq_geom, osm_geom);
 ```
 
 ```sql
-UPDATE fsq_osm
+UPDATE fsq_osm_150m
 SET fsq_osm_name_similarity_score_trg = GREATEST(similarity(LOWER(fsq_name), LOWER(osm_name)), 0.0);
 ```
 
@@ -390,22 +390,87 @@ $$;
 ```
 
 ```sql
-UPDATE fsq_osm
+UPDATE fsq_osm_150m
 SET fsq_osm_name_similarity_score_lev =
     levenshtein_similarity(fsq_name, osm_name);
 ```
 
-# Exporting the Final Dataset
+## More Efficient Similarity Calculation
 
-To export the final dataset, we can use the `\copy` command to export the `fsq_osm` table to a CSV file. You can use the following SQL command:
+When storage or performance is a concern, we can create new tables that only contain the records with a similarity score greater than 0.0. This will reduce the size of the dataset and improve query performance.
 
 ```sql
-\copy fsq_osm TO 'fsq_osm.csv' CSV HEADER
+CREATE TABLE fsq_osm_150m_trg AS
+SELECT *
+FROM (
+    SELECT
+        t.*,
+        similarity(LOWER(t.fsq_name), LOWER(t.osm_name))
+            AS fsq_osm_name_similarity_score_trg
+    FROM fsq_osm_150m t
+    WHERE t.fsq_name IS NOT NULL
+      AND t.osm_name IS NOT NULL
+) s
+WHERE fsq_osm_name_similarity_score_trg > 0.0;
 ```
 
-This command exports the `fsq_osm` table to a CSV file named `fsq_osm.csv` in the current directory. The `CSV HEADER` option ensures that the column names are included in the first row of the CSV file.
+```sql
+CREATE OR REPLACE FUNCTION levenshtein_similarity(a text, b text)
+RETURNS double precision
+LANGUAGE sql
+IMMUTABLE
+AS $$
+  SELECT CASE
+    WHEN a IS NULL OR b IS NULL THEN NULL
+    WHEN length(a) = 0 AND length(b) = 0 THEN 1.0
+    ELSE 1.0 - levenshtein(a, b)::float / GREATEST(length(a), length(b))
+  END;
+$$;
+```
 
-Please note that the exported CSV file is very large (over 600 GB) due to the size of the `fsq_osm` table. Make sure you have enough disk space to store the file.
+```sql
+CREATE TABLE fsq_osm_150m_lev AS
+SELECT *
+FROM (
+    SELECT
+        t.*,
+        levenshtein_similarity(LOWER(t.fsq_name), LOWER(t.osm_name))
+            AS fsq_osm_name_similarity_score_lev
+    FROM fsq_osm_150m t
+    WHERE t.fsq_name IS NOT NULL
+      AND t.osm_name IS NOT NULL
+) s
+WHERE fsq_osm_name_similarity_score_lev > 0.0;
+```
+
+Then add distance column to the new tables:
+
+```sql
+ALTER TABLE fsq_osm_150m_trg ADD COLUMN fsq_osm_distance DOUBLE PRECISION;
+ALTER TABLE fsq_osm_150m_lev ADD COLUMN fsq_osm_distance DOUBLE PRECISION;
+```
+
+```sql
+UPDATE fsq_osm_150m_trg
+SET fsq_osm_distance = ST_Distance(fsq_geom, osm_geom);
+```
+
+```sql
+UPDATE fsq_osm_150m_lev
+SET fsq_osm_distance = ST_Distance(fsq_geom, osm_geom);
+```
+
+# Exporting the Final Dataset
+
+To export the final dataset, we can use the `\copy` command to export the `fsq_osm_150m` table to a CSV file. You can use the following SQL command:
+
+```sql
+\copy fsq_osm_150m TO 'fsq_osm_150m.csv' CSV HEADER
+```
+
+This command exports the `fsq_osm_150m` table to a CSV file named `fsq_osm_150m.csv` in the current directory. The `CSV HEADER` option ensures that the column names are included in the first row of the CSV file.
+
+Please note that the exported CSV file is very large (over 1 TB) due to the size of the `fsq_osm_150m` table. Make sure you have enough disk space to store the file.
 
 # Filter dataset based on similarity score and distance
 
