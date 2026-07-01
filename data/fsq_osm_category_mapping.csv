@@ -1,5 +1,5 @@
 Category ID,Category Name,Category Label,osm_class,osm_type
-4d4b7104d754a06370d81259,Arts and Entertainment,Arts and Entertainment,nf_fsq,nf_fsq
+4d4b7104d754a06370d81259,Arts and Entertainment,Arts and Entertainment,amenity,yes
 4bf58dd8d48988d182941735,Amusement Park,Arts and Entertainment > Amusement Park,tourism,theme_park
 5109983191d435c0d71c2bb1,Attraction,Arts and Entertainment > Amusement Park > Attraction,tourism,attraction
 4fceea171983d5d06c3e9823,Aquarium,Arts and Entertainment > Aquarium,tourism,aquarium
@@ -20,7 +20,7 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 56aa371be4b08b9a8d573532,Exhibit,Arts and Entertainment > Exhibit,tourism,exhibit
 4eb1daf44b900d56c88a4600,Fair,Arts and Entertainment > Fair,landuse,fairground
 4bf58dd8d48988d18d941735,Gaming Cafe,Arts and Entertainment > Gaming Cafe,amenity,lan_gaming_centre
-4bf58dd8d48988d1f1931735,General Entertainment,Arts and Entertainment > General Entertainment,nf_fsq,nf_fsq
+4bf58dd8d48988d1f1931735,General Entertainment,Arts and Entertainment > General Entertainment,amenity,yes
 52e81612bcbc57f1066b79ea,Go Kart Track,Arts and Entertainment > Go Kart Track,leisure,go_karting
 4bf58dd8d48988d1f0941735,Internet Cafe,Arts and Entertainment > Internet Cafe,amenity,internet_cafe
 5744ccdfe4b0c0459246b4bb,Karaoke Box,Arts and Entertainment > Karaoke Box,amenity,karaoke_box
@@ -71,17 +71,17 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 4bf58dd8d48988d193941735,Water Park,Arts and Entertainment > Water Park,leisure,water_park
 4bf58dd8d48988d17b941735,Zoo,Arts and Entertainment > Zoo,tourism,zoo
 58daa1558bbb0b01f18ec1fd,Zoo Exhibit,Arts and Entertainment > Zoo > Zoo Exhibit,tourism,zoo
-4d4b7105d754a06375d81259,Business and Professional Services,Business and Professional Services,nf_fsq,nf_fsq
+4d4b7105d754a06375d81259,Business and Professional Services,Business and Professional Services,office,yes
 52e81612bcbc57f1066b7a3d,Advertising Agency,Business and Professional Services > Advertising Agency,office,advertising_agency
-63be6904847c3692a84b9b26,Agriculture and Forestry Service,Business and Professional Services > Agriculture and Forestry Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b26,Agriculture and Forestry Service,Business and Professional Services > Agriculture and Forestry Service,office,yes
 63be6904847c3692a84b9b27,Appraiser,Business and Professional Services > Appraiser,office,appraiser
 5fac002599ce226e27fe72e5,Architecture Firm,Business and Professional Services > Architecture Firm,office,architect
 63be6904847c3692a84b9b28,Art Restoration Service,Business and Professional Services > Art Restoration Service,craft,restoration
 58daa1558bbb0b01f18ec1d6,Art Studio,Business and Professional Services > Art Studio,craft,atelier
-63be6904847c3692a84b9b29,Audiovisual Service,Business and Professional Services > Audiovisual Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b29,Audiovisual Service,Business and Professional Services > Audiovisual Service,office,yes
 4bf58dd8d48988d173941735,Auditorium,Business and Professional Services > Auditorium,amenity,auditorium
-63be6904847c3692a84b9b2a,Automation and Control System,Business and Professional Services > Automation and Control System,nf_fsq,nf_fsq
-63be6904847c3692a84b9b2b,Automotive Service,Business and Professional Services > Automotive Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b2a,Automation and Control System,Business and Professional Services > Automation and Control System,office,yes
+63be6904847c3692a84b9b2b,Automotive Service,Business and Professional Services > Automotive Service,shop,yes
 52f2ab2ebcbc57f1066b8b44,Automotive Repair Shop,Business and Professional Services > Automotive Service > Automotive Repair Shop,shop,car_repair
 4f04ae1f2fb6e1c99f3db0ba,Car Wash and Detail,Business and Professional Services > Automotive Service > Car Wash and Detail,amenity,car_wash
 63be6904847c3692a84b9b2c,Motorcycle Repair Shop,Business and Professional Services > Automotive Service > Motorcycle Repair Shop,shop,motorcycle_repair
@@ -92,25 +92,25 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 63be6904847c3692a84b9b31,Transmissions Shop,Business and Professional Services > Automotive Service > Transmissions Shop,shop,car_repair
 5f2c1e0db6d05514c70436d4,Vehicle Inspection Station,Business and Professional Services > Automotive Service > Vehicle Inspection Station,amenity,vehicle_inspection
 56aa371be4b08b9a8d5734cf,Ballroom,Business and Professional Services > Ballroom,amenity,events_venue
-56aa371be4b08b9a8d573517,Business Center,Business and Professional Services > Business Center,nf_fsq,nf_fsq
-5453de49498eade8af355881,Business Service,Business and Professional Services > Business Service,nf_fsq,nf_fsq
-63be6904847c3692a84b9b33,Career Counselor,Business and Professional Services > Career Counselor,nf_fsq,nf_fsq
-63be6904847c3692a84b9b34,Chemicals and Gasses Manufacturer,Business and Professional Services > Chemicals and Gasses Manufacturer,nf_fsq,nf_fsq
+56aa371be4b08b9a8d573517,Business Center,Business and Professional Services > Business Center,office,yes
+5453de49498eade8af355881,Business Service,Business and Professional Services > Business Service,office,yes
+63be6904847c3692a84b9b33,Career Counselor,Business and Professional Services > Career Counselor,office,yes
+63be6904847c3692a84b9b34,Chemicals and Gasses Manufacturer,Business and Professional Services > Chemicals and Gasses Manufacturer,office,yes
 5744ccdfe4b0c0459246b4c7,Child Care Service,Business and Professional Services > Child Care Service,amenity,childcare
 4f4532974b9074f6e4fb0104,Daycare,Business and Professional Services > Child Care Service > Daycare,amenity,childcare
 63be6904847c3692a84b9b35,Computer Repair Service,Business and Professional Services > Computer Repair Service,craft,electronics_repair
 63be6904847c3692a84b9b36,Construction,Business and Professional Services > Construction,office,construction_company
 4bf58dd8d48988d1ff931735,Convention Center,Business and Professional Services > Convention Center,amenity,conference_centre
 4bf58dd8d48988d100941735,Conference Room,Business and Professional Services > Convention Center > Conference Room,amenity,conference_room
-63be6904847c3692a84b9b37,Creative Service,Business and Professional Services > Creative Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b37,Creative Service,Business and Professional Services > Creative Service,office,yes
 4bf58dd8d48988d1f4941735,Design Studio,Business and Professional Services > Design Studio,office,graphic_design
-63be6904847c3692a84b9b38,Direct Mail and Email Marketing Service,Business and Professional Services > Direct Mail and Email Marketing Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b38,Direct Mail and Email Marketing Service,Business and Professional Services > Direct Mail and Email Marketing Service,office,yes
 52e81612bcbc57f1066b7a37,Distribution Center,Business and Professional Services > Distribution Center,office,logistics
 63be6904847c3692a84b9b39,Electrical Equipment Supplier,Business and Professional Services > Electrical Equipment Supplier,shop,electrical
 52f2ab2ebcbc57f1066b8b57,Employment Agency,Business and Professional Services > Employment Agency,office,employment_agency
 63be6904847c3692a84b9b3a,Engineer,Business and Professional Services > Engineer,office,engineer
-63be6904847c3692a84b9b3b,Entertainment Agency,Business and Professional Services > Entertainment Agency,nf_fsq,nf_fsq
-56aa371be4b08b9a8d573554,Entertainment Service,Business and Professional Services > Entertainment Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b3b,Entertainment Agency,Business and Professional Services > Entertainment Agency,office,yes
+56aa371be4b08b9a8d573554,Entertainment Service,Business and Professional Services > Entertainment Service,office,yes
 63be6904847c3692a84b9b3c,Equipment Rental Service,Business and Professional Services > Equipment Rental Service,shop,rental
 5454152e498ef71e2b9132c6,Event Service,Business and Professional Services > Event Service,office,event_management
 4bf58dd8d48988d171941735,Event Space,Business and Professional Services > Event Space,amenity,events_venue
@@ -124,18 +124,18 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 5032850891d4c4b30a586d62,Credit Union,Business and Professional Services > Financial Service > Banking and Finance > Credit Union,amenity,bank
 63be6904847c3692a84b9b40,Business Broker,Business and Professional Services > Financial Service > Business Broker,office,financial
 52f2ab2ebcbc57f1066b8b2d,Check Cashing Service,Business and Professional Services > Financial Service > Check Cashing Service,shop,money_lender
-63be6904847c3692a84b9b41,Collections Service,Business and Professional Services > Financial Service > Collections Service,nf_fsq,nf_fsq
-63be6904847c3692a84b9b42,Credit Counseling and Bankruptcy Service,Business and Professional Services > Financial Service > Credit Counseling and Bankruptcy Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b41,Collections Service,Business and Professional Services > Financial Service > Collections Service,office,yes
+63be6904847c3692a84b9b42,Credit Counseling and Bankruptcy Service,Business and Professional Services > Financial Service > Credit Counseling and Bankruptcy Service,office,yes
 5744ccdfe4b0c0459246b4be,Currency Exchange,Business and Professional Services > Financial Service > Currency Exchange,amenity,bureau_de_change
 63be6904847c3692a84b9b43,Financial Planner,Business and Professional Services > Financial Service > Financial Planner,office,financial_advisor
 63be6904847c3692a84b9b44,Loans Agency,Business and Professional Services > Financial Service > Loans Agency,shop,money_lender
 63be6904847c3692a84b9b45,Stock Broker,Business and Professional Services > Financial Service > Stock Broker,office,financial
-56aa371be4b08b9a8d573550,Food and Beverage Service,Business and Professional Services > Food and Beverage Service,nf_fsq,nf_fsq
+56aa371be4b08b9a8d573550,Food and Beverage Service,Business and Professional Services > Food and Beverage Service,office,yes
 63be6904847c3692a84b9b46,Caterer,Business and Professional Services > Food and Beverage Service > Caterer,craft,caterer
 63be6904847c3692a84b9b47,Food Distribution Center,Business and Professional Services > Food and Beverage Service > Food Distribution Center,office,logistics
 4f4534884b9074f6e4fb0174,Funeral Home,Business and Professional Services > Funeral Home,shop,funeral_directors
-63be6904847c3692a84b9b48,Geological Service,Business and Professional Services > Geological Service,nf_fsq,nf_fsq
-54541900498ea6ccd0202697,Health and Beauty Service,Business and Professional Services > Health and Beauty Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b48,Geological Service,Business and Professional Services > Geological Service,office,yes
+54541900498ea6ccd0202697,Health and Beauty Service,Business and Professional Services > Health and Beauty Service,shop,yes
 63be6904847c3692a84b9b49,Barbershop,Business and Professional Services > Health and Beauty Service > Barbershop,shop,hairdresser
 52e81612bcbc57f1066b7a27,Bath House,Business and Professional Services > Health and Beauty Service > Bath House,amenity,public_bath
 52f2ab2ebcbc57f1066b8b20,Body Piercing Shop,Business and Professional Services > Health and Beauty Service > Body Piercing Shop,shop,piercing
@@ -149,11 +149,11 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 4d1cf8421a97d635ce361c31,Tanning Salon,Business and Professional Services > Health and Beauty Service > Tanning Salon,shop,beauty
 4bf58dd8d48988d1de931735,Tattoo Parlor,Business and Professional Services > Health and Beauty Service > Tattoo Parlor,shop,tattoo
 63be6904847c3692a84b9b58,Home Improvement Service,Business and Professional Services > Home Improvement Service,office,construction_company
-63be6904847c3692a84b9b4c,Bathroom Contractor,Business and Professional Services > Home Improvement Service > Bathroom Contractor,nf_fsq,nf_fsq
+63be6904847c3692a84b9b4c,Bathroom Contractor,Business and Professional Services > Home Improvement Service > Bathroom Contractor,craft,yes
 63be6904847c3692a84b9b4d,Carpenter,Business and Professional Services > Home Improvement Service > Carpenter,craft,carpenter
 63be6904847c3692a84b9b4e,Carpet and Flooring Contractor,Business and Professional Services > Home Improvement Service > Carpet and Flooring Contractor,craft,floorer
 63be6904847c3692a84b9b4f,Chimney Sweep,Business and Professional Services > Home Improvement Service > Chimney Sweep,craft,chimney_sweeper
-63be6904847c3692a84b9b50,Deck and Patio Contractor,Business and Professional Services > Home Improvement Service > Deck and Patio Contractor,nf_fsq,nf_fsq
+63be6904847c3692a84b9b50,Deck and Patio Contractor,Business and Professional Services > Home Improvement Service > Deck and Patio Contractor,craft,yes
 63be6904847c3692a84b9b51,Doors and Windows Contractor,Business and Professional Services > Home Improvement Service > Doors and Windows Contractor,craft,window_construction
 63be6904847c3692a84b9b52,Electrician,Business and Professional Services > Home Improvement Service > Electrician,craft,electrician
 63be6904847c3692a84b9b53,Fence Contractor,Business and Professional Services > Home Improvement Service > Fence Contractor,craft,fence_maker
@@ -161,7 +161,7 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 63be6904847c3692a84b9b55,General Contractor,Business and Professional Services > Home Improvement Service > General Contractor,craft,builder
 63be6904847c3692a84b9b56,"Heating, Ventilating and Air Conditioning Contractor","Business and Professional Services > Home Improvement Service > Heating, Ventilating and Air Conditioning Contractor",craft,hvac
 63be6904847c3692a84b9b57,Home Inspection,Business and Professional Services > Home Improvement Service > Home Inspection,office,surveyor
-545419b1498ea6ccd0202f58,Home Service,Business and Professional Services > Home Improvement Service > Home Service,nf_fsq,nf_fsq
+545419b1498ea6ccd0202f58,Home Service,Business and Professional Services > Home Improvement Service > Home Service,craft,yes
 63be6904847c3692a84b9b59,Interior Designer,Business and Professional Services > Home Improvement Service > Interior Designer,craft,interior_decorator
 63be6904847c3692a84b9b5a,Kitchen Remodeler,Business and Professional Services > Home Improvement Service > Kitchen Remodeler,craft,interior_work
 63be6904847c3692a84b9b5b,Landscaper and Gardener,Business and Professional Services > Home Improvement Service > Landscaper and Gardener,craft,gardener
@@ -172,80 +172,80 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 63be6904847c3692a84b9b60,Professional Cleaning Service,Business and Professional Services > Home Improvement Service > Professional Cleaning Service,craft,cleaning
 63be6904847c3692a84b9b61,Roofer,Business and Professional Services > Home Improvement Service > Roofer,craft,roofer
 63be6904847c3692a84b9b62,Sewer Contractor,Business and Professional Services > Home Improvement Service > Sewer Contractor,craft,plumber
-63be6904847c3692a84b9b63,Swimming Pool Maintenance and Service,Business and Professional Services > Home Improvement Service > Swimming Pool Maintenance and Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b63,Swimming Pool Maintenance and Service,Business and Professional Services > Home Improvement Service > Swimming Pool Maintenance and Service,craft,yes
 63be6904847c3692a84b9b64,Tree Service,Business and Professional Services > Home Improvement Service > Tree Service,craft,gardener
 63be6904847c3692a84b9b65,Upholstery Service,Business and Professional Services > Home Improvement Service > Upholstery Service,craft,upholsterer
-63be6904847c3692a84b9b66,Human Resources Agency,Business and Professional Services > Human Resources Agency,nf_fsq,nf_fsq
-63be6904847c3692a84b9b67,Import and Export Service,Business and Professional Services > Import and Export Service,nf_fsq,nf_fsq
-63be6904847c3692a84b9b68,Industrial Equipment Supplier,Business and Professional Services > Industrial Equipment Supplier,nf_fsq,nf_fsq
+63be6904847c3692a84b9b66,Human Resources Agency,Business and Professional Services > Human Resources Agency,office,yes
+63be6904847c3692a84b9b67,Import and Export Service,Business and Professional Services > Import and Export Service,office,yes
+63be6904847c3692a84b9b68,Industrial Equipment Supplier,Business and Professional Services > Industrial Equipment Supplier,shop,yes
 56aa371be4b08b9a8d5734d7,Industrial Estate,Business and Professional Services > Industrial Estate,landuse,industrial
 58daa1558bbb0b01f18ec1f1,Insurance Agency,Business and Professional Services > Insurance Agency,office,insurance
 63be6904847c3692a84b9b69,Laboratory,Business and Professional Services > Laboratory,craft,laboratory
 52f2ab2ebcbc57f1066b8b33,Laundromat,Business and Professional Services > Laundromat,shop,laundry
 4bf58dd8d48988d1fc941735,Laundry Service,Business and Professional Services > Laundry Service,shop,laundry
-63be6904847c3692a84b9b6a,Leather Supplier,Business and Professional Services > Leather Supplier,nf_fsq,nf_fsq
+63be6904847c3692a84b9b6a,Leather Supplier,Business and Professional Services > Leather Supplier,shop,yes
 63be6904847c3692a84b9b6b,Legal Service,Business and Professional Services > Legal Service,office,lawyer
 63be6904847c3692a84b9b6c,Immigration Attorney,Business and Professional Services > Legal Service > Immigration Attorney,office,lawyer
 52f2ab2ebcbc57f1066b8b3f,Law Office,Business and Professional Services > Legal Service > Law Office,office,lawyer
 5ae95d208a6f17002ce792b2,Notary,Business and Professional Services > Legal Service > Notary,office,notary
 52f2ab2ebcbc57f1066b8b1e,Locksmith,Business and Professional Services > Locksmith,craft,locksmith
-63be6904847c3692a84b9b6d,Logging Service,Business and Professional Services > Logging Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b6d,Logging Service,Business and Professional Services > Logging Service,office,yes
 52f2ab2ebcbc57f1066b8b38,Lottery Retailer,Business and Professional Services > Lottery Retailer,shop,lottery
 63be6904847c3692a84b9b6e,Machine Shop,Business and Professional Services > Machine Shop,craft,metal_construction
 63be6904847c3692a84b9b6f,Management Consultant,Business and Professional Services > Management Consultant,office,consulting
 63be6904847c3692a84b9b70,Manufacturer,Business and Professional Services > Manufacturer,man_made,works
 63be6904847c3692a84b9b71,Market Research and Consulting Service,Business and Professional Services > Market Research and Consulting Service,office,consulting
-63be6904847c3692a84b9b72,Media Agency,Business and Professional Services > Media Agency,nf_fsq,nf_fsq
-63be6904847c3692a84b9b73,Metals Supplier,Business and Professional Services > Metals Supplier,nf_fsq,nf_fsq
-63be6904847c3692a84b9b74,Mobile Company,Business and Professional Services > Mobile Company,nf_fsq,nf_fsq
+63be6904847c3692a84b9b72,Media Agency,Business and Professional Services > Media Agency,office,yes
+63be6904847c3692a84b9b73,Metals Supplier,Business and Professional Services > Metals Supplier,shop,yes
+63be6904847c3692a84b9b74,Mobile Company,Business and Professional Services > Mobile Company,office,yes
 4bf58dd8d48988d124941735,Office,Business and Professional Services > Office,office,yes
-63be6904847c3692a84b9b32,Business and Strategy Consulting Office,Business and Professional Services > Office > Business and Strategy Consulting Office,nf_fsq,nf_fsq
-5032764e91d4c4b30a586d5a,Campaign Office,Business and Professional Services > Office > Campaign Office,nf_fsq,nf_fsq
-5665ef1d498ec706735f0e59,Corporate Amenity,Business and Professional Services > Office > Corporate Amenity,nf_fsq,nf_fsq
+63be6904847c3692a84b9b32,Business and Strategy Consulting Office,Business and Professional Services > Office > Business and Strategy Consulting Office,office,yes
+5032764e91d4c4b30a586d5a,Campaign Office,Business and Professional Services > Office > Campaign Office,office,yes
+5665ef1d498ec706735f0e59,Corporate Amenity,Business and Professional Services > Office > Corporate Amenity,amenity,yes
 54f4ba06498e2cf5561da814,Corporate Cafeteria,Business and Professional Services > Office > Corporate Cafeteria,amenity,restaurant
 5665c7b9498e7d8a4f2c0f06,Corporate Coffee Shop,Business and Professional Services > Office > Corporate Coffee Shop,amenity,cafe
-63be6904847c3692a84b9b75,Corporate Housing Agency,Business and Professional Services > Office > Corporate Housing Agency,nf_fsq,nf_fsq
+63be6904847c3692a84b9b75,Corporate Housing Agency,Business and Professional Services > Office > Corporate Housing Agency,office,yes
 4bf58dd8d48988d174941735,Coworking Space,Business and Professional Services > Office > Coworking Space,office,coworking
 4bf58dd8d48988d127941735,Meeting Room,Business and Professional Services > Office > Meeting Room,amenity,meeting_room
 63be6904847c3692a84b9b76,Office Building,Business and Professional Services > Office > Office Building,building,office
 4bf58dd8d48988d125941735,Tech Startup,Business and Professional Services > Office > Tech Startup,office,startup
 63be6904847c3692a84b9b77,Online Advertising Service,Business and Professional Services > Online Advertising Service,office,internet_marketing_service
-56aa371be4b08b9a8d57356a,Outdoor Event Space,Business and Professional Services > Outdoor Event Space,nf_fsq,nf_fsq
-63be6904847c3692a84b9b78,Paper Supplier,Business and Professional Services > Paper Supplier,nf_fsq,nf_fsq
+56aa371be4b08b9a8d57356a,Outdoor Event Space,Business and Professional Services > Outdoor Event Space,amenity,yes
+63be6904847c3692a84b9b78,Paper Supplier,Business and Professional Services > Paper Supplier,shop,yes
 5032897c91d4c4b30a586d69,Pet Service,Business and Professional Services > Pet Service,shop,pet
 63be6904847c3692a84b9b79,Pet Grooming Service,Business and Professional Services > Pet Service > Pet Grooming Service,shop,pet_grooming
 63be6904847c3692a84b9b7a,Pet Sitting and Boarding Service,Business and Professional Services > Pet Service > Pet Sitting and Boarding Service,amenity,animal_boarding
-63be6904847c3692a84b9b7b,Petroleum Supplier,Business and Professional Services > Petroleum Supplier,nf_fsq,nf_fsq
+63be6904847c3692a84b9b7b,Petroleum Supplier,Business and Professional Services > Petroleum Supplier,shop,yes
 63be6904847c3692a84b9b7d,Photography Service,Business and Professional Services > Photography Service,craft,photographer
 63be6904847c3692a84b9b7c,Photographer,Business and Professional Services > Photography Service > Photographer,craft,photographer
 4eb1bdde3b7b55596b4a7490,Photography Lab,Business and Professional Services > Photography Service > Photography Lab,craft,photographic_laboratory
 554a5e17498efabeda6cc559,Photography Studio,Business and Professional Services > Photography Service > Photography Studio,craft,photographer
-63be6904847c3692a84b9b7e,Plastics Supplier,Business and Professional Services > Plastics Supplier,nf_fsq,nf_fsq
+63be6904847c3692a84b9b7e,Plastics Supplier,Business and Professional Services > Plastics Supplier,shop,yes
 58daa1548bbb0b01f18ec1a9,Power Plant,Business and Professional Services > Power Plant,power,plant
-63be6904847c3692a84b9b7f,"Print, TV, Radio and Outdoor Advertising Service","Business and Professional Services > Print, TV, Radio and Outdoor Advertising Service",nf_fsq,nf_fsq
-63be6904847c3692a84b9b80,Promotional Item Service,Business and Professional Services > Promotional Item Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b7f,"Print, TV, Radio and Outdoor Advertising Service","Business and Professional Services > Print, TV, Radio and Outdoor Advertising Service",office,yes
+63be6904847c3692a84b9b80,Promotional Item Service,Business and Professional Services > Promotional Item Service,office,yes
 63be6904847c3692a84b9b81,Public Relations Firm,Business and Professional Services > Public Relations Firm,office,public_relations
 63be6904847c3692a84b9b82,Publisher,Business and Professional Services > Publisher,office,publisher
 5032856091d4c4b30a586d63,Radio Station,Business and Professional Services > Radio Station,office,broadcaster
 63be6904847c3692a84b9b83,Real Estate Service,Business and Professional Services > Real Estate Service,office,estate_agent
 63be6904847c3692a84b9b84,Building and Land Surveyor,Business and Professional Services > Real Estate Service > Building and Land Surveyor,office,surveyor
-63be6904847c3692a84b9b85,Commercial Real Estate Developer,Business and Professional Services > Real Estate Service > Commercial Real Estate Developer,nf_fsq,nf_fsq
+63be6904847c3692a84b9b85,Commercial Real Estate Developer,Business and Professional Services > Real Estate Service > Commercial Real Estate Developer,office,yes
 63be6904847c3692a84b9b86,Property Management Office,Business and Professional Services > Real Estate Service > Property Management Office,office,property_management
 5032885091d4c4b30a586d66,Real Estate Agency,Business and Professional Services > Real Estate Service > Real Estate Agency,office,estate_agent
 63be6904847c3692a84b9b87,Real Estate Appraiser,Business and Professional Services > Real Estate Service > Real Estate Appraiser,office,real_estate_appraiser
-63be6904847c3692a84b9b88,Real Estate Development and Title Company,Business and Professional Services > Real Estate Service > Real Estate Development and Title Company,nf_fsq,nf_fsq
+63be6904847c3692a84b9b88,Real Estate Development and Title Company,Business and Professional Services > Real Estate Service > Real Estate Development and Title Company,office,yes
 52f2ab2ebcbc57f1066b8b37,Recording Studio,Business and Professional Services > Recording Studio,amenity,studio
 4f4531084b9074f6e4fb0101,Recycling Facility,Business and Professional Services > Recycling Facility,amenity,recycling
-63be6904847c3692a84b9b89,Refrigeration and Ice Supplier,Business and Professional Services > Refrigeration and Ice Supplier,nf_fsq,nf_fsq
-63be6904847c3692a84b9b8a,Renewable Energy Service,Business and Professional Services > Renewable Energy Service,nf_fsq,nf_fsq
-56aa371be4b08b9a8d573552,Rental Service,Business and Professional Services > Rental Service,nf_fsq,nf_fsq
-52f2ab2ebcbc57f1066b8b2f,Repair Service,Business and Professional Services > Repair Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b89,Refrigeration and Ice Supplier,Business and Professional Services > Refrigeration and Ice Supplier,shop,yes
+63be6904847c3692a84b9b8a,Renewable Energy Service,Business and Professional Services > Renewable Energy Service,office,yes
+56aa371be4b08b9a8d573552,Rental Service,Business and Professional Services > Rental Service,shop,yes
+52f2ab2ebcbc57f1066b8b2f,Repair Service,Business and Professional Services > Repair Service,craft,yes
 5744ccdfe4b0c0459246b4d6,Research Laboratory,Business and Professional Services > Research Laboratory,craft,laboratory
 58daa1558bbb0b01f18ec1b2,Research Station,Business and Professional Services > Research Station,office,research
-63be6904847c3692a84b9b8b,Rubber Supplier,Business and Professional Services > Rubber Supplier,nf_fsq,nf_fsq
+63be6904847c3692a84b9b8b,Rubber Supplier,Business and Professional Services > Rubber Supplier,shop,yes
 63be6904847c3692a84b9b8c,Salvage Yard,Business and Professional Services > Salvage Yard,shop,salvage
-63be6904847c3692a84b9b8d,Scientific Equipment Supplier,Business and Professional Services > Scientific Equipment Supplier,nf_fsq,nf_fsq
-63be6904847c3692a84b9b8e,Search Engine Marketing and Optimization Service,Business and Professional Services > Search Engine Marketing and Optimization Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9b8d,Scientific Equipment Supplier,Business and Professional Services > Scientific Equipment Supplier,shop,yes
+63be6904847c3692a84b9b8e,Search Engine Marketing and Optimization Service,Business and Professional Services > Search Engine Marketing and Optimization Service,office,yes
 63be6904847c3692a84b9b8f,Security and Safety,Business and Professional Services > Security and Safety,office,security
 52f2ab2ebcbc57f1066b8b1f,"Shipping, Freight, and Material Transportation Service","Business and Professional Services > Shipping, Freight, and Material Transportation Service",office,logistics
 52f2ab2ebcbc57f1066b8b39,Shoe Repair Service,Business and Professional Services > Shoe Repair Service,shop,shoe_repair
@@ -265,8 +265,8 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 56aa371be4b08b9a8d5734c5,Wedding Hall,Business and Professional Services > Wedding Hall,amenity,wedding_hall
 63be6904847c3692a84b9b97,Welding Service,Business and Professional Services > Welding Service,craft,welder
 63be6904847c3692a84b9b98,Wholesaler,Business and Professional Services > Wholesaler,shop,wholesale
-63be6904847c3692a84b9b99,"Writing, Copywriting and Technical Writing Service","Business and Professional Services > Writing, Copywriting and Technical Writing Service",nf_fsq,nf_fsq
-63be6904847c3692a84b9b9a,Community and Government,Community and Government,nf_fsq,nf_fsq
+63be6904847c3692a84b9b99,"Writing, Copywriting and Technical Writing Service","Business and Professional Services > Writing, Copywriting and Technical Writing Service",office,yes
+63be6904847c3692a84b9b9a,Community and Government,Community and Government,amenity,yes
 63be6904847c3692a84b9b9b,Addiction Treatment Center,Community and Government > Addiction Treatment Center,healthcare,rehabilitation
 4e52d2d203646f7c19daa8ae,Animal Shelter,Community and Government > Animal Shelter,amenity,animal_shelter
 5032891291d4c4b30a586d68,Assisted Living,Community and Government > Assisted Living,amenity,social_facility
@@ -339,7 +339,7 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 4bf58dd8d48988d12b941735,Courthouse,Community and Government > Government Building > Courthouse,amenity,courthouse
 4bf58dd8d48988d12c951735,Embassy or Consulate,Community and Government > Government Building > Embassy or Consulate,office,diplomatic
 63be6904847c3692a84b9ba2,Government Department,Community and Government > Government Building > Government Department,office,government
-63be6904847c3692a84b9ba3,Law Enforcement and Public Safety,Community and Government > Government Building > Law Enforcement and Public Safety,nf_fsq,nf_fsq
+63be6904847c3692a84b9ba3,Law Enforcement and Public Safety,Community and Government > Government Building > Law Enforcement and Public Safety,amenity,yes
 4bf58dd8d48988d12c941735,Fire Station,Community and Government > Government Building > Law Enforcement and Public Safety > Fire Station,amenity,fire_station
 4bf58dd8d48988d12e941735,Police Station,Community and Government > Government Building > Law Enforcement and Public Safety > Police Station,amenity,police
 63be6904847c3692a84b9ba4,Probation Office,Community and Government > Government Building > Law Enforcement and Public Safety > Probation Office,amenity,probation_office
@@ -347,17 +347,17 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 63be6904847c3692a84b9ba6,Military,Community and Government > Government Building > Military,building,military
 4e52adeebd41615f56317744,Military Base,Community and Government > Government Building > Military > Military Base,military,base
 4bf58dd8d48988d172941735,Post Office,Community and Government > Government Building > Post Office,amenity,post_office
-63be6904847c3692a84b9ba7,Government Lobbyist,Community and Government > Government Lobbyist,nf_fsq,nf_fsq
+63be6904847c3692a84b9ba7,Government Lobbyist,Community and Government > Government Lobbyist,office,yes
 63be6904847c3692a84b9ba8,Homeless Shelter,Community and Government > Homeless Shelter,amenity,social_facility
 63be6904847c3692a84b9ba9,Housing Authority,Community and Government > Housing Authority,office,government
 4f2a210c4b9023bd5841ed28,Housing Development,Community and Government > Housing Development,landuse,residential
 4bf58dd8d48988d12f941735,Library,Community and Government > Library,amenity,library
 5744ccdfe4b0c0459246b4d9,Observatory,Community and Government > Observatory,man_made,observatory
-63be6904847c3692a84b9baa,Organization,Community and Government > Organization,nf_fsq,nf_fsq
+63be6904847c3692a84b9baa,Organization,Community and Government > Organization,office,yes
 63be6904847c3692a84b9bab,Charity,Community and Government > Organization > Charity,office,charity
 52e81612bcbc57f1066b7a35,Club House,Community and Government > Organization > Club House,amenity,clubhouse
-63be6904847c3692a84b9bac,Environmental Organization,Community and Government > Organization > Environmental Organization,nf_fsq,nf_fsq
-63be6904847c3692a84b9bae,LGBTQ Organization,Community and Government > Organization > LGBTQ Organization,nf_fsq,nf_fsq
+63be6904847c3692a84b9bac,Environmental Organization,Community and Government > Organization > Environmental Organization,office,yes
+63be6904847c3692a84b9bae,LGBTQ Organization,Community and Government > Organization > LGBTQ Organization,office,yes
 63be6904847c3692a84b9bad,Labor Union,Community and Government > Organization > Labor Union,office,union
 50328a8e91d4c4b30a586d6c,Non-Profit Organization,Community and Government > Organization > Non-Profit Organization,office,association
 63be6904847c3692a84b9baf,Social Services Organization,Community and Government > Organization > Social Services Organization,amenity,social_facility
@@ -393,7 +393,7 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 52e81612bcbc57f1066b7a38,Town Hall,Community and Government > Town Hall,amenity,townhall
 52f2ab2ebcbc57f1066b8b55,Trailer Park,Community and Government > Trailer Park,tourism,caravan_site
 63be6904847c3692a84b9bb4,Utility Company,Community and Government > Utility Company,office,water_utility
-63be6904847c3692a84b9bb5,Dining and Drinking,Dining and Drinking,nf_fsq,nf_fsq
+63be6904847c3692a84b9bb5,Dining and Drinking,Dining and Drinking,amenity,yes
 4bf58dd8d48988d179941735,Bagel Shop,Dining and Drinking > Bagel Shop,shop,bakery
 4bf58dd8d48988d16a941735,Bakery,Dining and Drinking > Bakery,shop,bakery
 4bf58dd8d48988d116941735,Bar,Dining and Drinking > Bar,amenity,bar
@@ -786,10 +786,10 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 4bf58dd8d48988d1c7941735,Snack Place,Dining and Drinking > Snack Place,amenity,restaurant
 4bf58dd8d48988d1de941735,Vineyard,Dining and Drinking > Vineyard,landuse,vineyard
 4bf58dd8d48988d14b941735,Winery,Dining and Drinking > Winery,craft,winery
-4d4b7105d754a06373d81259,Event,Event,nf_fsq,nf_fsq
+4d4b7105d754a06373d81259,Event,Event,amenity,yes
 5267e4d9e4b0ec79466e48c6,Conference,Event > Conference,amenity,conference
 5267e4d9e4b0ec79466e48c9,Convention,Event > Convention,amenity,convention_centre
-63be6904847c3692a84b9bb7,Entertainment Event,Event > Entertainment Event,nf_fsq,nf_fsq
+63be6904847c3692a84b9bb7,Entertainment Event,Event > Entertainment Event,tourism,yes
 5267e4d9e4b0ec79466e48c7,Festival,Event > Entertainment Event > Festival,tourism,festival
 62d587aeda6648532de2b88c,Beer Festival,Event > Entertainment Event > Festival > Beer Festival,nf_fsq,nf_fsq
 5267e4d9e4b0ec79466e48d1,Music Festival,Event > Entertainment Event > Music Festival,tourism,music_festival
@@ -802,16 +802,16 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 5267e4d8e4b0ec79466e48c5,Street Fair,Event > Marketplace > Street Fair,landuse,fairground
 53e0feef498e5aac066fd8a9,Street Food Gathering,Event > Marketplace > Street Food Gathering,amenity,marketplace
 5bae9231bedf3950379f89c3,Trade Fair,Event > Marketplace > Trade Fair,landuse,fairground
-5267e4d9e4b0ec79466e48c8,Other Event,Event > Other Event,nf_fsq,nf_fsq
-63be6904847c3692a84b9bb9,Health and Medicine,Health and Medicine,nf_fsq,nf_fsq
-63be6904847c3692a84b9bba,AIDS Resource,Health and Medicine > AIDS Resource,nf_fsq,nf_fsq
+5267e4d9e4b0ec79466e48c8,Other Event,Event > Other Event,amenity,yes
+63be6904847c3692a84b9bb9,Health and Medicine,Health and Medicine,amenity,yes
+63be6904847c3692a84b9bba,AIDS Resource,Health and Medicine > AIDS Resource,amenity,yes
 52e81612bcbc57f1066b7a3b,Acupuncture Clinic,Health and Medicine > Acupuncture Clinic,amenity,clinic
 52e81612bcbc57f1066b7a3c,Alternative Medicine Clinic,Health and Medicine > Alternative Medicine Clinic,amenity,clinic
 63be6904847c3692a84b9bbb,Assisted Living Service,Health and Medicine > Assisted Living Service,amenity,social_facility
 5f2c43a65b4c177b9a6dcc62,Blood Bank,Health and Medicine > Blood Bank,healthcare,blood_bank
 52e81612bcbc57f1066b7a3a,Chiropractor,Health and Medicine > Chiropractor,amenity,clinic
 4bf58dd8d48988d178941735,Dentist,Health and Medicine > Dentist,amenity,dentist
-63be6904847c3692a84b9bbc,Emergency Service,Health and Medicine > Emergency Service,nf_fsq,nf_fsq
+63be6904847c3692a84b9bbc,Emergency Service,Health and Medicine > Emergency Service,amenity,yes
 63be6904847c3692a84b9bbd,Ambulance Service,Health and Medicine > Emergency Service > Ambulance Service,emergency,ambulance_station
 4bf58dd8d48988d194941735,Emergency Room,Health and Medicine > Emergency Service > Emergency Room,healthcare,emergency_room
 63be6904847c3692a84b9bbe,Healthcare Clinic,Health and Medicine > Healthcare Clinic,amenity,clinic
@@ -830,7 +830,7 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 63be6904847c3692a84b9bc4,Nursing Home,Health and Medicine > Nursing Home,amenity,nursing_home
 58daa1558bbb0b01f18ec1d0,Nutritionist,Health and Medicine > Nutritionist,healthcare,counselling
 522e32fae4b09b556e370f19,Optometrist,Health and Medicine > Optometrist,healthcare,optometrist
-63be6904847c3692a84b9bc5,Other Healthcare Professional,Health and Medicine > Other Healthcare Professional,nf_fsq,nf_fsq
+63be6904847c3692a84b9bc5,Other Healthcare Professional,Health and Medicine > Other Healthcare Professional,amenity,yes
 5744ccdfe4b0c0459246b4af,Physical Therapy Clinic,Health and Medicine > Physical Therapy Clinic,amenity,clinic
 63be6904847c3692a84b9bc6,Physician,Health and Medicine > Physician,amenity,doctors
 63be6904847c3692a84b9bc7,Anesthesiologist,Health and Medicine > Physician > Anesthesiologist,amenity,doctors
@@ -862,7 +862,7 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 4d954af4a243a5684765b473,Veterinarian,Health and Medicine > Veterinarian,amenity,veterinary
 590a0744340a5803fd8508c3,Weight Loss Center,Health and Medicine > Weight Loss Center,healthcare,counselling
 63be6904847c3692a84b9bdf,Women's Health Clinic,Health and Medicine > Women's Health Clinic,amenity,clinic
-4d4b7105d754a06377d81259,Landmarks and Outdoors,Landmarks and Outdoors,nf_fsq,nf_fsq
+4d4b7105d754a06377d81259,Landmarks and Outdoors,Landmarks and Outdoors,tourism,yes
 52e81612bcbc57f1066b7a28,Bathing Area,Landmarks and Outdoors > Bathing Area,leisure,swimming_area
 56aa371be4b08b9a8d573544,Bay,Landmarks and Outdoors > Bay,natural,bay
 4bf58dd8d48988d1e2941735,Beach,Landmarks and Outdoors > Beach,natural,beach
@@ -878,7 +878,7 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 5fac018b99ce226e27fe7573,Dam,Landmarks and Outdoors > Dam,waterway,dam
 52e81612bcbc57f1066b7a12,Dive Spot,Landmarks and Outdoors > Dive Spot,amenity,dive_site
 4bf58dd8d48988d15b941735,Farm,Landmarks and Outdoors > Farm,place,farm
-4bf58dd8d48988d15f941735,Field,Landmarks and Outdoors > Field,nf_fsq,nf_fsq
+4bf58dd8d48988d15f941735,Field,Landmarks and Outdoors > Field,landuse,yes
 52e81612bcbc57f1066b7a23,Forest,Landmarks and Outdoors > Forest,landuse,forest
 56aa371be4b08b9a8d573547,Fountain,Landmarks and Outdoors > Fountain,amenity,fountain
 4bf58dd8d48988d15a941735,Garden,Landmarks and Outdoors > Garden,leisure,garden
@@ -896,7 +896,7 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 55a5a1ebe4b013909087cb77,Mountain Hut,Landmarks and Outdoors > Mountain Hut,tourism,alpine_hut
 52e81612bcbc57f1066b7a13,Nature Preserve,Landmarks and Outdoors > Nature Preserve,leisure,nature_reserve
 52e81612bcbc57f1066b7a30,Nudist Beach,Landmarks and Outdoors > Nudist Beach,natural,beach
-4bf58dd8d48988d162941735,Other Great Outdoors,Landmarks and Outdoors > Other Great Outdoors,nf_fsq,nf_fsq
+4bf58dd8d48988d162941735,Other Great Outdoors,Landmarks and Outdoors > Other Great Outdoors,tourism,yes
 52e81612bcbc57f1066b7a14,Palace,Landmarks and Outdoors > Palace,historic,castle
 4bf58dd8d48988d163941735,Park,Landmarks and Outdoors > Park,leisure,park
 4bf58dd8d48988d1e5941735,Dog Park,Landmarks and Outdoors > Park > Dog Park,leisure,dog_park
@@ -911,12 +911,12 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 4bf58dd8d48988d164941735,Plaza,Landmarks and Outdoors > Plaza,place,square
 56aa371be4b08b9a8d573541,Reservoir,Landmarks and Outdoors > Reservoir,water,reservoir
 4eb1d4dd4b900d56c88a45fd,River,Landmarks and Outdoors > River,waterway,river
-50328a4b91d4c4b30a586d6b,Rock Climbing Spot,Landmarks and Outdoors > Rock Climbing Spot,nf_fsq,nf_fsq
-4bf58dd8d48988d133951735,Roof Deck,Landmarks and Outdoors > Roof Deck,nf_fsq,nf_fsq
+50328a4b91d4c4b30a586d6b,Rock Climbing Spot,Landmarks and Outdoors > Rock Climbing Spot,leisure,yes
+4bf58dd8d48988d133951735,Roof Deck,Landmarks and Outdoors > Roof Deck,leisure,yes
 4bf58dd8d48988d165941735,Scenic Lookout,Landmarks and Outdoors > Scenic Lookout,tourism,viewpoint
 4bf58dd8d48988d166941735,Sculpture Garden,Landmarks and Outdoors > Sculpture Garden,leisure,garden
 4eb1baf03b7b2c5b1d4306ca,Stable,Landmarks and Outdoors > Stable,building,stable
-530e33ccbcbc57f1066bbfe4,States and Municipalities,Landmarks and Outdoors > States and Municipalities,nf_fsq,nf_fsq
+530e33ccbcbc57f1066bbfe4,States and Municipalities,Landmarks and Outdoors > States and Municipalities,place,yes
 50aa9e094b90af0d42d5de0d,City,Landmarks and Outdoors > States and Municipalities > City,place,city
 530e33ccbcbc57f1066bbff7,Country,Landmarks and Outdoors > States and Municipalities > Country,place,country
 5345731ebcbc57f1066c39b2,County,Landmarks and Outdoors > States and Municipalities > County,place,county
@@ -924,24 +924,24 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 530e33ccbcbc57f1066bbff8,State,Landmarks and Outdoors > States and Municipalities > State,place,state
 530e33ccbcbc57f1066bbff3,Town,Landmarks and Outdoors > States and Municipalities > Town,place,town
 530e33ccbcbc57f1066bbff9,Village,Landmarks and Outdoors > States and Municipalities > Village,place,village
-4bf58dd8d48988d130941735,Structure,Landmarks and Outdoors > Structure,nf_fsq,nf_fsq
-4bf58dd8d48988d1e3941735,Surf Spot,Landmarks and Outdoors > Surf Spot,nf_fsq,nf_fsq
+4bf58dd8d48988d130941735,Structure,Landmarks and Outdoors > Structure,building,yes
+4bf58dd8d48988d1e3941735,Surf Spot,Landmarks and Outdoors > Surf Spot,leisure,yes
 52e81612bcbc57f1066b7a24,Tree,Landmarks and Outdoors > Tree,natural,tree
 52f2ab2ebcbc57f1066b8b4a,Tunnel,Landmarks and Outdoors > Tunnel,tunnel,yes
 5032848691d4c4b30a586d61,Volcano,Landmarks and Outdoors > Volcano,natural,volcano
 56aa371be4b08b9a8d573560,Waterfall,Landmarks and Outdoors > Waterfall,waterway,waterfall
-56aa371be4b08b9a8d5734c3,Waterfront,Landmarks and Outdoors > Waterfront,nf_fsq,nf_fsq
+56aa371be4b08b9a8d5734c3,Waterfront,Landmarks and Outdoors > Waterfront,tourism,yes
 4fbc1be21983fc883593e321,Well,Landmarks and Outdoors > Well,man_made,water_well
 5bae9231bedf3950379f89c7,Windmill,Landmarks and Outdoors > Windmill,man_made,windmill
 4d4b7105d754a06376d81259,Nightlife Spot,Nightlife Spot,leisure,nightlife
-4bf58dd8d48988d11a941735,Other Nightlife,Nightlife Spot > Other Nightlife,nf_fsq,nf_fsq
-4d4b7105d754a06378d81259,Retail,Retail,building,retail
+4bf58dd8d48988d11a941735,Other Nightlife,Nightlife Spot > Other Nightlife,leisure,yes
+4d4b7105d754a06378d81259,Retail,Retail,shop,yes
 5267e446e4b0ec79466e48c4,Adult Store,Retail > Adult Store,shop,erotic
 4bf58dd8d48988d116951735,Antique Store,Retail > Antique Store,shop,antiques
 4bf58dd8d48988d127951735,Arts and Crafts Store,Retail > Arts and Crafts Store,shop,craft
 63be6904847c3692a84b9be2,Auction House,Retail > Auction House,shop,auction_house
 56aa371be4b08b9a8d5734d3,Auto Workshop,Retail > Auto Workshop,shop,car_repair
-63be6904847c3692a84b9be3,Automotive Retail,Retail > Automotive Retail,nf_fsq,nf_fsq
+63be6904847c3692a84b9be3,Automotive Retail,Retail > Automotive Retail,shop,yes
 4eb1c1623b7b52c0e1adc2ec,Car Dealership,Retail > Automotive Retail > Car Dealership,shop,car
 63be6904847c3692a84b9be4,Classic and Antique Car Dealership,Retail > Automotive Retail > Car Dealership > Classic and Antique Car Dealership,shop,car
 5e8f50bd03c7a9000c1e2fbc,New Car Dealership,Retail > Automotive Retail > Car Dealership > New Car Dealership,shop,car
@@ -991,12 +991,12 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 63be6904847c3692a84b9bee,Swimwear Store,Retail > Fashion Retail > Swimwear Store,shop,clothes
 52f2ab2ebcbc57f1066b8b2e,Watch Store,Retail > Fashion Retail > Watch Store,shop,watches
 4bf58dd8d48988d108951735,Women's Store,Retail > Fashion Retail > Women's Store,shop,clothes
-503287a291d4c4b30a586d65,Financial or Legal Service,Retail > Financial or Legal Service,nf_fsq,nf_fsq
+503287a291d4c4b30a586d65,Financial or Legal Service,Retail > Financial or Legal Service,office,yes
 52f2ab2ebcbc57f1066b8b3a,Fireworks Store,Retail > Fireworks Store,shop,pyrotechnics
 4bf58dd8d48988d1f7941735,Flea Market,Retail > Flea Market,amenity,marketplace
 56aa371be4b08b9a8d573505,Floating Market,Retail > Floating Market,amenity,marketplace
 4bf58dd8d48988d11b951735,Flower Store,Retail > Flower Store,shop,florist
-4bf58dd8d48988d1f9941735,Food and Beverage Retail,Retail > Food and Beverage Retail,nf_fsq,nf_fsq
+4bf58dd8d48988d1f9941735,Food and Beverage Retail,Retail > Food and Beverage Retail,shop,yes
 5370f356bcbc57f1066c94c2,Beer Store,Retail > Food and Beverage Retail > Beer Store,shop,alcohol
 4bf58dd8d48988d11d951735,Butcher,Retail > Food and Beverage Retail > Butcher,shop,butcher
 4bf58dd8d48988d117951735,Candy Store,Retail > Food and Beverage Retail > Candy Store,shop,confectionery
@@ -1085,13 +1085,13 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 4bf58dd8d48988d126951735,Video Store,Retail > Video Store,shop,video
 4bf58dd8d48988d101951735,Vintage and Thrift Store,Retail > Vintage and Thrift Store,shop,second_hand
 52e816a6bcbc57f1066b7a54,Warehouse or Wholesale Store,Retail > Warehouse or Wholesale Store,shop,wholesale
-4f4528bc4b90abdf24c9de85,Sports and Recreation,Sports and Recreation,nf_fsq,nf_fsq
+4f4528bc4b90abdf24c9de85,Sports and Recreation,Sports and Recreation,leisure,yes
 63be6904847c3692a84b9bfd,Athletic Field,Sports and Recreation > Athletic Field,leisure,pitch
-63be6904847c3692a84b9bfe,Baseball,Sports and Recreation > Baseball,nf_fsq,nf_fsq
+63be6904847c3692a84b9bfe,Baseball,Sports and Recreation > Baseball,leisure,yes
 63be6904847c3692a84b9bff,Baseball Club,Sports and Recreation > Baseball > Baseball Club,leisure,sports_centre
 4bf58dd8d48988d1e8941735,Baseball Field,Sports and Recreation > Baseball > Baseball Field,leisure,pitch
-63be6904847c3692a84b9c00,Batting Cages,Sports and Recreation > Baseball > Batting Cages,nf_fsq,nf_fsq
-63be6904847c3692a84b9c01,Basketball,Sports and Recreation > Basketball,nf_fsq,nf_fsq
+63be6904847c3692a84b9c00,Batting Cages,Sports and Recreation > Baseball > Batting Cages,leisure,yes
+63be6904847c3692a84b9c01,Basketball,Sports and Recreation > Basketball,leisure,yes
 63be6904847c3692a84b9c02,Basketball Club,Sports and Recreation > Basketball > Basketball Club,leisure,sports_centre
 4bf58dd8d48988d1e1941735,Basketball Court,Sports and Recreation > Basketball > Basketball Court,leisure,pitch
 52e81612bcbc57f1066b7a2f,Bowling Green,Sports and Recreation > Bowling Green,leisure,pitch
@@ -1099,7 +1099,7 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 56aa371be4b08b9a8d57351a,Curling Ice,Sports and Recreation > Curling Ice,leisure,ice_rink
 63be6904847c3692a84b9c04,Equestrian Facility,Sports and Recreation > Equestrian Facility,leisure,horse_riding
 52e81612bcbc57f1066b7a0f,Fishing Area,Sports and Recreation > Fishing Area,leisure,fishing
-63be6904847c3692a84b9c05,Football,Sports and Recreation > Football,nf_fsq,nf_fsq
+63be6904847c3692a84b9c05,Football,Sports and Recreation > Football,leisure,yes
 63be6904847c3692a84b9c06,Football Club,Sports and Recreation > Football > Football Club,leisure,sports_centre
 63be6904847c3692a84b9c07,Football Field,Sports and Recreation > Football > Football Field,leisure,pitch
 63be6904847c3692a84b9c08,Golf,Sports and Recreation > Golf,shop,golf
@@ -1119,60 +1119,60 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 4bf58dd8d48988d102941735,Yoga Studio,Sports and Recreation > Gym and Studio > Yoga Studio,leisure,fitness_centre
 63be6904847c3692a84b9c0a,Gymnastics,Sports and Recreation > Gymnastics,leisure,fitness_centre
 52f2ab2ebcbc57f1066b8b48,Gymnastics Center,Sports and Recreation > Gymnastics > Gymnastics Center,leisure,fitness_centre
-63be6904847c3692a84b9c0b,Hockey,Sports and Recreation > Hockey,nf_fsq,nf_fsq
+63be6904847c3692a84b9c0b,Hockey,Sports and Recreation > Hockey,leisure,yes
 63be6904847c3692a84b9c0c,Hockey Club,Sports and Recreation > Hockey > Hockey Club,leisure,sports_centre
 4f452cd44b9081a197eba860,Hockey Field,Sports and Recreation > Hockey > Hockey Field,leisure,pitch
 56aa371be4b08b9a8d57352c,Hockey Rink,Sports and Recreation > Hockey > Hockey Rink,leisure,ice_rink
-63be6904847c3692a84b9c0d,Hunting Area,Sports and Recreation > Hunting Area,nf_fsq,nf_fsq
+63be6904847c3692a84b9c0d,Hunting Area,Sports and Recreation > Hunting Area,leisure,yes
 5744ccdfe4b0c0459246b4b5,Indoor Play Area,Sports and Recreation > Indoor Play Area,leisure,indoor_playground
 4bf58dd8d48988d101941735,Martial Arts Dojo,Sports and Recreation > Martial Arts Dojo,amenity,dojo
 5032829591d4c4b30a586d5e,Paintball Field,Sports and Recreation > Paintball Field,leisure,pitch
 63be6904847c3692a84b9c0e,Personal Trainer,Sports and Recreation > Personal Trainer,office,personal_trainer
 4bf58dd8d48988d1f4931735,Race Track,Sports and Recreation > Race Track,highway,raceway
 56aa371be4b08b9a8d573514,Racecourse,Sports and Recreation > Race Track > Racecourse,highway,raceway
-63be6904847c3692a84b9c0f,Racquet Sports,Sports and Recreation > Racquet Sports,nf_fsq,nf_fsq
+63be6904847c3692a84b9c0f,Racquet Sports,Sports and Recreation > Racquet Sports,leisure,yes
 52e81612bcbc57f1066b7a2b,Badminton Court,Sports and Recreation > Racquet Sports > Badminton Court,leisure,pitch
 63be6904847c3692a84b9c10,Racquet Sport Club,Sports and Recreation > Racquet Sports > Racquet Sport Club,leisure,sports_centre
 63be6904847c3692a84b9c11,Racquetball Club,Sports and Recreation > Racquet Sports > Racquetball Club,leisure,sports_centre
 52e81612bcbc57f1066b7a2d,Squash Court,Sports and Recreation > Racquet Sports > Squash Court,leisure,pitch
-63be6904847c3692a84b9c12,Tennis,Sports and Recreation > Racquet Sports > Tennis,nf_fsq,nf_fsq
+63be6904847c3692a84b9c12,Tennis,Sports and Recreation > Racquet Sports > Tennis,leisure,yes
 63be6904847c3692a84b9c13,Tennis Club,Sports and Recreation > Racquet Sports > Tennis > Tennis Club,leisure,sports_centre
 4e39a956bd410d7aed40cbc3,Tennis Court,Sports and Recreation > Racquet Sports > Tennis > Tennis Court,leisure,pitch
 52e81612bcbc57f1066b7a26,Recreation Center,Sports and Recreation > Recreation Center,leisure,sports_centre
-63be6904847c3692a84b9c14,Rugby,Sports and Recreation > Rugby,nf_fsq,nf_fsq
+63be6904847c3692a84b9c14,Rugby,Sports and Recreation > Rugby,leisure,yes
 52e81612bcbc57f1066b7a2c,Rugby Pitch,Sports and Recreation > Rugby > Rugby Pitch,leisure,pitch
-63be6904847c3692a84b9c15,Running and Track,Sports and Recreation > Running and Track,nf_fsq,nf_fsq
+63be6904847c3692a84b9c15,Running and Track,Sports and Recreation > Running and Track,leisure,yes
 63be6904847c3692a84b9c16,Running Club,Sports and Recreation > Running and Track > Running Club,leisure,sports_centre
 4bf58dd8d48988d106941735,Track,Sports and Recreation > Running and Track > Track,leisure,track
 58daa1558bbb0b01f18ec1ae,Sauna,Sports and Recreation > Sauna,leisure,sauna
-63be6904847c3692a84b9c17,Skating,Sports and Recreation > Skating,nf_fsq,nf_fsq
+63be6904847c3692a84b9c17,Skating,Sports and Recreation > Skating,leisure,yes
 4bf58dd8d48988d167941735,Skate Park,Sports and Recreation > Skating > Skate Park,leisure,skate_park
 4bf58dd8d48988d168941735,Skating Rink,Sports and Recreation > Skating > Skating Rink,leisure,ice_rink
-63be6904847c3692a84b9c18,Skydiving Center,Sports and Recreation > Skydiving Center,nf_fsq,nf_fsq
+63be6904847c3692a84b9c18,Skydiving Center,Sports and Recreation > Skydiving Center,leisure,yes
 58daa1558bbb0b01f18ec1b9,Skydiving Drop Zone,Sports and Recreation > Skydiving Center > Skydiving Drop Zone,aeroway,parachute_dropzone
-63be6904847c3692a84b9c19,Snow Sports,Sports and Recreation > Snow Sports,nf_fsq,nf_fsq
+63be6904847c3692a84b9c19,Snow Sports,Sports and Recreation > Snow Sports,leisure,yes
 4bf58dd8d48988d1ec941735,Ski Chalet,Sports and Recreation > Snow Sports > Ski Chalet,tourism,chalet
 4bf58dd8d48988d1eb941735,Ski Lodge,Sports and Recreation > Snow Sports > Ski Lodge,tourism,wilderness_hut
 4bf58dd8d48988d1e9941735,Ski Resort and Area,Sports and Recreation > Snow Sports > Ski Resort and Area,landuse,winter_sports
 4eb1c0ed3b7b52c0e1adc2ea,Ski Chairlift,Sports and Recreation > Snow Sports > Ski Resort and Area > Ski Chairlift,aerialway,chair_lift
 4eb1c0f63b7b52c0e1adc2eb,Ski Trail,Sports and Recreation > Snow Sports > Ski Resort and Area > Ski Trail,route,piste
-63be6904847c3692a84b9c1a,Soccer,Sports and Recreation > Soccer,nf_fsq,nf_fsq
+63be6904847c3692a84b9c1a,Soccer,Sports and Recreation > Soccer,leisure,yes
 63be6904847c3692a84b9c1b,Soccer Club,Sports and Recreation > Soccer > Soccer Club,leisure,sports_centre
 4cce455aebf7b749d5e191f5,Soccer Field,Sports and Recreation > Soccer > Soccer Field,leisure,pitch
 52e81612bcbc57f1066b7a2e,Sports Club,Sports and Recreation > Sports Club,leisure,sports_centre
 4eb1bf013b7b6f98df247e07,Volleyball Court,Sports and Recreation > Volleyball Court,leisure,pitch
-63be6904847c3692a84b9c1c,Water Sports,Sports and Recreation > Water Sports,nf_fsq,nf_fsq
+63be6904847c3692a84b9c1c,Water Sports,Sports and Recreation > Water Sports,leisure,yes
 63be6904847c3692a84b9c1d,Canoe and Kayak Rental,Sports and Recreation > Water Sports > Canoe and Kayak Rental,amenity,boat_rental
 63be6904847c3692a84b9c1e,Rafting Outfitter,Sports and Recreation > Water Sports > Rafting Outfitter,tourism,rafting
 52e81612bcbc57f1066b7a29,Rafting Spot,Sports and Recreation > Water Sports > Rafting Spot,tourism,rafting
 63be6904847c3692a84b9c1f,Sailing Club,Sports and Recreation > Water Sports > Sailing Club,leisure,sports_centre
 63be6904847c3692a84b9c20,Scuba Diving Instructor,Sports and Recreation > Water Sports > Scuba Diving Instructor,amenity,dive_centre
-63be6904847c3692a84b9c21,Surfing,Sports and Recreation > Water Sports > Surfing,nf_fsq,nf_fsq
+63be6904847c3692a84b9c21,Surfing,Sports and Recreation > Water Sports > Surfing,leisure,yes
 63be6904847c3692a84b9c22,Swimming,Sports and Recreation > Water Sports > Swimming,leisure,swimming_area
 52e81612bcbc57f1066b7a44,Swim School,Sports and Recreation > Water Sports > Swimming > Swim School,amenity,training
 63be6904847c3692a84b9c23,Swimming Club,Sports and Recreation > Water Sports > Swimming > Swimming Club,leisure,sports_centre
 4bf58dd8d48988d15e941735,Swimming Pool,Sports and Recreation > Water Sports > Swimming > Swimming Pool,leisure,swimming_pool
-4d4b7105d754a06379d81259,Travel and Transportation,Travel and Transportation,nf_fsq,nf_fsq
+4d4b7105d754a06379d81259,Travel and Transportation,Travel and Transportation,amenity,yes
 5744ccdfe4b0c0459246b4e8,Baggage Locker,Travel and Transportation > Baggage Locker,amenity,parcel_locker
 4e4c9077bd41f78e849722f9,Bike Rental,Travel and Transportation > Bike Rental,amenity,bicycle_rental
 5744ccdfe4b0c0459246b4c1,Boat Rental,Travel and Transportation > Boat Rental,amenity,boat_rental
@@ -1182,8 +1182,8 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 55077a22498e5e9248869ba2,Cruise,Travel and Transportation > Cruise,tourism,cruise
 5032872391d4c4b30a586d64,Electric Vehicle Charging Station,Travel and Transportation > Electric Vehicle Charging Station,amenity,charging_station
 4bf58dd8d48988d113951735,Fuel Station,Travel and Transportation > Fuel Station,amenity,fuel
-4bf58dd8d48988d1f6931735,General Travel,Travel and Transportation > General Travel,nf_fsq,nf_fsq
-63be6904847c3692a84b9c24,Hot Air Balloon Tour Agency,Travel and Transportation > Hot Air Balloon Tour Agency,nf_fsq,nf_fsq
+4bf58dd8d48988d1f6931735,General Travel,Travel and Transportation > General Travel,tourism,yes
+63be6904847c3692a84b9c24,Hot Air Balloon Tour Agency,Travel and Transportation > Hot Air Balloon Tour Agency,tourism,yes
 63be6904847c3692a84b9c25,Lodging,Travel and Transportation > Lodging,tourism,lodging
 4bf58dd8d48988d1f8931735,Bed and Breakfast,Travel and Transportation > Lodging > Bed and Breakfast,tourism,guest_house
 4f4530a74b9074f6e4fb0100,Boarding House,Travel and Transportation > Lodging > Boarding House,tourism,guest_house
