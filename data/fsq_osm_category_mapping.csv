@@ -55,7 +55,7 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 52e81612bcbc57f1066b79ee,Street Art,Arts and Entertainment > Public Art > Street Art,tourism,artwork
 52e81612bcbc57f1066b79e9,Roller Rink,Arts and Entertainment > Roller Rink,amenity,roller_rink
 52e81612bcbc57f1066b79ec,Salsa Club,Arts and Entertainment > Salsa Club,leisure,dance
-56aa371be4b08b9a8d5734f9,Samba School,Arts and Entertainment > Samba School,nf_fsq,nf_fsq
+56aa371be4b08b9a8d5734f9,Samba School,Arts and Entertainment > Samba School,amenity,community_centre
 4bf58dd8d48988d184941735,Stadium,Arts and Entertainment > Stadium,leisure,stadium
 4bf58dd8d48988d18c941735,Baseball Stadium,Arts and Entertainment > Stadium > Baseball Stadium,leisure,stadium
 4bf58dd8d48988d18b941735,Basketball Stadium,Arts and Entertainment > Stadium > Basketball Stadium,leisure,stadium
@@ -67,7 +67,7 @@ Category ID,Category Name,Category Label,osm_class,osm_type
 4bf58dd8d48988d187941735,Track Stadium,Arts and Entertainment > Stadium > Track Stadium,leisure,stadium
 4bf58dd8d48988d1d6941735,Strip Club,Arts and Entertainment > Strip Club,amenity,stripclub
 63be6904847c3692a84b9b25,Ticket Seller,Arts and Entertainment > Ticket Seller,shop,ticket
-5f2c14a5b6d05514c7042eb7,VR Cafe,Arts and Entertainment > VR Cafe,nf_fsq,nf_fsq
+5f2c14a5b6d05514c7042eb7,VR Cafe,Arts and Entertainment > VR Cafe,leisure,escape_game
 4bf58dd8d48988d193941735,Water Park,Arts and Entertainment > Water Park,leisure,water_park
 4bf58dd8d48988d17b941735,Zoo,Arts and Entertainment > Zoo,tourism,zoo
 58daa1558bbb0b01f18ec1fd,Zoo Exhibit,Arts and Entertainment > Zoo > Zoo Exhibit,tourism,zoo

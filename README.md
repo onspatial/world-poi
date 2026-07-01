@@ -338,26 +338,12 @@ CREATE INDEX IF NOT EXISTS idx_fsq_osm_150m_osm_geom ON fsq_osm_150m USING GIST 
 
 ## Data Type Conversion
 
-In the fsq_osm table, osm_name and osm_extratags are stored as text that contains hstore-formatted strings. To compare Foursquare and OSM names, extract the OSM name into a plain TEXT column while leaving the address as hstore-formatted text to save space.
+In the osm table, osm_name and osm_extratags are stored as text that contains hstore-formatted strings. To compare Foursquare and OSM names, extract the OSM name into a plain TEXT column while leaving the address as hstore-formatted text to save space.
 
 ```sql
-
-ALTER TABLE fsq_osm_150m
-ADD COLUMN osm_name_text text;
-
-UPDATE fsq_osm_150m
-SET osm_name_text = osm_name::hstore -> 'name'
-WHERE osm_name IS NOT NULL;
-
-```
-
-```sql
-ALTER TABLE fsq_osm_150m
-DROP COLUMN osm_name;
-
-ALTER TABLE fsq_osm_150m
-RENAME COLUMN osm_name_text TO osm_name;
-
+ALTER TABLE osm
+ALTER COLUMN osm_name TYPE text
+USING (osm_name::hstore -> 'name');
 ```
 
 Also for the name similarity score, we can create an index on the `fsq_name` and `osm_name` columns in the `fsq_osm` table. This will speed up the text similarity queries and improve performance.
