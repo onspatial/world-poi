@@ -443,6 +443,12 @@ FROM (
 WHERE fsq_osm_name_similarity_score_lev > 0.0;
 ```
 
+After this step you can remove the original `fsq_osm_150m` table to save space:
+
+```sql
+DROP TABLE fsq_osm_150m;
+```
+
 Then add distance column to the new tables:
 
 ```sql
