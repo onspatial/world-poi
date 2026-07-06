@@ -146,25 +146,25 @@ def get_advan_df():
     save_df(advan_df, save_path)
     return advan_df
 
-def get_worldpoi_df(t=5, category="all", similarity_algorithm="levenshtein"):
-    save_path = f"data/intermediate/renamed_{similarity_algorithm}_{t}_{category}.parquet"
+def get_worldpoi_df(t=5, d=0.001, category="all", similarity_algorithm="levenshtein"):
+    save_path = f"data/intermediate/renamed_{similarity_algorithm}_{t}_{d}_{category}.parquet"
     if os.path.exists(save_path):
         return get_df(save_path)
 
-    poi_df = get_poi_df(t=t, category=category, similarity_algorithm=similarity_algorithm)
+    poi_df = get_poi_df(t=t, d=d, category=category, similarity_algorithm=similarity_algorithm)
     poi_df = get_renamed_df(poi_df)
     save_df(poi_df, save_path)
     return poi_df
 
-def get_poi_df(t=5, category="all",similarity_algorithm="levenshtein"):
-    save_path = f"data/intermediate/poi_{t}_{similarity_algorithm}_{category}.parquet"
-    save_path_all = f"data/intermediate/poi_{t}_{similarity_algorithm}_all.parquet"
+def get_poi_df(t=5, d=0.001, category="all", similarity_algorithm="levenshtein"):
+    save_path = f"data/intermediate/poi_{t}_{d}_{similarity_algorithm}_{category}.parquet"
+    save_path_all = f"data/intermediate/poi_{t}_{d}_{similarity_algorithm}_all.parquet"
     if os.path.exists(save_path):
         return get_df(save_path)
     elif category == "all":
-       return get_in_chunks(input_path = f"data/World_POI_{similarity_algorithm}_0.{t}.csv", save_path = save_path_all)
+       return get_in_chunks(input_path = f"data/World_POI_{similarity_algorithm}_{t}_{d}.csv", save_path = save_path_all)
     else:
-        all_df = get_in_chunks(input_path = f"data/World_POI_{similarity_algorithm}_0.{t}.csv", save_path = save_path_all)
+        all_df = get_in_chunks(input_path = f"data/World_POI_{similarity_algorithm}_{t}_{d}.csv", save_path = save_path_all)
         return get_filtered_df(all_df, category, save_path)
     
 def get_renamed_df(df):
@@ -275,56 +275,57 @@ def get_filtered_df(all_df, category, save_path):
 def get_results_category(category, grid_level=0):
     
     results_categories = []
-    for t in [5]:
-        levenshtein_df = get_worldpoi_df(t=t, category=category, similarity_algorithm="levenshtein")
-        trigrams_df = get_worldpoi_df(t=t, category=category, similarity_algorithm="trigrams")
-        baseline_df = get_population_df()
-        
+    for t in [1.0]:#, 0.9, 0.8, 0.7, 0.6, 0.5]:
+        for d in [0.00025, 0.0005, 0.001, 0.00125, 0.0015]:
+            levenshtein_df = get_worldpoi_df(t=t, d=d, category=category, similarity_algorithm="levenshtein")
+            trigrams_df = get_worldpoi_df(t=t, d=d, category=category, similarity_algorithm="trigrams")
+            baseline_df = get_population_df()
+            
 
-        for grid_algorithm in ["h3"]:
-            result_path = f"data/insight/results/result_c_{category}_t_{t}_gl_{grid_level}_ga_{grid_algorithm}.json"
-            if os.path.exists(result_path):
-                result = load_json(result_path)
-            else:
-                baseline_grid_df = get_grid(baseline_df, grid_level=grid_level, which=grid_algorithm)
-                levenshtein_grid_df = get_grid(levenshtein_df, grid_level=grid_level, which=grid_algorithm)
-                trigrams_grid_df = get_grid(trigrams_df, grid_level=grid_level, which=grid_algorithm)
-                mask_df = get_mask_df(grid_level=grid_level)
-                mask_grid_df = get_grid(mask_df, grid_level=grid_level, which=grid_algorithm)
+            for grid_algorithm in ["h3"]:
+                result_path = f"data/insight/results/result_c_{category}_t_{t}_gl_{grid_level}_ga_{grid_algorithm}.json"
+                if os.path.exists(result_path):
+                    result = load_json(result_path)
+                else:
+                    baseline_grid_df = get_grid(baseline_df, grid_level=grid_level, which=grid_algorithm)
+                    levenshtein_grid_df = get_grid(levenshtein_df, grid_level=grid_level, which=grid_algorithm)
+                    trigrams_grid_df = get_grid(trigrams_df, grid_level=grid_level, which=grid_algorithm)
+                    mask_df = get_mask_df(grid_level=grid_level)
+                    mask_grid_df = get_grid(mask_df, grid_level=grid_level, which=grid_algorithm)
 
-                join_cols = ["h3_cell"] if grid_algorithm == "h3" else ["longitude_grid", "latitude_grid"]
+                    join_cols = ["h3_cell"] if grid_algorithm == "h3" else ["longitude_grid", "latitude_grid"]
 
-                aligned_df = align_grid_values(
-                    ("mask", mask_grid_df),
-                    ("baseline", baseline_grid_df),
-                    ("levenshtein", levenshtein_grid_df),
-                    ("trigrams", trigrams_grid_df),
-                    join_cols=join_cols,
-                    id=f"{t}_{grid_level}_{grid_algorithm}_{category}"
+                    aligned_df = align_grid_values(
+                        ("mask", mask_grid_df),
+                        ("baseline", baseline_grid_df),
+                        ("levenshtein", levenshtein_grid_df),
+                        ("trigrams", trigrams_grid_df),
+                        join_cols=join_cols,
+                        id=f"{t}_{grid_level}_{grid_algorithm}_{category}"
 
-                )
-                levenshtein_score = safe_corr(aligned_df, 'baseline', 'levenshtein')
-                trigrams_score = safe_corr(aligned_df, 'baseline', 'trigrams')
-                grid_degree = get_naive_grid_size(grid_level)
-                result = {
-                        "category": category,
-                        "levenshtein_correlation": levenshtein_score,
-                        "trigrams_correlation": trigrams_score,
-                        "similarity_threshold": t,
-                        "grid_level": grid_level,
-                        "grid_degree": grid_degree,
-                        "grid_edge_km": round(grid_degree * 111),
-                        "grid_algorithm": grid_algorithm
-                    }
-                save_json(result, result_path)
-            levenshtein_score = result.get("levenshtein_correlation", numpy.nan)
-            trigrams_score = result.get("trigrams_correlation", numpy.nan)
-            grid_degree = result.get("grid_degree", numpy.nan)
-            grid_level = result.get("grid_level", numpy.nan)
-            grid_edge_km = result.get("grid_edge_km", numpy.nan)
-            if levenshtein_score> 0.25 or trigrams_score > 0.25:
-                print(f"Similarity threshold: {t}, Category: {category}, Grid Level: {grid_level}, Grid edge: {grid_edge_km} KM, Grid algorithm: {grid_algorithm} -> Correlation for levenshtein & trigrams: {levenshtein_score:.4f} & {trigrams_score:.4f}")
-                results_categories.append(result)
+                    )
+                    levenshtein_score = safe_corr(aligned_df, 'baseline', 'levenshtein')
+                    trigrams_score = safe_corr(aligned_df, 'baseline', 'trigrams')
+                    grid_degree = get_naive_grid_size(grid_level)
+                    result = {
+                            "category": category,
+                            "levenshtein_correlation": levenshtein_score,
+                            "trigrams_correlation": trigrams_score,
+                            "similarity_threshold": t,
+                            "grid_level": grid_level,
+                            "grid_degree": grid_degree,
+                            "grid_edge_km": round(grid_degree * 111),
+                            "grid_algorithm": grid_algorithm
+                        }
+                    save_json(result, result_path)
+                levenshtein_score = result.get("levenshtein_correlation", numpy.nan)
+                trigrams_score = result.get("trigrams_correlation", numpy.nan)
+                grid_degree = result.get("grid_degree", numpy.nan)
+                grid_level = result.get("grid_level", numpy.nan)
+                grid_edge_km = result.get("grid_edge_km", numpy.nan)
+                if levenshtein_score> 0.25 or trigrams_score > 0.25:
+                    print(f"Similarity threshold: {t}, Category: {category}, Grid Level: {grid_level}, Grid edge: {grid_edge_km} KM, Grid algorithm: {grid_algorithm} -> Correlation for levenshtein & trigrams: {levenshtein_score:.4f} & {trigrams_score:.4f}")
+                    results_categories.append(result)
         return results_categories
     
 
