@@ -466,6 +466,12 @@ UPDATE fsq_osm_150m_lev
 SET fsq_osm_distance = ST_Distance(fsq_geom, osm_geom);
 ```
 
+# Data Analysis and Visualization
+
+```sql
+\copy ( SELECT fsq_osm_name_similarity_score_trg, fsq_osm_distance FROM fsq_osm_150m_trg ) TO 'name_similarity_distance_only.csv' WITH CSV HEADER;
+```
+
 # Exporting the Final Dataset
 
 To export the final dataset, we can use the `\copy` command to export the `fsq_osm_150m` table to a CSV file. You can use the following SQL command:
@@ -515,6 +521,28 @@ To export the table to csv:
 
 ```sql
 \copy World_POI_levenshtein_05 TO 'World_POI_levenshtein_05.csv' WITH (FORMAT csv, HEADER, QUOTE '"', ESCAPE '"', NULL '', FORCE_QUOTE *);
+```
+
+# 150-meter Tabular data to CSV
+
+Trigram similarity score based filtering:
+
+```sql
+CREATE TABLE World_POI_trigrams_05 AS SELECT * FROM fsq_osm_150m_trg WHERE fsq_osm_name_similarity_score_trg >= 0.5 ;
+\copy ( SELECT * FROM World_POI_trigrams_05 ) TO 'World_POI_trigrams_05.csv' WITH CSV HEADER;
+CREATE TABLE World_POI_trigrams_03 AS SELECT * FROM fsq_osm_150m_trg WHERE fsq_osm_name_similarity_score_trg >= 0.3 ;
+\copy ( SELECT * FROM World_POI_trigrams_03 ) TO 'World_POI_trigrams_03.csv' WITH CSV HEADER;
+```
+
+Levenshtein similarity score based filtering:
+
+```sql
+CREATE TABLE World_POI_levenshtein_05 AS SELECT * FROM fsq_osm_150m_lev WHERE fsq_osm_name_similarity_score_lev >= 0.5;
+\copy ( SELECT * FROM World_POI_levenshtein_05 ) TO 'World_POI_levenshtein_05.csv' WITH CSV HEADER;
+CREATE TABLE World_POI_levenshtein_03 AS SELECT * FROM fsq_osm_150m_lev WHERE fsq_osm_name_similarity_score_lev >= 0.3;
+\copy ( SELECT * FROM World_POI_levenshtein_03 ) TO 'World_POI_levenshtein_03.csv' WITH CSV HEADER;
+
+
 ```
 
 # Generate a Graph from the data

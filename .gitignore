@@ -2,3 +2,4 @@
 *.txt
 data/*
 !data/fsq_osm_category_mapping.csv
+evaluation/figs*
