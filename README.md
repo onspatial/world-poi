@@ -2,15 +2,17 @@
 
 # Download the Dataset:
 
-To download the World-POI dataset, please visit our [OSF repository](https://osf.io/p96uf/files).
+To download the World-POI dataset, please visit our [OSF repository (v1)](https://osf.io/p96uf/files) and [OSF repository (v2)](https://osf.io/dm7yp/files).
 
-We filter the integrated **631 GB dataset (295,176,261 rows)** to provide multiple smaller versions tailored to different use cases. In addition, we create a larger joined dataset using a 150-meter radius, which is approximately **1.2 TB (1,513,806,686 records)**. We also provide filtered versions of this dataset for download based on similarity scores and distance thresholds.
+# Different Versions of the Dataset:
+
+As V1 we used 50-meter distance threshold. We filter the integrated **631 GB dataset (295,176,261 rows)** to provide multiple smaller versions tailored to different use cases. In addition, we create a larger joined dataset using a 150-meter radius, which is approximately **1.5 TB (1,513,806,686 records)**. We also provide filtered versions of this dataset for download based on similarity scores and distance thresholds as V2.
 
 We also ran the query using a 200-meter radius, resulting in a **2 TB dataset (2,421,541,453 records)**. However, due to computational limitations, we do not process this dataset further.
 
 _Please note that we don't provide the full dataset due to its large size, but you can follow the instructions in this repository to reproduce the full dataset._
 
-## Tabular Data:
+## Tabular Data (V2):
 
 | name                                                              | description                                              | Size   | #Records   |
 | ----------------------------------------------------------------- | -------------------------------------------------------- | ------ | ---------- |
@@ -19,7 +21,7 @@ _Please note that we don't provide the full dataset due to its large size, but y
 | [World_POI_trigrams_0.5.csv](https://osf.io/p96uf/files/pxamv)    | Filtered dataset with Trigram similarity score > 0.5     | 7.8 GB | 8,744,036  |
 | [World_POI_trigrams_0.3.csv](https://osf.io/p96uf/files/sj25r)    | Filtered dataset with Trigram similarity score > 0.3     | 13 GB  | 13,368,159 |
 
-## Graph Data:
+## Graph Data (V2):
 
 | name                                                                         | description                                                                    | Size   | #Edges      |
 | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------ | ----------- |
