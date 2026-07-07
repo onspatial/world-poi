@@ -283,7 +283,7 @@ def get_results_category(category, grid_level=0):
             
 
             for grid_algorithm in ["h3"]:
-                result_path = f"data/insight/results/result_c_{category}_t_{t}_gl_{grid_level}_ga_{grid_algorithm}.json"
+                result_path = f"data/insight/results/result_c_{category}_t_{t}_d_{d}_gl_{grid_level}_ga_{grid_algorithm}.json"
                 if os.path.exists(result_path):
                     result = load_json(result_path)
                 else:
@@ -301,7 +301,7 @@ def get_results_category(category, grid_level=0):
                         ("levenshtein", levenshtein_grid_df),
                         ("trigrams", trigrams_grid_df),
                         join_cols=join_cols,
-                        id=f"{t}_{grid_level}_{grid_algorithm}_{category}"
+                        id=f"{t}_{d}_{grid_level}_{grid_algorithm}_{category}"
 
                     )
                     levenshtein_score = safe_corr(aligned_df, 'baseline', 'levenshtein')
@@ -312,6 +312,7 @@ def get_results_category(category, grid_level=0):
                             "levenshtein_correlation": levenshtein_score,
                             "trigrams_correlation": trigrams_score,
                             "similarity_threshold": t,
+                            "distance_threshold": d,
                             "grid_level": grid_level,
                             "grid_degree": grid_degree,
                             "grid_edge_km": round(grid_degree * 111),
@@ -323,8 +324,9 @@ def get_results_category(category, grid_level=0):
                 grid_degree = result.get("grid_degree", numpy.nan)
                 grid_level = result.get("grid_level", numpy.nan)
                 grid_edge_km = result.get("grid_edge_km", numpy.nan)
+                distance_threshold = result.get("distance_threshold", numpy.nan)
                 if levenshtein_score> 0.25 or trigrams_score > 0.25:
-                    print(f"Similarity threshold: {t}, Category: {category}, Grid Level: {grid_level}, Grid edge: {grid_edge_km} KM, Grid algorithm: {grid_algorithm} -> Correlation for levenshtein & trigrams: {levenshtein_score:.4f} & {trigrams_score:.4f}")
+                    print(f"Similarity threshold: {t}, Distance threshold: {d}, Category: {category}, Grid Level: {grid_level}, Grid edge: {grid_edge_km} KM, Grid algorithm: {grid_algorithm} -> Correlation for levenshtein & trigrams: {levenshtein_score:.4f} & {trigrams_score:.4f}")
                     results_categories.append(result)
         return results_categories
     

@@ -1,9 +1,7 @@
 # this file can be used to filter the csv file based on the similarity score and distance
 
 import os
-
 import pandas
-
 
 
 def get_dtype(similarity_col):
@@ -53,7 +51,6 @@ def get_dtype(similarity_col):
 
 
 
-
 def process(input_file, output_file, score, distance, chunksize=100000, similarity_col="fsq_osm_name_similarity_score_lev"):
     if not os.path.exists(input_file):
         print(f"File not found: {input_file}")
@@ -70,7 +67,7 @@ def process(input_file, output_file, score, distance, chunksize=100000, similari
     for chunk in pandas.read_csv(
         input_file,
         chunksize=chunksize,
-        dtype=get_dtype(similarity_col),
+        dtype=get_dtype(similarity_col=similarity_col),
         low_memory=False
     ):
         out = chunk[
@@ -89,14 +86,14 @@ def process(input_file, output_file, score, distance, chunksize=100000, similari
 
 if __name__ == "__main__":
     
-    scores = [ 1.0]
+    scores = [ 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
     distances = [0.0015,  0.00125,  0.001, 0.0005, 0.00025]
     # score and distance should be sorted so previous data can be used to filter the next data for efficiency
     scores.sort()
     distances.sort(reverse=True)
     print(f"Scores: {scores}")
     print(f"Distances: {distances}")
-    prev_score=0.5
+    prev_score=0.3
     prev_distance=0.0015
     for score in scores:
         for distance in distances:
@@ -104,5 +101,5 @@ if __name__ == "__main__":
             process(f'data/World_POI_levenshtein_{prev_score}_{prev_distance}.csv', f'data/World_POI_levenshtein_{score}_{distance}.csv', score, distance,similarity_col = "fsq_osm_name_similarity_score_lev")
             process(f'data/World_POI_trigrams_{prev_score}_{prev_distance}.csv', f'data/World_POI_trigrams_{score}_{distance}.csv', score, distance,similarity_col = "fsq_osm_name_similarity_score_trg")
             prev_distance=distance
-        prev_score=score
+            prev_score=score
 
