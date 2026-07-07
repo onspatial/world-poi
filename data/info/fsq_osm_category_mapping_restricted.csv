@@ -1,0 +1,1246 @@
+Category ID,Category Name,Category Label,osm_class,osm_type
+4d4b7104d754a06370d81259,Arts and Entertainment,Arts and Entertainment,amenity,yes
+4bf58dd8d48988d182941735,Amusement Park,Arts and Entertainment > Amusement Park,tourism,theme_park
+5109983191d435c0d71c2bb1,Attraction,Arts and Entertainment > Amusement Park > Attraction,tourism,attraction
+4fceea171983d5d06c3e9823,Aquarium,Arts and Entertainment > Aquarium,tourism,aquarium
+4bf58dd8d48988d1e1931735,Arcade,Arts and Entertainment > Arcade,leisure,amusement_arcade
+4bf58dd8d48988d1e2931735,Art Gallery,Arts and Entertainment > Art Gallery,tourism,gallery
+63be6904847c3692a84b9b20,Bingo Center,Arts and Entertainment > Bingo Center,amenity,gambling
+4bf58dd8d48988d1e4931735,Bowling Alley,Arts and Entertainment > Bowling Alley,leisure,bowling_alley
+63be6904847c3692a84b9b21,Carnival,Arts and Entertainment > Carnival,leisure,carnival
+4bf58dd8d48988d17c941735,Casino,Arts and Entertainment > Casino,amenity,casino
+52e81612bcbc57f1066b79e7,Circus,Arts and Entertainment > Circus,amenity,circus
+4bf58dd8d48988d18e941735,Comedy Club,Arts and Entertainment > Comedy Club,amenity,comedy_club
+63be6904847c3692a84b9b22,Country Club,Arts and Entertainment > Country Club,club,country_club
+52e81612bcbc57f1066b79ef,Country Dance Club,Arts and Entertainment > Country Dance Club,leisure,dance
+63be6904847c3692a84b9b23,Dance Hall,Arts and Entertainment > Dance Hall,leisure,dance
+52e81612bcbc57f1066b79e8,Disc Golf,Arts and Entertainment > Disc Golf,leisure,disc_golf_course
+63be6904847c3692a84b9c03,Disc Golf Course,Arts and Entertainment > Disc Golf Course,leisure,disc_golf_course
+5f2c2834b6d05514c704451e,Escape Room,Arts and Entertainment > Escape Room,leisure,escape_game
+56aa371be4b08b9a8d573532,Exhibit,Arts and Entertainment > Exhibit,tourism,exhibit
+4eb1daf44b900d56c88a4600,Fair,Arts and Entertainment > Fair,landuse,fairground
+4bf58dd8d48988d18d941735,Gaming Cafe,Arts and Entertainment > Gaming Cafe,amenity,lan_gaming_centre
+4bf58dd8d48988d1f1931735,General Entertainment,Arts and Entertainment > General Entertainment,amenity,yes
+52e81612bcbc57f1066b79ea,Go Kart Track,Arts and Entertainment > Go Kart Track,leisure,go_karting
+4bf58dd8d48988d1f0941735,Internet Cafe,Arts and Entertainment > Internet Cafe,amenity,internet_cafe
+5744ccdfe4b0c0459246b4bb,Karaoke Box,Arts and Entertainment > Karaoke Box,amenity,karaoke_box
+52e81612bcbc57f1066b79e6,Laser Tag Center,Arts and Entertainment > Laser Tag Center,leisure,laser_tag
+52e81612bcbc57f1066b79eb,Mini Golf Course,Arts and Entertainment > Mini Golf Course,leisure,miniature_golf
+4bf58dd8d48988d17f941735,Movie Theater,Arts and Entertainment > Movie Theater,amenity,cinema
+56aa371be4b08b9a8d5734de,Drive-in Theater,Arts and Entertainment > Movie Theater > Drive-in Theater,amenity,cinema
+4bf58dd8d48988d17e941735,Indie Movie Theater,Arts and Entertainment > Movie Theater > Indie Movie Theater,amenity,cinema
+4bf58dd8d48988d180941735,Multiplex,Arts and Entertainment > Movie Theater > Multiplex,amenity,cinema
+4bf58dd8d48988d181941735,Museum,Arts and Entertainment > Museum,tourism,museum
+4bf58dd8d48988d18f941735,Art Museum,Arts and Entertainment > Museum > Art Museum,tourism,museum
+559acbe0498e472f1a53fa23,Erotic Museum,Arts and Entertainment > Museum > Erotic Museum,tourism,museum
+4bf58dd8d48988d190941735,History Museum,Arts and Entertainment > Museum > History Museum,tourism,museum
+4bf58dd8d48988d191941735,Science Museum,Arts and Entertainment > Museum > Science Museum,tourism,museum
+4bf58dd8d48988d11f941735,Night Club,Arts and Entertainment > Night Club,amenity,nightclub
+5744ccdfe4b0c0459246b4b8,Pachinko Parlor,Arts and Entertainment > Pachinko Parlor,amenity,gambling
+63be6904847c3692a84b9b24,Party Center,Arts and Entertainment > Party Center,amenity,events_venue
+4bf58dd8d48988d1f2931735,Performing Arts Venue,Arts and Entertainment > Performing Arts Venue,amenity,theatre
+56aa371be4b08b9a8d5734db,Amphitheater,Arts and Entertainment > Performing Arts Venue > Amphitheater,amenity,theatre
+5032792091d4c4b30a586d5c,Concert Hall,Arts and Entertainment > Performing Arts Venue > Concert Hall,amenity,music_venue
+4bf58dd8d48988d135941735,Indie Theater,Arts and Entertainment > Performing Arts Venue > Indie Theater,amenity,theatre
+4bf58dd8d48988d1e5931735,Music Venue,Arts and Entertainment > Performing Arts Venue > Music Venue,amenity,music_venue
+4bf58dd8d48988d1e7931735,Jazz and Blues Venue,Arts and Entertainment > Performing Arts Venue > Music Venue > Jazz and Blues Venue,amenity,music_venue
+4bf58dd8d48988d1e9931735,Rock Club,Arts and Entertainment > Performing Arts Venue > Music Venue > Rock Club,amenity,music_venue
+4bf58dd8d48988d136941735,Opera House,Arts and Entertainment > Performing Arts Venue > Opera House,amenity,theatre
+4bf58dd8d48988d137941735,Theater,Arts and Entertainment > Performing Arts Venue > Theater,amenity,theatre
+4bf58dd8d48988d192941735,Planetarium,Arts and Entertainment > Planetarium,amenity,planetarium
+4bf58dd8d48988d1e3931735,Pool Hall,Arts and Entertainment > Pool Hall,amenity,pool_hall
+52f2ab2ebcbc57f1066b8b43,Psychic and Astrologer,Arts and Entertainment > Psychic and Astrologer,craft,psychic
+507c8c4091d498d9fc8c67a9,Public Art,Arts and Entertainment > Public Art,tourism,artwork
+52e81612bcbc57f1066b79ed,Outdoor Sculpture,Arts and Entertainment > Public Art > Outdoor Sculpture,tourism,artwork
+52e81612bcbc57f1066b79ee,Street Art,Arts and Entertainment > Public Art > Street Art,tourism,artwork
+52e81612bcbc57f1066b79e9,Roller Rink,Arts and Entertainment > Roller Rink,amenity,roller_rink
+52e81612bcbc57f1066b79ec,Salsa Club,Arts and Entertainment > Salsa Club,leisure,dance
+56aa371be4b08b9a8d5734f9,Samba School,Arts and Entertainment > Samba School,amenity,community_centre
+4bf58dd8d48988d184941735,Stadium,Arts and Entertainment > Stadium,leisure,stadium
+4bf58dd8d48988d18c941735,Baseball Stadium,Arts and Entertainment > Stadium > Baseball Stadium,leisure,stadium
+4bf58dd8d48988d18b941735,Basketball Stadium,Arts and Entertainment > Stadium > Basketball Stadium,leisure,stadium
+4bf58dd8d48988d189941735,Football Stadium,Arts and Entertainment > Stadium > Football Stadium,leisure,stadium
+4bf58dd8d48988d185941735,Hockey Stadium,Arts and Entertainment > Stadium > Hockey Stadium,leisure,stadium
+56aa371be4b08b9a8d573556,Rugby Stadium,Arts and Entertainment > Stadium > Rugby Stadium,leisure,stadium
+4bf58dd8d48988d188941735,Soccer Stadium,Arts and Entertainment > Stadium > Soccer Stadium,leisure,stadium
+4e39a891bd410d7aed40cbc2,Tennis Stadium,Arts and Entertainment > Stadium > Tennis Stadium,leisure,stadium
+4bf58dd8d48988d187941735,Track Stadium,Arts and Entertainment > Stadium > Track Stadium,leisure,stadium
+4bf58dd8d48988d1d6941735,Strip Club,Arts and Entertainment > Strip Club,amenity,stripclub
+63be6904847c3692a84b9b25,Ticket Seller,Arts and Entertainment > Ticket Seller,shop,ticket
+5f2c14a5b6d05514c7042eb7,VR Cafe,Arts and Entertainment > VR Cafe,leisure,escape_game
+4bf58dd8d48988d193941735,Water Park,Arts and Entertainment > Water Park,leisure,water_park
+4bf58dd8d48988d17b941735,Zoo,Arts and Entertainment > Zoo,tourism,zoo
+58daa1558bbb0b01f18ec1fd,Zoo Exhibit,Arts and Entertainment > Zoo > Zoo Exhibit,tourism,zoo
+4d4b7105d754a06375d81259,Business and Professional Services,Business and Professional Services,office,yes
+52e81612bcbc57f1066b7a3d,Advertising Agency,Business and Professional Services > Advertising Agency,office,advertising_agency
+63be6904847c3692a84b9b26,Agriculture and Forestry Service,Business and Professional Services > Agriculture and Forestry Service,office,yes
+63be6904847c3692a84b9b27,Appraiser,Business and Professional Services > Appraiser,office,appraiser
+5fac002599ce226e27fe72e5,Architecture Firm,Business and Professional Services > Architecture Firm,office,architect
+63be6904847c3692a84b9b28,Art Restoration Service,Business and Professional Services > Art Restoration Service,craft,restoration
+58daa1558bbb0b01f18ec1d6,Art Studio,Business and Professional Services > Art Studio,craft,atelier
+63be6904847c3692a84b9b29,Audiovisual Service,Business and Professional Services > Audiovisual Service,office,yes
+4bf58dd8d48988d173941735,Auditorium,Business and Professional Services > Auditorium,amenity,auditorium
+63be6904847c3692a84b9b2a,Automation and Control System,Business and Professional Services > Automation and Control System,office,yes
+63be6904847c3692a84b9b2b,Automotive Service,Business and Professional Services > Automotive Service,shop,yes
+52f2ab2ebcbc57f1066b8b44,Automotive Repair Shop,Business and Professional Services > Automotive Service > Automotive Repair Shop,shop,car_repair
+4f04ae1f2fb6e1c99f3db0ba,Car Wash and Detail,Business and Professional Services > Automotive Service > Car Wash and Detail,amenity,car_wash
+63be6904847c3692a84b9b2c,Motorcycle Repair Shop,Business and Professional Services > Automotive Service > Motorcycle Repair Shop,shop,motorcycle_repair
+63be6904847c3692a84b9b2d,Oil Change Service,Business and Professional Services > Automotive Service > Oil Change Service,shop,car_repair
+63be6904847c3692a84b9b2e,Smog Check Shop,Business and Professional Services > Automotive Service > Smog Check Shop,amenity,vehicle_inspection
+63be6904847c3692a84b9b2f,Tire Repair Shop,Business and Professional Services > Automotive Service > Tire Repair Shop,shop,tyres
+63be6904847c3692a84b9b30,Towing Service,Business and Professional Services > Automotive Service > Towing Service,office,towing
+63be6904847c3692a84b9b31,Transmissions Shop,Business and Professional Services > Automotive Service > Transmissions Shop,shop,car_repair
+5f2c1e0db6d05514c70436d4,Vehicle Inspection Station,Business and Professional Services > Automotive Service > Vehicle Inspection Station,amenity,vehicle_inspection
+56aa371be4b08b9a8d5734cf,Ballroom,Business and Professional Services > Ballroom,amenity,events_venue
+56aa371be4b08b9a8d573517,Business Center,Business and Professional Services > Business Center,office,yes
+5453de49498eade8af355881,Business Service,Business and Professional Services > Business Service,office,yes
+63be6904847c3692a84b9b33,Career Counselor,Business and Professional Services > Career Counselor,office,yes
+63be6904847c3692a84b9b34,Chemicals and Gasses Manufacturer,Business and Professional Services > Chemicals and Gasses Manufacturer,office,yes
+5744ccdfe4b0c0459246b4c7,Child Care Service,Business and Professional Services > Child Care Service,amenity,childcare
+4f4532974b9074f6e4fb0104,Daycare,Business and Professional Services > Child Care Service > Daycare,amenity,childcare
+63be6904847c3692a84b9b35,Computer Repair Service,Business and Professional Services > Computer Repair Service,craft,electronics_repair
+63be6904847c3692a84b9b36,Construction,Business and Professional Services > Construction,office,construction_company
+4bf58dd8d48988d1ff931735,Convention Center,Business and Professional Services > Convention Center,amenity,conference_centre
+4bf58dd8d48988d100941735,Conference Room,Business and Professional Services > Convention Center > Conference Room,amenity,conference_room
+63be6904847c3692a84b9b37,Creative Service,Business and Professional Services > Creative Service,office,yes
+4bf58dd8d48988d1f4941735,Design Studio,Business and Professional Services > Design Studio,office,graphic_design
+63be6904847c3692a84b9b38,Direct Mail and Email Marketing Service,Business and Professional Services > Direct Mail and Email Marketing Service,office,yes
+52e81612bcbc57f1066b7a37,Distribution Center,Business and Professional Services > Distribution Center,office,logistics
+63be6904847c3692a84b9b39,Electrical Equipment Supplier,Business and Professional Services > Electrical Equipment Supplier,shop,electrical
+52f2ab2ebcbc57f1066b8b57,Employment Agency,Business and Professional Services > Employment Agency,office,employment_agency
+63be6904847c3692a84b9b3a,Engineer,Business and Professional Services > Engineer,office,engineer
+63be6904847c3692a84b9b3b,Entertainment Agency,Business and Professional Services > Entertainment Agency,office,yes
+56aa371be4b08b9a8d573554,Entertainment Service,Business and Professional Services > Entertainment Service,office,yes
+63be6904847c3692a84b9b3c,Equipment Rental Service,Business and Professional Services > Equipment Rental Service,shop,rental
+5454152e498ef71e2b9132c6,Event Service,Business and Professional Services > Event Service,office,event_management
+4bf58dd8d48988d171941735,Event Space,Business and Professional Services > Event Space,amenity,events_venue
+4eb1bea83b7b6f98df247e06,Factory,Business and Professional Services > Factory,man_made,works
+56aa371be4b08b9a8d573523,Film Studio,Business and Professional Services > Film Studio,amenity,studio
+63be6904847c3692a84b9b3d,Financial Service,Business and Professional Services > Financial Service,office,financial
+63be6904847c3692a84b9b3e,Accounting and Bookkeeping Service,Business and Professional Services > Financial Service > Accounting and Bookkeeping Service,office,accountant
+63be6904847c3692a84b9b3f,Banking and Finance,Business and Professional Services > Financial Service > Banking and Finance,amenity,bank
+52f2ab2ebcbc57f1066b8b56,ATM,Business and Professional Services > Financial Service > Banking and Finance > ATM,amenity,atm
+4bf58dd8d48988d10a951735,Bank,Business and Professional Services > Financial Service > Banking and Finance > Bank,amenity,bank
+5032850891d4c4b30a586d62,Credit Union,Business and Professional Services > Financial Service > Banking and Finance > Credit Union,amenity,bank
+63be6904847c3692a84b9b40,Business Broker,Business and Professional Services > Financial Service > Business Broker,office,financial
+52f2ab2ebcbc57f1066b8b2d,Check Cashing Service,Business and Professional Services > Financial Service > Check Cashing Service,shop,money_lender
+63be6904847c3692a84b9b41,Collections Service,Business and Professional Services > Financial Service > Collections Service,office,yes
+63be6904847c3692a84b9b42,Credit Counseling and Bankruptcy Service,Business and Professional Services > Financial Service > Credit Counseling and Bankruptcy Service,office,yes
+5744ccdfe4b0c0459246b4be,Currency Exchange,Business and Professional Services > Financial Service > Currency Exchange,amenity,bureau_de_change
+63be6904847c3692a84b9b43,Financial Planner,Business and Professional Services > Financial Service > Financial Planner,office,financial_advisor
+63be6904847c3692a84b9b44,Loans Agency,Business and Professional Services > Financial Service > Loans Agency,shop,money_lender
+63be6904847c3692a84b9b45,Stock Broker,Business and Professional Services > Financial Service > Stock Broker,office,financial
+56aa371be4b08b9a8d573550,Food and Beverage Service,Business and Professional Services > Food and Beverage Service,office,yes
+63be6904847c3692a84b9b46,Caterer,Business and Professional Services > Food and Beverage Service > Caterer,craft,caterer
+63be6904847c3692a84b9b47,Food Distribution Center,Business and Professional Services > Food and Beverage Service > Food Distribution Center,office,logistics
+4f4534884b9074f6e4fb0174,Funeral Home,Business and Professional Services > Funeral Home,shop,funeral_directors
+63be6904847c3692a84b9b48,Geological Service,Business and Professional Services > Geological Service,office,yes
+54541900498ea6ccd0202697,Health and Beauty Service,Business and Professional Services > Health and Beauty Service,shop,yes
+63be6904847c3692a84b9b49,Barbershop,Business and Professional Services > Health and Beauty Service > Barbershop,shop,hairdresser
+52e81612bcbc57f1066b7a27,Bath House,Business and Professional Services > Health and Beauty Service > Bath House,amenity,public_bath
+52f2ab2ebcbc57f1066b8b20,Body Piercing Shop,Business and Professional Services > Health and Beauty Service > Body Piercing Shop,shop,piercing
+52f2ab2ebcbc57f1066b8b1d,Dry Cleaner,Business and Professional Services > Health and Beauty Service > Dry Cleaner,shop,dry_cleaning
+63be6904847c3692a84b9b4a,Hair Removal Service,Business and Professional Services > Health and Beauty Service > Hair Removal Service,shop,beauty
+4bf58dd8d48988d110951735,Hair Salon,Business and Professional Services > Health and Beauty Service > Hair Salon,shop,hairdresser
+52f2ab2ebcbc57f1066b8b3c,Massage Clinic,Business and Professional Services > Health and Beauty Service > Massage Clinic,shop,massage
+4f04aa0c2fb6e1c99f3db0b8,Nail Salon,Business and Professional Services > Health and Beauty Service > Nail Salon,shop,beauty
+63be6904847c3692a84b9b4b,Skin Care Clinic,Business and Professional Services > Health and Beauty Service > Skin Care Clinic,shop,beauty
+4bf58dd8d48988d1ed941735,Spa,Business and Professional Services > Health and Beauty Service > Spa,shop,beauty
+4d1cf8421a97d635ce361c31,Tanning Salon,Business and Professional Services > Health and Beauty Service > Tanning Salon,shop,beauty
+4bf58dd8d48988d1de931735,Tattoo Parlor,Business and Professional Services > Health and Beauty Service > Tattoo Parlor,shop,tattoo
+63be6904847c3692a84b9b58,Home Improvement Service,Business and Professional Services > Home Improvement Service,office,construction_company
+63be6904847c3692a84b9b4c,Bathroom Contractor,Business and Professional Services > Home Improvement Service > Bathroom Contractor,craft,yes
+63be6904847c3692a84b9b4d,Carpenter,Business and Professional Services > Home Improvement Service > Carpenter,craft,carpenter
+63be6904847c3692a84b9b4e,Carpet and Flooring Contractor,Business and Professional Services > Home Improvement Service > Carpet and Flooring Contractor,craft,floorer
+63be6904847c3692a84b9b4f,Chimney Sweep,Business and Professional Services > Home Improvement Service > Chimney Sweep,craft,chimney_sweeper
+63be6904847c3692a84b9b50,Deck and Patio Contractor,Business and Professional Services > Home Improvement Service > Deck and Patio Contractor,craft,yes
+63be6904847c3692a84b9b51,Doors and Windows Contractor,Business and Professional Services > Home Improvement Service > Doors and Windows Contractor,craft,window_construction
+63be6904847c3692a84b9b52,Electrician,Business and Professional Services > Home Improvement Service > Electrician,craft,electrician
+63be6904847c3692a84b9b53,Fence Contractor,Business and Professional Services > Home Improvement Service > Fence Contractor,craft,fence_maker
+63be6904847c3692a84b9b54,Garage Door Supplier,Business and Professional Services > Home Improvement Service > Garage Door Supplier,shop,doors
+63be6904847c3692a84b9b55,General Contractor,Business and Professional Services > Home Improvement Service > General Contractor,craft,builder
+63be6904847c3692a84b9b56,"Heating, Ventilating and Air Conditioning Contractor","Business and Professional Services > Home Improvement Service > Heating, Ventilating and Air Conditioning Contractor",craft,hvac
+63be6904847c3692a84b9b57,Home Inspection,Business and Professional Services > Home Improvement Service > Home Inspection,office,surveyor
+545419b1498ea6ccd0202f58,Home Service,Business and Professional Services > Home Improvement Service > Home Service,craft,yes
+63be6904847c3692a84b9b59,Interior Designer,Business and Professional Services > Home Improvement Service > Interior Designer,craft,interior_decorator
+63be6904847c3692a84b9b5a,Kitchen Remodeler,Business and Professional Services > Home Improvement Service > Kitchen Remodeler,craft,interior_work
+63be6904847c3692a84b9b5b,Landscaper and Gardener,Business and Professional Services > Home Improvement Service > Landscaper and Gardener,craft,gardener
+63be6904847c3692a84b9b5c,Mover,Business and Professional Services > Home Improvement Service > Mover,office,moving_company
+63be6904847c3692a84b9b5d,Painter,Business and Professional Services > Home Improvement Service > Painter,craft,painter
+63be6904847c3692a84b9b5e,Pest Control Service,Business and Professional Services > Home Improvement Service > Pest Control Service,craft,pest_control
+63be6904847c3692a84b9b5f,Plumber,Business and Professional Services > Home Improvement Service > Plumber,craft,plumber
+63be6904847c3692a84b9b60,Professional Cleaning Service,Business and Professional Services > Home Improvement Service > Professional Cleaning Service,craft,cleaning
+63be6904847c3692a84b9b61,Roofer,Business and Professional Services > Home Improvement Service > Roofer,craft,roofer
+63be6904847c3692a84b9b62,Sewer Contractor,Business and Professional Services > Home Improvement Service > Sewer Contractor,craft,plumber
+63be6904847c3692a84b9b63,Swimming Pool Maintenance and Service,Business and Professional Services > Home Improvement Service > Swimming Pool Maintenance and Service,craft,yes
+63be6904847c3692a84b9b64,Tree Service,Business and Professional Services > Home Improvement Service > Tree Service,craft,gardener
+63be6904847c3692a84b9b65,Upholstery Service,Business and Professional Services > Home Improvement Service > Upholstery Service,craft,upholsterer
+63be6904847c3692a84b9b66,Human Resources Agency,Business and Professional Services > Human Resources Agency,office,yes
+63be6904847c3692a84b9b67,Import and Export Service,Business and Professional Services > Import and Export Service,office,yes
+63be6904847c3692a84b9b68,Industrial Equipment Supplier,Business and Professional Services > Industrial Equipment Supplier,shop,yes
+56aa371be4b08b9a8d5734d7,Industrial Estate,Business and Professional Services > Industrial Estate,landuse,industrial
+58daa1558bbb0b01f18ec1f1,Insurance Agency,Business and Professional Services > Insurance Agency,office,insurance
+63be6904847c3692a84b9b69,Laboratory,Business and Professional Services > Laboratory,craft,laboratory
+52f2ab2ebcbc57f1066b8b33,Laundromat,Business and Professional Services > Laundromat,shop,laundry
+4bf58dd8d48988d1fc941735,Laundry Service,Business and Professional Services > Laundry Service,shop,laundry
+63be6904847c3692a84b9b6a,Leather Supplier,Business and Professional Services > Leather Supplier,shop,yes
+63be6904847c3692a84b9b6b,Legal Service,Business and Professional Services > Legal Service,office,lawyer
+63be6904847c3692a84b9b6c,Immigration Attorney,Business and Professional Services > Legal Service > Immigration Attorney,office,lawyer
+52f2ab2ebcbc57f1066b8b3f,Law Office,Business and Professional Services > Legal Service > Law Office,office,lawyer
+5ae95d208a6f17002ce792b2,Notary,Business and Professional Services > Legal Service > Notary,office,notary
+52f2ab2ebcbc57f1066b8b1e,Locksmith,Business and Professional Services > Locksmith,craft,locksmith
+63be6904847c3692a84b9b6d,Logging Service,Business and Professional Services > Logging Service,office,yes
+52f2ab2ebcbc57f1066b8b38,Lottery Retailer,Business and Professional Services > Lottery Retailer,shop,lottery
+63be6904847c3692a84b9b6e,Machine Shop,Business and Professional Services > Machine Shop,craft,metal_construction
+63be6904847c3692a84b9b6f,Management Consultant,Business and Professional Services > Management Consultant,office,consulting
+63be6904847c3692a84b9b70,Manufacturer,Business and Professional Services > Manufacturer,man_made,works
+63be6904847c3692a84b9b71,Market Research and Consulting Service,Business and Professional Services > Market Research and Consulting Service,office,consulting
+63be6904847c3692a84b9b72,Media Agency,Business and Professional Services > Media Agency,office,yes
+63be6904847c3692a84b9b73,Metals Supplier,Business and Professional Services > Metals Supplier,shop,yes
+63be6904847c3692a84b9b74,Mobile Company,Business and Professional Services > Mobile Company,office,yes
+4bf58dd8d48988d124941735,Office,Business and Professional Services > Office,office,yes
+63be6904847c3692a84b9b32,Business and Strategy Consulting Office,Business and Professional Services > Office > Business and Strategy Consulting Office,office,yes
+5032764e91d4c4b30a586d5a,Campaign Office,Business and Professional Services > Office > Campaign Office,office,yes
+5665ef1d498ec706735f0e59,Corporate Amenity,Business and Professional Services > Office > Corporate Amenity,amenity,yes
+54f4ba06498e2cf5561da814,Corporate Cafeteria,Business and Professional Services > Office > Corporate Cafeteria,amenity,restaurant
+5665c7b9498e7d8a4f2c0f06,Corporate Coffee Shop,Business and Professional Services > Office > Corporate Coffee Shop,amenity,cafe
+63be6904847c3692a84b9b75,Corporate Housing Agency,Business and Professional Services > Office > Corporate Housing Agency,office,yes
+4bf58dd8d48988d174941735,Coworking Space,Business and Professional Services > Office > Coworking Space,office,coworking
+4bf58dd8d48988d127941735,Meeting Room,Business and Professional Services > Office > Meeting Room,amenity,meeting_room
+63be6904847c3692a84b9b76,Office Building,Business and Professional Services > Office > Office Building,building,office
+4bf58dd8d48988d125941735,Tech Startup,Business and Professional Services > Office > Tech Startup,office,startup
+63be6904847c3692a84b9b77,Online Advertising Service,Business and Professional Services > Online Advertising Service,office,internet_marketing_service
+56aa371be4b08b9a8d57356a,Outdoor Event Space,Business and Professional Services > Outdoor Event Space,amenity,yes
+63be6904847c3692a84b9b78,Paper Supplier,Business and Professional Services > Paper Supplier,shop,yes
+5032897c91d4c4b30a586d69,Pet Service,Business and Professional Services > Pet Service,shop,pet
+63be6904847c3692a84b9b79,Pet Grooming Service,Business and Professional Services > Pet Service > Pet Grooming Service,shop,pet_grooming
+63be6904847c3692a84b9b7a,Pet Sitting and Boarding Service,Business and Professional Services > Pet Service > Pet Sitting and Boarding Service,amenity,animal_boarding
+63be6904847c3692a84b9b7b,Petroleum Supplier,Business and Professional Services > Petroleum Supplier,shop,yes
+63be6904847c3692a84b9b7d,Photography Service,Business and Professional Services > Photography Service,craft,photographer
+63be6904847c3692a84b9b7c,Photographer,Business and Professional Services > Photography Service > Photographer,craft,photographer
+4eb1bdde3b7b55596b4a7490,Photography Lab,Business and Professional Services > Photography Service > Photography Lab,craft,photographic_laboratory
+554a5e17498efabeda6cc559,Photography Studio,Business and Professional Services > Photography Service > Photography Studio,craft,photographer
+63be6904847c3692a84b9b7e,Plastics Supplier,Business and Professional Services > Plastics Supplier,shop,yes
+58daa1548bbb0b01f18ec1a9,Power Plant,Business and Professional Services > Power Plant,power,plant
+63be6904847c3692a84b9b7f,"Print, TV, Radio and Outdoor Advertising Service","Business and Professional Services > Print, TV, Radio and Outdoor Advertising Service",office,yes
+63be6904847c3692a84b9b80,Promotional Item Service,Business and Professional Services > Promotional Item Service,office,yes
+63be6904847c3692a84b9b81,Public Relations Firm,Business and Professional Services > Public Relations Firm,office,public_relations
+63be6904847c3692a84b9b82,Publisher,Business and Professional Services > Publisher,office,publisher
+5032856091d4c4b30a586d63,Radio Station,Business and Professional Services > Radio Station,office,broadcaster
+63be6904847c3692a84b9b83,Real Estate Service,Business and Professional Services > Real Estate Service,office,estate_agent
+63be6904847c3692a84b9b84,Building and Land Surveyor,Business and Professional Services > Real Estate Service > Building and Land Surveyor,office,surveyor
+63be6904847c3692a84b9b85,Commercial Real Estate Developer,Business and Professional Services > Real Estate Service > Commercial Real Estate Developer,office,yes
+63be6904847c3692a84b9b86,Property Management Office,Business and Professional Services > Real Estate Service > Property Management Office,office,property_management
+5032885091d4c4b30a586d66,Real Estate Agency,Business and Professional Services > Real Estate Service > Real Estate Agency,office,estate_agent
+63be6904847c3692a84b9b87,Real Estate Appraiser,Business and Professional Services > Real Estate Service > Real Estate Appraiser,office,real_estate_appraiser
+63be6904847c3692a84b9b88,Real Estate Development and Title Company,Business and Professional Services > Real Estate Service > Real Estate Development and Title Company,office,yes
+52f2ab2ebcbc57f1066b8b37,Recording Studio,Business and Professional Services > Recording Studio,amenity,studio
+4f4531084b9074f6e4fb0101,Recycling Facility,Business and Professional Services > Recycling Facility,amenity,recycling
+63be6904847c3692a84b9b89,Refrigeration and Ice Supplier,Business and Professional Services > Refrigeration and Ice Supplier,shop,yes
+63be6904847c3692a84b9b8a,Renewable Energy Service,Business and Professional Services > Renewable Energy Service,office,yes
+56aa371be4b08b9a8d573552,Rental Service,Business and Professional Services > Rental Service,shop,yes
+52f2ab2ebcbc57f1066b8b2f,Repair Service,Business and Professional Services > Repair Service,craft,yes
+5744ccdfe4b0c0459246b4d6,Research Laboratory,Business and Professional Services > Research Laboratory,craft,laboratory
+58daa1558bbb0b01f18ec1b2,Research Station,Business and Professional Services > Research Station,office,research
+63be6904847c3692a84b9b8b,Rubber Supplier,Business and Professional Services > Rubber Supplier,shop,yes
+63be6904847c3692a84b9b8c,Salvage Yard,Business and Professional Services > Salvage Yard,shop,salvage
+63be6904847c3692a84b9b8d,Scientific Equipment Supplier,Business and Professional Services > Scientific Equipment Supplier,shop,yes
+63be6904847c3692a84b9b8e,Search Engine Marketing and Optimization Service,Business and Professional Services > Search Engine Marketing and Optimization Service,office,yes
+63be6904847c3692a84b9b8f,Security and Safety,Business and Professional Services > Security and Safety,office,security
+52f2ab2ebcbc57f1066b8b1f,"Shipping, Freight, and Material Transportation Service","Business and Professional Services > Shipping, Freight, and Material Transportation Service",office,logistics
+52f2ab2ebcbc57f1066b8b39,Shoe Repair Service,Business and Professional Services > Shoe Repair Service,shop,shoe_repair
+4f04b1572fb6e1c99f3db0bf,Storage Facility,Business and Professional Services > Storage Facility,shop,storage_rental
+52e81612bcbc57f1066b7a31,TV Station,Business and Professional Services > TV Station,office,broadcaster
+5032781d91d4c4b30a586d5b,Tailor,Business and Professional Services > Tailor,craft,tailor
+63be6904847c3692a84b9b90,Technology Business,Business and Professional Services > Technology Business,office,it
+52f2ab2ebcbc57f1066b8b36,IT Service,Business and Professional Services > Technology Business > IT Service,office,it
+63be6904847c3692a84b9b91,Software Company,Business and Professional Services > Technology Business > Software Company,office,it
+63be6904847c3692a84b9b92,Website Designer,Business and Professional Services > Technology Business > Website Designer,office,it
+63be6904847c3692a84b9b93,Telecommunication Service,Business and Professional Services > Telecommunication Service,office,telecommunication
+63be6904847c3692a84b9b94,Translation Service,Business and Professional Services > Translation Service,office,translator
+63be6904847c3692a84b9b95,Tutoring Service,Business and Professional Services > Tutoring Service,office,tutoring
+52e81612bcbc57f1066b7a36,Warehouse,Business and Professional Services > Warehouse,building,warehouse
+58daa1558bbb0b01f18ec1ac,Waste Management Service,Business and Professional Services > Waste Management Service,office,waste_management_service
+63be6904847c3692a84b9b96,Water Treatment Service,Business and Professional Services > Water Treatment Service,craft,water_treatment
+56aa371be4b08b9a8d5734c5,Wedding Hall,Business and Professional Services > Wedding Hall,amenity,wedding_hall
+63be6904847c3692a84b9b97,Welding Service,Business and Professional Services > Welding Service,craft,welder
+63be6904847c3692a84b9b98,Wholesaler,Business and Professional Services > Wholesaler,shop,wholesale
+63be6904847c3692a84b9b99,"Writing, Copywriting and Technical Writing Service","Business and Professional Services > Writing, Copywriting and Technical Writing Service",office,yes
+63be6904847c3692a84b9b9a,Community and Government,Community and Government,amenity,yes
+63be6904847c3692a84b9b9b,Addiction Treatment Center,Community and Government > Addiction Treatment Center,healthcare,rehabilitation
+4e52d2d203646f7c19daa8ae,Animal Shelter,Community and Government > Animal Shelter,amenity,animal_shelter
+5032891291d4c4b30a586d68,Assisted Living,Community and Government > Assisted Living,amenity,social_facility
+4bf58dd8d48988d15c941735,Cemetery,Community and Government > Cemetery,landuse,cemetery
+52e81612bcbc57f1066b7a34,Community Center,Community and Government > Community Center,amenity,community_centre
+52e81612bcbc57f1066b7a32,Cultural Center,Community and Government > Cultural Center,amenity,arts_centre
+63be6904847c3692a84b9b9c,Disabled Persons Service,Community and Government > Disabled Persons Service,amenity,social_facility
+63be6904847c3692a84b9b9d,Domestic Abuse Treatment Center,Community and Government > Domestic Abuse Treatment Center,amenity,social_facility
+63be6904847c3692a84b9b9e,Dump,Community and Government > Dump,amenity,waste_disposal
+4bf58dd8d48988d13b941735,Education,Community and Government > Education,landuse,education
+56aa371ce4b08b9a8d573570,Adult Education,Community and Government > Education > Adult Education,amenity,training
+63be6904847c3692a84b9b9f,Art School,Community and Government > Education > Art School,amenity,training
+52e81612bcbc57f1066b7a43,Circus School,Community and Government > Education > Circus School,amenity,circus_school
+4d4b7105d754a06372d81259,College and University,Community and Government > Education > College and University,amenity,university
+4bf58dd8d48988d198941735,College Academic Building,Community and Government > Education > College and University > College Academic Building,building,university
+4bf58dd8d48988d197941735,College Administrative Building,Community and Government > Education > College and University > College Administrative Building,building,university
+4bf58dd8d48988d199941735,College Arts Building,Community and Government > Education > College and University > College Arts Building,building,university
+4bf58dd8d48988d1af941735,College Auditorium,Community and Government > Education > College and University > College Auditorium,amenity,theatre
+4bf58dd8d48988d1bb941735,College Baseball Diamond,Community and Government > Education > College and University > College Baseball Diamond,leisure,pitch
+4bf58dd8d48988d1ba941735,College Basketball Court,Community and Government > Education > College and University > College Basketball Court,leisure,pitch
+4bf58dd8d48988d1b1941735,College Bookstore,Community and Government > Education > College and University > College Bookstore,shop,books
+4bf58dd8d48988d1a1941735,College Cafeteria,Community and Government > Education > College and University > College Cafeteria,amenity,restaurant
+4bf58dd8d48988d1a0941735,College Classroom,Community and Government > Education > College and University > College Classroom,amenity,classroom
+4bf58dd8d48988d19a941735,College Communications Building,Community and Government > Education > College and University > College Communications Building,building,university
+4bf58dd8d48988d1b9941735,College Cricket Pitch,Community and Government > Education > College and University > College Cricket Pitch,leisure,pitch
+4bf58dd8d48988d19e941735,College Engineering Building,Community and Government > Education > College and University > College Engineering Building,building,university
+4bf58dd8d48988d1b8941735,College Football Field,Community and Government > Education > College and University > College Football Field,leisure,pitch
+4bf58dd8d48988d1b2941735,College Gym,Community and Government > Education > College and University > College Gym,leisure,fitness_centre
+4bf58dd8d48988d19d941735,College History Building,Community and Government > Education > College and University > College History Building,building,university
+4bf58dd8d48988d1b5941735,College Hockey Rink,Community and Government > Education > College and University > College Hockey Rink,leisure,ice_rink
+4bf58dd8d48988d1a5941735,College Lab,Community and Government > Education > College and University > College Lab,craft,laboratory
+4bf58dd8d48988d1a7941735,College Library,Community and Government > Education > College and University > College Library,amenity,library
+4bf58dd8d48988d19c941735,College Math Building,Community and Government > Education > College and University > College Math Building,building,university
+4bf58dd8d48988d1aa941735,College Quad,Community and Government > Education > College and University > College Quad,amenity,quadrangle
+4bf58dd8d48988d1a9941735,College Rec Center,Community and Government > Education > College and University > College Rec Center,leisure,sports_centre
+4bf58dd8d48988d1a3941735,College Residence Hall,Community and Government > Education > College and University > College Residence Hall,building,dormitory
+4bf58dd8d48988d19b941735,College Science Building,Community and Government > Education > College and University > College Science Building,building,university
+4bf58dd8d48988d1b7941735,College Soccer Field,Community and Government > Education > College and University > College Soccer Field,leisure,pitch
+4bf58dd8d48988d1b4941735,College Stadium,Community and Government > Education > College and University > College Stadium,leisure,stadium
+4bf58dd8d48988d19f941735,College Technology Building,Community and Government > Education > College and University > College Technology Building,building,university
+4e39a9cebd410d7aed40cbc4,College Tennis Court,Community and Government > Education > College and University > College Tennis Court,leisure,pitch
+4bf58dd8d48988d1ac941735,College Theater,Community and Government > Education > College and University > College Theater,amenity,theatre
+4bf58dd8d48988d1b6941735,College Track,Community and Government > Education > College and University > College Track,leisure,track
+4bf58dd8d48988d1a2941735,Community College,Community and Government > Education > College and University > Community College,amenity,college
+4bf58dd8d48988d1b0941735,Fraternity House,Community and Government > Education > College and University > Fraternity House,amenity,fraternity
+4bf58dd8d48988d1a8941735,General College & University,Community and Government > Education > College and University > General College & University,amenity,university
+4bf58dd8d48988d1a6941735,Law School,Community and Government > Education > College and University > Law School,amenity,university
+4bf58dd8d48988d1b3941735,Medical School,Community and Government > Education > College and University > Medical School,amenity,university
+4bf58dd8d48988d141941735,Sorority House,Community and Government > Education > College and University > Sorority House,amenity,sorority
+4bf58dd8d48988d1ab941735,Student Center,Community and Government > Education > College and University > Student Center,amenity,community_centre
+4bf58dd8d48988d1ae941735,University,Community and Government > Education > College and University > University,amenity,university
+63be6904847c3692a84b9ba0,Computer Training School,Community and Government > Education > Computer Training School,amenity,training
+58daa1558bbb0b01f18ec200,Culinary School,Community and Government > Education > Culinary School,amenity,training
+52e81612bcbc57f1066b7a42,Driving School,Community and Government > Education > Driving School,amenity,driving_school
+52e81612bcbc57f1066b7a49,Flight School,Community and Government > Education > Flight School,amenity,flight_school
+52e81612bcbc57f1066b7a48,Language School,Community and Government > Education > Language School,amenity,language_school
+4f04b10d2fb6e1c99f3db0be,Music School,Community and Government > Education > Music School,amenity,music_school
+4f4533814b9074f6e4fb0107,Nursery School,Community and Government > Education > Nursery School,amenity,kindergarten
+52e81612bcbc57f1066b7a45,Preschool,Community and Government > Education > Preschool,amenity,kindergarten
+63be6904847c3692a84b9ba1,Primary and Secondary School,Community and Government > Education > Primary and Secondary School,amenity,school
+4f4533804b9074f6e4fb0105,Elementary School,Community and Government > Education > Primary and Secondary School > Elementary School,amenity,school
+4bf58dd8d48988d13d941735,High School,Community and Government > Education > Primary and Secondary School > High School,amenity,school
+4f4533814b9074f6e4fb0106,Middle School,Community and Government > Education > Primary and Secondary School > Middle School,amenity,school
+52e81612bcbc57f1066b7a46,Private School,Community and Government > Education > Private School,amenity,school
+52e81612bcbc57f1066b7a47,Religious School,Community and Government > Education > Religious School,amenity,school
+4bf58dd8d48988d1ad941735,Trade School,Community and Government > Education > Trade School,amenity,training
+4bf58dd8d48988d126941735,Government Building,Community and Government > Government Building,office,government
+4bf58dd8d48988d12a941735,Capitol Building,Community and Government > Government Building > Capitol Building,office,government
+4bf58dd8d48988d129941735,City Hall,Community and Government > Government Building > City Hall,amenity,townhall
+4bf58dd8d48988d12b941735,Courthouse,Community and Government > Government Building > Courthouse,amenity,courthouse
+4bf58dd8d48988d12c951735,Embassy or Consulate,Community and Government > Government Building > Embassy or Consulate,office,diplomatic
+63be6904847c3692a84b9ba2,Government Department,Community and Government > Government Building > Government Department,office,government
+63be6904847c3692a84b9ba3,Law Enforcement and Public Safety,Community and Government > Government Building > Law Enforcement and Public Safety,amenity,yes
+4bf58dd8d48988d12c941735,Fire Station,Community and Government > Government Building > Law Enforcement and Public Safety > Fire Station,amenity,fire_station
+4bf58dd8d48988d12e941735,Police Station,Community and Government > Government Building > Law Enforcement and Public Safety > Police Station,amenity,police
+63be6904847c3692a84b9ba4,Probation Office,Community and Government > Government Building > Law Enforcement and Public Safety > Probation Office,amenity,probation_office
+63be6904847c3692a84b9ba5,Rescue Service,Community and Government > Government Building > Law Enforcement and Public Safety > Rescue Service,emergency,rescue_service
+63be6904847c3692a84b9ba6,Military,Community and Government > Government Building > Military,building,military
+4e52adeebd41615f56317744,Military Base,Community and Government > Government Building > Military > Military Base,military,base
+4bf58dd8d48988d172941735,Post Office,Community and Government > Government Building > Post Office,amenity,post_office
+63be6904847c3692a84b9ba7,Government Lobbyist,Community and Government > Government Lobbyist,office,yes
+63be6904847c3692a84b9ba8,Homeless Shelter,Community and Government > Homeless Shelter,amenity,social_facility
+63be6904847c3692a84b9ba9,Housing Authority,Community and Government > Housing Authority,office,government
+4f2a210c4b9023bd5841ed28,Housing Development,Community and Government > Housing Development,landuse,residential
+4bf58dd8d48988d12f941735,Library,Community and Government > Library,amenity,library
+5744ccdfe4b0c0459246b4d9,Observatory,Community and Government > Observatory,man_made,observatory
+63be6904847c3692a84b9baa,Organization,Community and Government > Organization,office,yes
+63be6904847c3692a84b9bab,Charity,Community and Government > Organization > Charity,office,charity
+52e81612bcbc57f1066b7a35,Club House,Community and Government > Organization > Club House,amenity,clubhouse
+63be6904847c3692a84b9bac,Environmental Organization,Community and Government > Organization > Environmental Organization,office,yes
+63be6904847c3692a84b9bae,LGBTQ Organization,Community and Government > Organization > LGBTQ Organization,office,yes
+63be6904847c3692a84b9bad,Labor Union,Community and Government > Organization > Labor Union,office,union
+50328a8e91d4c4b30a586d6c,Non-Profit Organization,Community and Government > Organization > Non-Profit Organization,office,association
+63be6904847c3692a84b9baf,Social Services Organization,Community and Government > Organization > Social Services Organization,amenity,social_facility
+5f2c5de85b4c177b9a6de29c,Veterans' Organization,Community and Government > Organization > Veterans' Organization,club,veterans
+63be6904847c3692a84b9bb0,Youth Organization,Community and Government > Organization > Youth Organization,office,youth_organisation
+4cae28ecbf23941eb1190695,Polling Place,Community and Government > Polling Place,amenity,polling_station
+5310b8e5bcbc57f1066bcbf1,Prison,Community and Government > Prison,amenity,prison
+5744ccdfe4b0c0459246b4c4,Public Bathroom,Community and Government > Public Bathroom,amenity,toilets
+63be6904847c3692a84b9bb1,Public and Social Service,Community and Government > Public and Social Service,amenity,social_facility
+56aa371be4b08b9a8d57351d,Rehabilitation Center,Community and Government > Rehabilitation Center,healthcare,rehabilitation
+4e67e38e036454776db1fb3a,Residential Building,Community and Government > Residential Building,building,residential
+4d954b06a243a5684965b473,Apartment or Condo,Community and Government > Residential Building > Apartment or Condo,building,apartments
+4bf58dd8d48988d103941735,Home (private),Community and Government > Residential Building > Home (private),building,house
+63be6904847c3692a84b9bb2,Retirement Home,Community and Government > Retirement Home,amenity,social_facility
+63be6904847c3692a84b9bb3,Senior Citizen Service,Community and Government > Senior Citizen Service,amenity,social_facility
+52e81612bcbc57f1066b7a33,Social Club,Community and Government > Social Club,amenity,social_centre
+4bf58dd8d48988d131941735,Spiritual Center,Community and Government > Spiritual Center,amenity,place_of_worship
+52e81612bcbc57f1066b7a3e,Buddhist Temple,Community and Government > Spiritual Center > Buddhist Temple,amenity,place_of_worship
+58daa1558bbb0b01f18ec1eb,Cemevi,Community and Government > Spiritual Center > Cemevi,amenity,place_of_worship
+4bf58dd8d48988d132941735,Church,Community and Government > Spiritual Center > Church,amenity,place_of_worship
+56aa371be4b08b9a8d5734fc,Confucian Temple,Community and Government > Spiritual Center > Confucian Temple,amenity,place_of_worship
+52e81612bcbc57f1066b7a3f,Hindu Temple,Community and Government > Spiritual Center > Hindu Temple,amenity,place_of_worship
+5744ccdfe4b0c0459246b4ac,Kingdom Hall,Community and Government > Spiritual Center > Kingdom Hall,amenity,place_of_worship
+52e81612bcbc57f1066b7a40,Monastery,Community and Government > Spiritual Center > Monastery,amenity,monastery
+4bf58dd8d48988d138941735,Mosque,Community and Government > Spiritual Center > Mosque,amenity,place_of_worship
+52e81612bcbc57f1066b7a41,Prayer Room,Community and Government > Spiritual Center > Prayer Room,amenity,place_of_worship
+4eb1d80a4b900d56c88a45ff,Shrine,Community and Government > Spiritual Center > Shrine,amenity,place_of_worship
+5bae9231bedf3950379f89c9,Sikh Temple,Community and Government > Spiritual Center > Sikh Temple,amenity,place_of_worship
+4bf58dd8d48988d139941735,Synagogue,Community and Government > Spiritual Center > Synagogue,amenity,place_of_worship
+4bf58dd8d48988d13a941735,Temple,Community and Government > Spiritual Center > Temple,amenity,place_of_worship
+56aa371be4b08b9a8d5734f6,Terreiro,Community and Government > Spiritual Center > Terreiro,amenity,place_of_worship
+52e81612bcbc57f1066b7a10,Summer Camp,Community and Government > Summer Camp,leisure,summer_camp
+52e81612bcbc57f1066b7a38,Town Hall,Community and Government > Town Hall,amenity,townhall
+52f2ab2ebcbc57f1066b8b55,Trailer Park,Community and Government > Trailer Park,tourism,caravan_site
+63be6904847c3692a84b9bb4,Utility Company,Community and Government > Utility Company,office,water_utility
+63be6904847c3692a84b9bb5,Dining and Drinking,Dining and Drinking,amenity,yes
+4bf58dd8d48988d179941735,Bagel Shop,Dining and Drinking > Bagel Shop,shop,bakery
+4bf58dd8d48988d16a941735,Bakery,Dining and Drinking > Bakery,shop,bakery
+4bf58dd8d48988d116941735,Bar,Dining and Drinking > Bar,amenity,bar
+4bf58dd8d48988d1ea941735,Apres Ski Bar,Dining and Drinking > Bar > Apres Ski Bar,amenity,bar
+52e81612bcbc57f1066b7a0d,Beach Bar,Dining and Drinking > Bar > Beach Bar,amenity,bar
+56aa371ce4b08b9a8d57356c,Beer Bar,Dining and Drinking > Bar > Beer Bar,amenity,bar
+4bf58dd8d48988d117941735,Beer Garden,Dining and Drinking > Bar > Beer Garden,amenity,biergarten
+52e81612bcbc57f1066b7a0e,Champagne Bar,Dining and Drinking > Bar > Champagne Bar,amenity,bar
+4bf58dd8d48988d11e941735,Cocktail Bar,Dining and Drinking > Bar > Cocktail Bar,amenity,bar
+4bf58dd8d48988d118941735,Dive Bar,Dining and Drinking > Bar > Dive Bar,amenity,bar
+4bf58dd8d48988d1d8941735,Gay Bar,Dining and Drinking > Bar > Gay Bar,amenity,bar
+4bf58dd8d48988d119941735,Hookah Bar,Dining and Drinking > Bar > Hookah Bar,amenity,bar
+4bf58dd8d48988d1d5941735,Hotel Bar,Dining and Drinking > Bar > Hotel Bar,amenity,bar
+5f2c40f15b4c177b9a6dc684,Ice Bar,Dining and Drinking > Bar > Ice Bar,amenity,bar
+52e81612bcbc57f1066b7a06,Irish Pub,Dining and Drinking > Bar > Irish Pub,amenity,pub
+4bf58dd8d48988d120941735,Karaoke Bar,Dining and Drinking > Bar > Karaoke Bar,amenity,bar
+4bf58dd8d48988d121941735,Lounge,Dining and Drinking > Bar > Lounge,amenity,bar
+4bf58dd8d48988d1e8931735,Piano Bar,Dining and Drinking > Bar > Piano Bar,amenity,bar
+4bf58dd8d48988d11b941735,Pub,Dining and Drinking > Bar > Pub,amenity,pub
+5f2c224bb6d05514c70440a3,Rooftop Bar,Dining and Drinking > Bar > Rooftop Bar,amenity,bar
+4bf58dd8d48988d11c941735,Sake Bar,Dining and Drinking > Bar > Sake Bar,amenity,bar
+4bf58dd8d48988d1d4941735,Speakeasy,Dining and Drinking > Bar > Speakeasy,amenity,bar
+4bf58dd8d48988d11d941735,Sports Bar,Dining and Drinking > Bar > Sports Bar,amenity,bar
+56aa371be4b08b9a8d57354d,Tiki Bar,Dining and Drinking > Bar > Tiki Bar,amenity,bar
+4bf58dd8d48988d122941735,Whisky Bar,Dining and Drinking > Bar > Whisky Bar,amenity,bar
+4bf58dd8d48988d123941735,Wine Bar,Dining and Drinking > Bar > Wine Bar,amenity,bar
+4bf58dd8d48988d143941735,Breakfast Spot,Dining and Drinking > Breakfast Spot,amenity,restaurant
+50327c8591d4c4b30a586d5d,Brewery,Dining and Drinking > Brewery,craft,brewery
+63be6904847c3692a84b9bb6,"Cafe, Coffee, and Tea House","Dining and Drinking > Cafe, Coffee, and Tea House",amenity,cafe
+52e81612bcbc57f1066b7a0c,Bubble Tea Shop,"Dining and Drinking > Cafe, Coffee, and Tea House > Bubble Tea Shop",amenity,cafe
+4bf58dd8d48988d16d941735,Café,"Dining and Drinking > Cafe, Coffee, and Tea House > Café",amenity,cafe
+4bf58dd8d48988d1e0931735,Coffee Shop,"Dining and Drinking > Cafe, Coffee, and Tea House > Coffee Shop",amenity,cafe
+56aa371be4b08b9a8d573508,Pet Café,"Dining and Drinking > Cafe, Coffee, and Tea House > Pet Café",amenity,cafe
+4bf58dd8d48988d1dc931735,Tea Room,"Dining and Drinking > Cafe, Coffee, and Tea House > Tea Room",amenity,cafe
+4bf58dd8d48988d128941735,Cafeteria,Dining and Drinking > Cafeteria,amenity,cafe
+5e189fd6eee47d000759bbfd,Cidery,Dining and Drinking > Cidery,craft,cidery
+52e81612bcbc57f1066b79f2,Creperie,Dining and Drinking > Creperie,amenity,restaurant
+4bf58dd8d48988d1d0941735,Dessert Shop,Dining and Drinking > Dessert Shop,shop,pastry
+4bf58dd8d48988d1bc941735,Cupcake Shop,Dining and Drinking > Dessert Shop > Cupcake Shop,shop,pastry
+512e7cae91d4cbb4e5efe0af,Frozen Yogurt Shop,Dining and Drinking > Dessert Shop > Frozen Yogurt Shop,amenity,ice_cream
+5f2c407c5b4c177b9a6dc536,Gelato Shop,Dining and Drinking > Dessert Shop > Gelato Shop,amenity,ice_cream
+4bf58dd8d48988d1c9941735,Ice Cream Parlor,Dining and Drinking > Dessert Shop > Ice Cream Parlor,amenity,ice_cream
+5744ccdfe4b0c0459246b4e2,Pastry Shop,Dining and Drinking > Dessert Shop > Pastry Shop,shop,pastry
+52e81612bcbc57f1066b7a0a,Pie Shop,Dining and Drinking > Dessert Shop > Pie Shop,shop,pastry
+62d5af45da6648532de303ee,Waffle Shop,Dining and Drinking > Dessert Shop > Waffle Shop,amenity,restaurant
+4e0e22f5a56208c4ea9a85a0,Distillery,Dining and Drinking > Distillery,craft,distillery
+4bf58dd8d48988d148941735,Donut Shop,Dining and Drinking > Donut Shop,shop,pastry
+4bf58dd8d48988d120951735,Food Court,Dining and Drinking > Food Court,amenity,food_court
+56aa371be4b08b9a8d57350b,Food Stand,Dining and Drinking > Food Stand,amenity,restaurant
+4bf58dd8d48988d1cb941735,Food Truck,Dining and Drinking > Food Truck,amenity,restaurant
+4bf58dd8d48988d112941735,Juice Bar,Dining and Drinking > Juice Bar,amenity,bar
+5e189d71eee47d000759b7e2,Meadery,Dining and Drinking > Meadery,craft,mead
+53e510b7498ebcb1801b55d4,Night Market,Dining and Drinking > Night Market,amenity,marketplace
+4d4b7105d754a06374d81259,Restaurant,Dining and Drinking > Restaurant,amenity,restaurant
+503288ae91d4c4b30a586d67,Afghan Restaurant,Dining and Drinking > Restaurant > Afghan Restaurant,amenity,restaurant
+4bf58dd8d48988d1c8941735,African Restaurant,Dining and Drinking > Restaurant > African Restaurant,amenity,restaurant
+4bf58dd8d48988d10a941735,Ethiopian Restaurant,Dining and Drinking > Restaurant > African Restaurant > Ethiopian Restaurant,amenity,restaurant
+5f2c344a5b4c177b9a6dc011,Mauritian Restaurant,Dining and Drinking > Restaurant > African Restaurant > Mauritian Restaurant,amenity,restaurant
+4bf58dd8d48988d14e941735,American Restaurant,Dining and Drinking > Restaurant > American Restaurant,amenity,restaurant
+4bf58dd8d48988d157941735,New American Restaurant,Dining and Drinking > Restaurant > American Restaurant > New American Restaurant,amenity,restaurant
+5f2c2b7db6d05514c7044837,Armenian Restaurant,Dining and Drinking > Restaurant > Armenian Restaurant,amenity,restaurant
+4bf58dd8d48988d142941735,Asian Restaurant,Dining and Drinking > Restaurant > Asian Restaurant,amenity,restaurant
+56aa371be4b08b9a8d573568,Burmese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Burmese Restaurant,amenity,restaurant
+52e81612bcbc57f1066b7a03,Cambodian Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Cambodian Restaurant,amenity,restaurant
+4bf58dd8d48988d145941735,Chinese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant,amenity,restaurant
+52af3a5e3cf9994f4e043bea,Anhui Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Anhui Restaurant,amenity,restaurant
+52af3a723cf9994f4e043bec,Beijing Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Beijing Restaurant,amenity,restaurant
+52af3a7c3cf9994f4e043bed,Cantonese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Cantonese Restaurant,amenity,restaurant
+58daa1558bbb0b01f18ec1d3,Cha Chaan Teng,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Cha Chaan Teng,amenity,restaurant
+52af3a673cf9994f4e043beb,Chinese Aristocrat Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Chinese Aristocrat Restaurant,amenity,restaurant
+52af3a903cf9994f4e043bee,Chinese Breakfast Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Chinese Breakfast Restaurant,amenity,restaurant
+4bf58dd8d48988d1f5931735,Dim Sum Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Dim Sum Restaurant,amenity,restaurant
+52af3a9f3cf9994f4e043bef,Dongbei Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Dongbei Restaurant,amenity,restaurant
+52af3aaa3cf9994f4e043bf0,Fujian Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Fujian Restaurant,amenity,restaurant
+52af3ab53cf9994f4e043bf1,Guizhou Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Guizhou Restaurant,amenity,restaurant
+52af3abe3cf9994f4e043bf2,Hainan Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Hainan Restaurant,amenity,restaurant
+52af3ac83cf9994f4e043bf3,Hakka Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Hakka Restaurant,amenity,restaurant
+52af3ad23cf9994f4e043bf4,Henan Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Henan Restaurant,amenity,restaurant
+52af3add3cf9994f4e043bf5,Hong Kong Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Hong Kong Restaurant,amenity,restaurant
+52af3af23cf9994f4e043bf7,Huaiyang Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Huaiyang Restaurant,amenity,restaurant
+52af3ae63cf9994f4e043bf6,Hubei Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Hubei Restaurant,amenity,restaurant
+52af3afc3cf9994f4e043bf8,Hunan Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Hunan Restaurant,amenity,restaurant
+52af3b053cf9994f4e043bf9,Imperial Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Imperial Restaurant,amenity,restaurant
+52af3b213cf9994f4e043bfa,Jiangsu Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Jiangsu Restaurant,amenity,restaurant
+52af3b293cf9994f4e043bfb,Jiangxi Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Jiangxi Restaurant,amenity,restaurant
+52af3b343cf9994f4e043bfc,Macanese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Macanese Restaurant,amenity,restaurant
+52af3b3b3cf9994f4e043bfd,Manchu Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Manchu Restaurant,amenity,restaurant
+52af3b463cf9994f4e043bfe,Peking Duck Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Peking Duck Restaurant,amenity,restaurant
+52af3b633cf9994f4e043c01,Shaanxi Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Shaanxi Restaurant,amenity,restaurant
+52af3b513cf9994f4e043bff,Shandong Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Shandong Restaurant,amenity,restaurant
+52af3b593cf9994f4e043c00,Shanghai Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Shanghai Restaurant,amenity,restaurant
+52af3b6e3cf9994f4e043c02,Shanxi Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Shanxi Restaurant,amenity,restaurant
+52af3b773cf9994f4e043c03,Szechuan Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Szechuan Restaurant,amenity,restaurant
+52af3b813cf9994f4e043c04,Taiwanese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Taiwanese Restaurant,amenity,restaurant
+52af3b893cf9994f4e043c05,Tianjin Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Tianjin Restaurant,amenity,restaurant
+52af3b913cf9994f4e043c06,Xinjiang Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Xinjiang Restaurant,amenity,restaurant
+52af3b9a3cf9994f4e043c07,Yunnan Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Yunnan Restaurant,amenity,restaurant
+52af3ba23cf9994f4e043c08,Zhejiang Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Chinese Restaurant > Zhejiang Restaurant,amenity,restaurant
+4eb1bd1c3b7b55596b4a748f,Filipino Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Filipino Restaurant,amenity,restaurant
+52e81612bcbc57f1066b79fb,Himalayan Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Himalayan Restaurant,amenity,restaurant
+52af0bd33cf9994f4e043bdd,Hotpot Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Hotpot Restaurant,amenity,restaurant
+4deefc054765f83613cdba6f,Indonesian Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Indonesian Restaurant,amenity,restaurant
+52960eda3cf9994f4e043ac9,Acehnese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Indonesian Restaurant > Acehnese Restaurant,amenity,restaurant
+52960eda3cf9994f4e043acb,Balinese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Indonesian Restaurant > Balinese Restaurant,amenity,restaurant
+52960eda3cf9994f4e043aca,Betawinese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Indonesian Restaurant > Betawinese Restaurant,amenity,restaurant
+52960eda3cf9994f4e043acc,Indonesian Meatball Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Indonesian Restaurant > Indonesian Meatball Restaurant,amenity,restaurant
+52960eda3cf9994f4e043ac7,Javanese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Indonesian Restaurant > Javanese Restaurant,amenity,restaurant
+52960eda3cf9994f4e043ac8,Manadonese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Indonesian Restaurant > Manadonese Restaurant,amenity,restaurant
+52960eda3cf9994f4e043ac5,Padangnese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Indonesian Restaurant > Padangnese Restaurant,amenity,restaurant
+52960eda3cf9994f4e043ac6,Sundanese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Indonesian Restaurant > Sundanese Restaurant,amenity,restaurant
+4bf58dd8d48988d111941735,Japanese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant,amenity,restaurant
+55a59bace4b013909087cb0c,Donburi Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Donburi Restaurant,amenity,restaurant
+55a59bace4b013909087cb30,Japanese Curry Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Japanese Curry Restaurant,amenity,restaurant
+5f2c2436b6d05514c704433e,Japanese Family Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Japanese Family Restaurant,amenity,restaurant
+55a59bace4b013909087cb21,Kaiseki Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Kaiseki Restaurant,amenity,restaurant
+55a59bace4b013909087cb06,Kushikatsu Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Kushikatsu Restaurant,amenity,restaurant
+55a59bace4b013909087cb1b,Monjayaki Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Monjayaki Restaurant,amenity,restaurant
+55a59bace4b013909087cb1e,Nabe Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Nabe Restaurant,amenity,restaurant
+55a59bace4b013909087cb18,Okonomiyaki Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Okonomiyaki Restaurant,amenity,restaurant
+55a59bace4b013909087cb24,Ramen Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Ramen Restaurant,amenity,restaurant
+55a59bace4b013909087cb15,Shabu-Shabu Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Shabu-Shabu Restaurant,amenity,restaurant
+55a59bace4b013909087cb27,Soba Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Soba Restaurant,amenity,restaurant
+55a59bace4b013909087cb12,Sukiyaki Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Sukiyaki Restaurant,amenity,restaurant
+4bf58dd8d48988d1d2941735,Sushi Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Sushi Restaurant,amenity,restaurant
+55a59bace4b013909087cb2d,Takoyaki Place,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Takoyaki Place,amenity,restaurant
+5f2c239eb6d05514c70441ee,Teishoku Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Teishoku Restaurant,amenity,restaurant
+55a59a31e4b013909087cb00,Tempura Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Tempura Restaurant,amenity,restaurant
+55a59af1e4b013909087cb03,Tonkatsu Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Tonkatsu Restaurant,amenity,restaurant
+55a59bace4b013909087cb2a,Udon Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Udon Restaurant,amenity,restaurant
+55a59bace4b013909087cb0f,Unagi Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Unagi Restaurant,amenity,restaurant
+55a59bace4b013909087cb33,Wagashi Place,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Wagashi Place,amenity,restaurant
+55a59bace4b013909087cb09,Yakitori Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Yakitori Restaurant,amenity,restaurant
+55a59bace4b013909087cb36,Yoshoku Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Yoshoku Restaurant,amenity,restaurant
+4bf58dd8d48988d113941735,Korean Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Korean Restaurant,amenity,restaurant
+56aa371be4b08b9a8d5734e4,Bossam/Jokbal Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Korean Restaurant > Bossam/Jokbal Restaurant,amenity,restaurant
+56aa371be4b08b9a8d5734f0,Bunsik Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Korean Restaurant > Bunsik Restaurant,amenity,restaurant
+56aa371be4b08b9a8d5734e7,Gukbap Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Korean Restaurant > Gukbap Restaurant,amenity,restaurant
+56aa371be4b08b9a8d5734ed,Janguh Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Korean Restaurant > Janguh Restaurant,amenity,restaurant
+5f2c3f6b5b4c177b9a6dc388,Korean BBQ Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Korean Restaurant > Korean BBQ Restaurant,amenity,restaurant
+56aa371be4b08b9a8d5734ea,Samgyetang Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Korean Restaurant > Samgyetang Restaurant,amenity,restaurant
+4bf58dd8d48988d156941735,Malay Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Malay Restaurant,amenity,restaurant
+5ae9595eb77c77002c2f9f26,Mamak Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Malay Restaurant > Mamak Restaurant,amenity,restaurant
+4eb1d5724b900d56c88a45fe,Mongolian Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Mongolian Restaurant,amenity,restaurant
+4bf58dd8d48988d1d1941735,Noodle Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Noodle Restaurant,amenity,restaurant
+56aa371be4b08b9a8d57350e,Satay Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Satay Restaurant,amenity,restaurant
+5f2c430e5b4c177b9a6dcabd,Singaporean Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Singaporean Restaurant,amenity,restaurant
+4bf58dd8d48988d149941735,Thai Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Thai Restaurant,amenity,restaurant
+56aa371be4b08b9a8d573502,Som Tum Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Thai Restaurant > Som Tum Restaurant,amenity,restaurant
+52af39fb3cf9994f4e043be9,Tibetan Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Tibetan Restaurant,amenity,restaurant
+4bf58dd8d48988d14a941735,Vietnamese Restaurant,Dining and Drinking > Restaurant > Asian Restaurant > Vietnamese Restaurant,amenity,restaurant
+4bf58dd8d48988d169941735,Australian Restaurant,Dining and Drinking > Restaurant > Australian Restaurant,amenity,restaurant
+52e81612bcbc57f1066b7a01,Austrian Restaurant,Dining and Drinking > Restaurant > Austrian Restaurant,amenity,restaurant
+4bf58dd8d48988d1df931735,BBQ Joint,Dining and Drinking > Restaurant > BBQ Joint,amenity,restaurant
+5e179ee74ae8e90006e9a746,Bangladeshi Restaurant,Dining and Drinking > Restaurant > Bangladeshi Restaurant,amenity,restaurant
+52e81612bcbc57f1066b7a02,Belgian Restaurant,Dining and Drinking > Restaurant > Belgian Restaurant,amenity,restaurant
+52e81612bcbc57f1066b79f1,Bistro,Dining and Drinking > Restaurant > Bistro,amenity,restaurant
+52e81612bcbc57f1066b79f4,Buffet,Dining and Drinking > Restaurant > Buffet,amenity,restaurant
+4bf58dd8d48988d16c941735,Burger Joint,Dining and Drinking > Restaurant > Burger Joint,amenity,fast_food
+4bf58dd8d48988d17a941735,Cajun and Creole Restaurant,Dining and Drinking > Restaurant > Cajun and Creole Restaurant,amenity,restaurant
+4bf58dd8d48988d144941735,Caribbean Restaurant,Dining and Drinking > Restaurant > Caribbean Restaurant,amenity,restaurant
+4bf58dd8d48988d154941735,Cuban Restaurant,Dining and Drinking > Restaurant > Caribbean Restaurant > Cuban Restaurant,amenity,restaurant
+5f2c2abab6d05514c70446e4,Puerto Rican Restaurant,Dining and Drinking > Restaurant > Caribbean Restaurant > Puerto Rican Restaurant,amenity,restaurant
+5293a7d53cf9994f4e043a45,Caucasian Restaurant,Dining and Drinking > Restaurant > Caucasian Restaurant,amenity,restaurant
+52e81612bcbc57f1066b7a00,Comfort Food Restaurant,Dining and Drinking > Restaurant > Comfort Food Restaurant,amenity,restaurant
+52f2ae52bcbc57f1066b8b81,Czech Restaurant,Dining and Drinking > Restaurant > Czech Restaurant,amenity,restaurant
+4bf58dd8d48988d146941735,Deli,Dining and Drinking > Restaurant > Deli,amenity,restaurant
+4bf58dd8d48988d147941735,Diner,Dining and Drinking > Restaurant > Diner,amenity,restaurant
+4bf58dd8d48988d108941735,Dumpling Restaurant,Dining and Drinking > Restaurant > Dumpling Restaurant,amenity,restaurant
+5744ccdfe4b0c0459246b4d0,Dutch Restaurant,Dining and Drinking > Restaurant > Dutch Restaurant,amenity,restaurant
+4bf58dd8d48988d109941735,Eastern European Restaurant,Dining and Drinking > Restaurant > Eastern European Restaurant,amenity,restaurant
+52e928d0bcbc57f1066b7e97,Belarusian Restaurant,Dining and Drinking > Restaurant > Eastern European Restaurant > Belarusian Restaurant,amenity,restaurant
+58daa1558bbb0b01f18ec1ee,Bosnian Restaurant,Dining and Drinking > Restaurant > Eastern European Restaurant > Bosnian Restaurant,amenity,restaurant
+56aa371be4b08b9a8d5734f3,Bulgarian Restaurant,Dining and Drinking > Restaurant > Eastern European Restaurant > Bulgarian Restaurant,amenity,restaurant
+52960bac3cf9994f4e043ac4,Romanian Restaurant,Dining and Drinking > Restaurant > Eastern European Restaurant > Romanian Restaurant,amenity,restaurant
+52e928d0bcbc57f1066b7e98,Tatar Restaurant,Dining and Drinking > Restaurant > Eastern European Restaurant > Tatar Restaurant,amenity,restaurant
+52e81612bcbc57f1066b7a05,English Restaurant,Dining and Drinking > Restaurant > English Restaurant,amenity,restaurant
+4bf58dd8d48988d10b941735,Falafel Restaurant,Dining and Drinking > Restaurant > Falafel Restaurant,amenity,restaurant
+4bf58dd8d48988d16e941735,Fast Food Restaurant,Dining and Drinking > Restaurant > Fast Food Restaurant,amenity,fast_food
+4edd64a0c7ddd24ca188df1a,Fish and Chips Shop,Dining and Drinking > Restaurant > Fish and Chips Shop,amenity,restaurant
+52e81612bcbc57f1066b7a09,Fondue Restaurant,Dining and Drinking > Restaurant > Fondue Restaurant,amenity,restaurant
+4bf58dd8d48988d10c941735,French Restaurant,Dining and Drinking > Restaurant > French Restaurant,amenity,restaurant
+57558b36e4b065ecebd306b6,Alsatian Restaurant,Dining and Drinking > Restaurant > French Restaurant > Alsatian Restaurant,amenity,restaurant
+57558b36e4b065ecebd306b8,Auvergne Restaurant,Dining and Drinking > Restaurant > French Restaurant > Auvergne Restaurant,amenity,restaurant
+57558b36e4b065ecebd306bc,Basque Restaurant,Dining and Drinking > Restaurant > French Restaurant > Basque Restaurant,amenity,restaurant
+57558b36e4b065ecebd306b0,Brasserie,Dining and Drinking > Restaurant > French Restaurant > Brasserie,amenity,restaurant
+57558b36e4b065ecebd306c5,Breton Restaurant,Dining and Drinking > Restaurant > French Restaurant > Breton Restaurant,amenity,restaurant
+57558b36e4b065ecebd306c0,Burgundian Restaurant,Dining and Drinking > Restaurant > French Restaurant > Burgundian Restaurant,amenity,restaurant
+57558b36e4b065ecebd306cb,Catalan Restaurant,Dining and Drinking > Restaurant > French Restaurant > Catalan Restaurant,amenity,restaurant
+57558b36e4b065ecebd306ce,Ch'ti Restaurant,Dining and Drinking > Restaurant > French Restaurant > Ch'ti Restaurant,amenity,restaurant
+57558b36e4b065ecebd306d1,Corsican Restaurant,Dining and Drinking > Restaurant > French Restaurant > Corsican Restaurant,amenity,restaurant
+57558b36e4b065ecebd306b4,Estaminet,Dining and Drinking > Restaurant > French Restaurant > Estaminet,amenity,restaurant
+57558b36e4b065ecebd306b2,Labour Canteen,Dining and Drinking > Restaurant > French Restaurant > Labour Canteen,amenity,restaurant
+57558b35e4b065ecebd306ad,Lyonese Bouchon,Dining and Drinking > Restaurant > French Restaurant > Lyonese Bouchon,amenity,restaurant
+57558b36e4b065ecebd306d4,Norman Restaurant,Dining and Drinking > Restaurant > French Restaurant > Norman Restaurant,amenity,restaurant
+57558b36e4b065ecebd306d7,Provençal Restaurant,Dining and Drinking > Restaurant > French Restaurant > Provençal Restaurant,amenity,restaurant
+57558b36e4b065ecebd306da,Savoyard Restaurant,Dining and Drinking > Restaurant > French Restaurant > Savoyard Restaurant,amenity,restaurant
+57558b36e4b065ecebd306ba,Southwestern French Restaurant,Dining and Drinking > Restaurant > French Restaurant > Southwestern French Restaurant,amenity,restaurant
+4d4ae6fc7a7b7dea34424761,Fried Chicken Joint,Dining and Drinking > Restaurant > Fried Chicken Joint,amenity,fast_food
+55d25775498e9f6a0816a37a,Friterie,Dining and Drinking > Restaurant > Friterie,amenity,restaurant
+4bf58dd8d48988d155941735,Gastropub,Dining and Drinking > Restaurant > Gastropub,amenity,restaurant
+4bf58dd8d48988d10d941735,German Restaurant,Dining and Drinking > Restaurant > German Restaurant,amenity,restaurant
+56aa371ce4b08b9a8d573583,Apple Wine Pub,Dining and Drinking > Restaurant > German Restaurant > Apple Wine Pub,amenity,restaurant
+56aa371ce4b08b9a8d573572,Bavarian Restaurant,Dining and Drinking > Restaurant > German Restaurant > Bavarian Restaurant,amenity,restaurant
+56aa371ce4b08b9a8d57358e,Bratwurst Joint,Dining and Drinking > Restaurant > German Restaurant > Bratwurst Joint,amenity,restaurant
+56aa371ce4b08b9a8d57358b,Currywurst Joint,Dining and Drinking > Restaurant > German Restaurant > Currywurst Joint,amenity,restaurant
+56aa371ce4b08b9a8d573574,Franconian Restaurant,Dining and Drinking > Restaurant > German Restaurant > Franconian Restaurant,amenity,restaurant
+56aa371ce4b08b9a8d573592,German Pop-Up Restaurant,Dining and Drinking > Restaurant > German Restaurant > German Pop-Up Restaurant,amenity,restaurant
+56aa371ce4b08b9a8d573578,Palatine Restaurant,Dining and Drinking > Restaurant > German Restaurant > Palatine Restaurant,amenity,restaurant
+56aa371ce4b08b9a8d57357b,Rhenisch Restaurant,Dining and Drinking > Restaurant > German Restaurant > Rhenisch Restaurant,amenity,restaurant
+56aa371ce4b08b9a8d573587,Schnitzel Restaurant,Dining and Drinking > Restaurant > German Restaurant > Schnitzel Restaurant,amenity,restaurant
+56aa371ce4b08b9a8d57357f,Silesian Restaurant,Dining and Drinking > Restaurant > German Restaurant > Silesian Restaurant,amenity,restaurant
+56aa371ce4b08b9a8d573576,Swabian Restaurant,Dining and Drinking > Restaurant > German Restaurant > Swabian Restaurant,amenity,restaurant
+4c2cd86ed066bed06c3c5209,Gluten-Free Restaurant,Dining and Drinking > Restaurant > Gluten-Free Restaurant,amenity,restaurant
+4bf58dd8d48988d10e941735,Greek Restaurant,Dining and Drinking > Restaurant > Greek Restaurant,amenity,restaurant
+53d6c1b0e4b02351e88a83e8,Bougatsa Shop,Dining and Drinking > Restaurant > Greek Restaurant > Bougatsa Shop,amenity,restaurant
+53d6c1b0e4b02351e88a83e2,Cretan Restaurant,Dining and Drinking > Restaurant > Greek Restaurant > Cretan Restaurant,amenity,restaurant
+53d6c1b0e4b02351e88a83d8,Fish Taverna,Dining and Drinking > Restaurant > Greek Restaurant > Fish Taverna,amenity,restaurant
+53d6c1b0e4b02351e88a83d6,Grilled Meat Restaurant,Dining and Drinking > Restaurant > Greek Restaurant > Grilled Meat Restaurant,amenity,restaurant
+53d6c1b0e4b02351e88a83e6,Kafenio,Dining and Drinking > Restaurant > Greek Restaurant > Kafenio,amenity,restaurant
+53d6c1b0e4b02351e88a83e4,Magirio,Dining and Drinking > Restaurant > Greek Restaurant > Magirio,amenity,restaurant
+53d6c1b0e4b02351e88a83da,Meze Restaurant,Dining and Drinking > Restaurant > Greek Restaurant > Meze Restaurant,amenity,restaurant
+53d6c1b0e4b02351e88a83d4,Modern Greek Restaurant,Dining and Drinking > Restaurant > Greek Restaurant > Modern Greek Restaurant,amenity,restaurant
+53d6c1b0e4b02351e88a83dc,Ouzeri,Dining and Drinking > Restaurant > Greek Restaurant > Ouzeri,amenity,restaurant
+53d6c1b0e4b02351e88a83e0,Patsa Restaurant,Dining and Drinking > Restaurant > Greek Restaurant > Patsa Restaurant,amenity,restaurant
+52e81612bcbc57f1066b79f3,Souvlaki Shop,Dining and Drinking > Restaurant > Greek Restaurant > Souvlaki Shop,amenity,restaurant
+53d6c1b0e4b02351e88a83d2,Taverna,Dining and Drinking > Restaurant > Greek Restaurant > Taverna,amenity,restaurant
+53d6c1b0e4b02351e88a83de,Tsipouro Restaurant,Dining and Drinking > Restaurant > Greek Restaurant > Tsipouro Restaurant,amenity,restaurant
+52e81612bcbc57f1066b79ff,Halal Restaurant,Dining and Drinking > Restaurant > Halal Restaurant,amenity,restaurant
+52e81612bcbc57f1066b79fe,Hawaiian Restaurant,Dining and Drinking > Restaurant > Hawaiian Restaurant,amenity,restaurant
+5bae9231bedf3950379f89d4,Poke Restaurant,Dining and Drinking > Restaurant > Hawaiian Restaurant > Poke Restaurant,amenity,restaurant
+4bf58dd8d48988d16f941735,Hot Dog Joint,Dining and Drinking > Restaurant > Hot Dog Joint,amenity,fast_food
+52e81612bcbc57f1066b79fa,Hungarian Restaurant,Dining and Drinking > Restaurant > Hungarian Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfdf,Indian Chinese Restaurant,Dining and Drinking > Restaurant > Indian Chinese Restaurant,amenity,restaurant
+4bf58dd8d48988d10f941735,Indian Restaurant,Dining and Drinking > Restaurant > Indian Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfe5,Andhra Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Andhra Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dff3,Awadhi Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Awadhi Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dff5,Bengali Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Bengali Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfe2,Chaat Place,Dining and Drinking > Restaurant > Indian Restaurant > Chaat Place,amenity,restaurant
+54135bf5e4b08f3d2429dff2,Chettinad Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Chettinad Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfe1,Dhaba,Dining and Drinking > Restaurant > Indian Restaurant > Dhaba,amenity,restaurant
+54135bf5e4b08f3d2429dfe3,Dosa Place,Dining and Drinking > Restaurant > Indian Restaurant > Dosa Place,amenity,restaurant
+54135bf5e4b08f3d2429dfe8,Goan Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Goan Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfe9,Gujarati Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Gujarati Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfe6,Hyderabadi Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Hyderabadi Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfe4,Indian Sweet Shop,Dining and Drinking > Restaurant > Indian Restaurant > Indian Sweet Shop,amenity,restaurant
+54135bf5e4b08f3d2429dfe7,Irani Cafe,Dining and Drinking > Restaurant > Indian Restaurant > Irani Cafe,amenity,cafe
+54135bf5e4b08f3d2429dfea,Jain Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Jain Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfeb,Karnataka Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Karnataka Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfed,Kerala Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Kerala Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfee,Maharashtrian Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Maharashtrian Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dff4,Mughlai Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Mughlai Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfe0,Multicuisine Indian Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Multicuisine Indian Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfdd,North Indian Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > North Indian Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dff6,Northeast Indian Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Northeast Indian Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfef,Parsi Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Parsi Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dff0,Punjabi Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Punjabi Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dff1,Rajasthani Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Rajasthani Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfde,South Indian Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > South Indian Restaurant,amenity,restaurant
+54135bf5e4b08f3d2429dfec,Udupi Restaurant,Dining and Drinking > Restaurant > Indian Restaurant > Udupi Restaurant,amenity,restaurant
+4bf58dd8d48988d110941735,Italian Restaurant,Dining and Drinking > Restaurant > Italian Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cbb6,Abruzzo Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Abruzzo Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb7c,Agriturismo,Dining and Drinking > Restaurant > Italian Restaurant > Agriturismo,amenity,restaurant
+55a5a1ebe4b013909087cba7,Aosta Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Aosta Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cba1,Basilicata Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Basilicata Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cba4,Calabria Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Calabria Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb95,Campanian Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Campanian Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb89,Emilia Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Emilia Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb9b,Friuli Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Friuli Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb98,Ligurian Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Ligurian Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cbbf,Lombard Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Lombard Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb79,Malga,Dining and Drinking > Restaurant > Italian Restaurant > Malga,amenity,restaurant
+55a5a1ebe4b013909087cbb0,Marche Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Marche Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cbb3,Molise Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Molise Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb74,Piadineria,Dining and Drinking > Restaurant > Italian Restaurant > Piadineria,amenity,restaurant
+55a5a1ebe4b013909087cbaa,Piedmontese Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Piedmontese Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb83,Puglia Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Puglia Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb8c,Romagna Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Romagna Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb92,Roman Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Roman Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb8f,Sardinian Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Sardinian Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb86,Sicilian Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Sicilian Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cbb9,South Tyrolean Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > South Tyrolean Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb7f,Trattoria,Dining and Drinking > Restaurant > Italian Restaurant > Trattoria,amenity,restaurant
+55a5a1ebe4b013909087cbbc,Trentino Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Trentino Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cb9e,Tuscan Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Tuscan Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cbc2,Umbrian Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Umbrian Restaurant,amenity,restaurant
+55a5a1ebe4b013909087cbad,Veneto Restaurant,Dining and Drinking > Restaurant > Italian Restaurant > Veneto Restaurant,amenity,restaurant
+52e81612bcbc57f1066b79fd,Jewish Restaurant,Dining and Drinking > Restaurant > Jewish Restaurant,amenity,restaurant
+52e81612bcbc57f1066b79fc,Kosher Restaurant,Dining and Drinking > Restaurant > Jewish Restaurant > Kosher Restaurant,amenity,restaurant
+5283c7b4e4b094cb91ec88d7,Kebab Restaurant,Dining and Drinking > Restaurant > Kebab Restaurant,amenity,restaurant
+4bf58dd8d48988d1be941735,Latin American Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant,amenity,restaurant
+4bf58dd8d48988d152941735,Arepa Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > Arepa Restaurant,amenity,restaurant
+52939a8c3cf9994f4e043a35,Empanada Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > Empanada Restaurant,amenity,restaurant
+5f2c32587ff30c0d7ac09638,Honduran Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > Honduran Restaurant,amenity,restaurant
+5745c7ac498e5d0483112fdb,Salvadoran Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > Salvadoran Restaurant,amenity,restaurant
+4bf58dd8d48988d1cd941735,South American Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant,amenity,restaurant
+4bf58dd8d48988d107941735,Argentinian Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Argentinian Restaurant,amenity,restaurant
+4bf58dd8d48988d16b941735,Brazilian Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant,amenity,restaurant
+5294c7523cf9994f4e043a62,Acai House,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Acai House,amenity,restaurant
+52939ae13cf9994f4e043a3b,Baiano Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Baiano Restaurant,amenity,restaurant
+52939a9e3cf9994f4e043a36,Central Brazilian Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Central Brazilian Restaurant,amenity,restaurant
+52939a643cf9994f4e043a33,Churrascaria,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Churrascaria,amenity,restaurant
+5294c55c3cf9994f4e043a61,Empada House,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Empada House,amenity,restaurant
+52939af83cf9994f4e043a3d,Goiano Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Goiano Restaurant,amenity,restaurant
+52939aed3cf9994f4e043a3c,Mineiro Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Mineiro Restaurant,amenity,restaurant
+52939aae3cf9994f4e043a37,Northeastern Brazilian Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Northeastern Brazilian Restaurant,amenity,restaurant
+52939ab93cf9994f4e043a38,Northern Brazilian Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Northern Brazilian Restaurant,amenity,restaurant
+5294cbda3cf9994f4e043a63,Pastelaria,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Pastelaria,amenity,restaurant
+52939ac53cf9994f4e043a39,Southeastern Brazilian Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Southeastern Brazilian Restaurant,amenity,restaurant
+52939ad03cf9994f4e043a3a,Southern Brazilian Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Southern Brazilian Restaurant,amenity,restaurant
+52939a7d3cf9994f4e043a34,Tapiocaria,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Brazilian Restaurant > Tapiocaria,amenity,restaurant
+58daa1558bbb0b01f18ec1f4,Colombian Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Colombian Restaurant,amenity,restaurant
+4eb1bfa43b7b52c0e1adc2e8,Peruvian Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Peruvian Restaurant,amenity,restaurant
+5f2c1c31b6d05514c704334c,Peruvian Roast Chicken Joint,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Peruvian Restaurant > Peruvian Roast Chicken Joint,amenity,restaurant
+56aa371be4b08b9a8d573558,Venezuelan Restaurant,Dining and Drinking > Restaurant > Latin American Restaurant > South American Restaurant > Venezuelan Restaurant,amenity,restaurant
+4bf58dd8d48988d1bf941735,Mac and Cheese Joint,Dining and Drinking > Restaurant > Mac and Cheese Joint,amenity,restaurant
+4bf58dd8d48988d1c0941735,Mediterranean Restaurant,Dining and Drinking > Restaurant > Mediterranean Restaurant,amenity,restaurant
+4bf58dd8d48988d1c1941735,Mexican Restaurant,Dining and Drinking > Restaurant > Mexican Restaurant,amenity,restaurant
+58daa1558bbb0b01f18ec1d9,Botanero,Dining and Drinking > Restaurant > Mexican Restaurant > Botanero,amenity,restaurant
+4bf58dd8d48988d153941735,Burrito Restaurant,Dining and Drinking > Restaurant > Mexican Restaurant > Burrito Restaurant,amenity,restaurant
+4bf58dd8d48988d151941735,Taco Restaurant,Dining and Drinking > Restaurant > Mexican Restaurant > Taco Restaurant,amenity,restaurant
+56aa371ae4b08b9a8d5734ba,Tex-Mex Restaurant,Dining and Drinking > Restaurant > Mexican Restaurant > Tex-Mex Restaurant,amenity,restaurant
+5744ccdfe4b0c0459246b4d3,Yucatecan Restaurant,Dining and Drinking > Restaurant > Mexican Restaurant > Yucatecan Restaurant,amenity,restaurant
+4bf58dd8d48988d115941735,Middle Eastern Restaurant,Dining and Drinking > Restaurant > Middle Eastern Restaurant,amenity,restaurant
+5bae9231bedf3950379f89e1,Egyptian Restaurant,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Egyptian Restaurant,amenity,restaurant
+5bae9231bedf3950379f89e7,Iraqi Restaurant,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Iraqi Restaurant,amenity,restaurant
+56aa371be4b08b9a8d573529,Israeli Restaurant,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Israeli Restaurant,amenity,restaurant
+5744ccdfe4b0c0459246b4ca,Kurdish Restaurant,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Kurdish Restaurant,amenity,restaurant
+58daa1558bbb0b01f18ec1cd,Lebanese Restaurant,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Lebanese Restaurant,amenity,restaurant
+52e81612bcbc57f1066b79f7,Persian Restaurant,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Persian Restaurant,amenity,restaurant
+58daa1558bbb0b01f18ec1bc,Ash and Haleem Place,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Persian Restaurant > Ash and Haleem Place,amenity,restaurant
+58daa1558bbb0b01f18ec1c0,Dizi Place,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Persian Restaurant > Dizi Place,amenity,restaurant
+58daa1558bbb0b01f18ec1c4,Gilaki Restaurant,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Persian Restaurant > Gilaki Restaurant,amenity,restaurant
+58daa1558bbb0b01f18ec1c7,Jegaraki,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Persian Restaurant > Jegaraki,amenity,restaurant
+5744ccdfe4b0c0459246b4a6,Kale Pache Place,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Persian Restaurant > Kale Pache Place,amenity,restaurant
+5744ccdfe4b0c0459246b4a8,Tabbakhi,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Persian Restaurant > Tabbakhi,amenity,restaurant
+5bae9231bedf3950379f89e4,Shawarma Restaurant,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Shawarma Restaurant,amenity,restaurant
+5bae9231bedf3950379f89da,Syrian Restaurant,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Syrian Restaurant,amenity,restaurant
+5bae9231bedf3950379f89ea,Yemeni Restaurant,Dining and Drinking > Restaurant > Middle Eastern Restaurant > Yemeni Restaurant,amenity,restaurant
+52e81612bcbc57f1066b79f9,Modern European Restaurant,Dining and Drinking > Restaurant > Modern European Restaurant,amenity,restaurant
+4bf58dd8d48988d1c2941735,Molecular Gastronomy Restaurant,Dining and Drinking > Restaurant > Molecular Gastronomy Restaurant,amenity,restaurant
+4bf58dd8d48988d1c3941735,Moroccan Restaurant,Dining and Drinking > Restaurant > Moroccan Restaurant,amenity,restaurant
+52e81612bcbc57f1066b79f8,Pakistani Restaurant,Dining and Drinking > Restaurant > Pakistani Restaurant,amenity,restaurant
+4bf58dd8d48988d1ca941735,Pizzeria,Dining and Drinking > Restaurant > Pizzeria,amenity,restaurant
+52e81612bcbc57f1066b7a04,Polish Restaurant,Dining and Drinking > Restaurant > Polish Restaurant,amenity,restaurant
+4def73e84765ae376e57713a,Portuguese Restaurant,Dining and Drinking > Restaurant > Portuguese Restaurant,amenity,restaurant
+56aa371be4b08b9a8d5734c7,Poutine Restaurant,Dining and Drinking > Restaurant > Poutine Restaurant,amenity,restaurant
+4bf58dd8d48988d1c4941735,Restaurant,Dining and Drinking > Restaurant > Restaurant,amenity,restaurant
+5293a7563cf9994f4e043a44,Russian Restaurant,Dining and Drinking > Restaurant > Russian Restaurant,amenity,restaurant
+52e928d0bcbc57f1066b7e9d,Blini House,Dining and Drinking > Restaurant > Russian Restaurant > Blini House,amenity,restaurant
+52e928d0bcbc57f1066b7e9c,Pelmeni House,Dining and Drinking > Restaurant > Russian Restaurant > Pelmeni House,amenity,restaurant
+4bf58dd8d48988d1bd941735,Salad Restaurant,Dining and Drinking > Restaurant > Salad Restaurant,amenity,restaurant
+4bf58dd8d48988d1c5941735,Sandwich Spot,Dining and Drinking > Restaurant > Sandwich Spot,amenity,restaurant
+4bf58dd8d48988d1c6941735,Scandinavian Restaurant,Dining and Drinking > Restaurant > Scandinavian Restaurant,amenity,restaurant
+5744ccdde4b0c0459246b4a3,Scottish Restaurant,Dining and Drinking > Restaurant > Scottish Restaurant,amenity,restaurant
+4bf58dd8d48988d1ce941735,Seafood Restaurant,Dining and Drinking > Restaurant > Seafood Restaurant,amenity,restaurant
+56aa371be4b08b9a8d57355a,Slovak Restaurant,Dining and Drinking > Restaurant > Slovak Restaurant,amenity,restaurant
+4bf58dd8d48988d1dd931735,Soup Spot,Dining and Drinking > Restaurant > Soup Spot,amenity,restaurant
+4bf58dd8d48988d14f941735,Southern Food Restaurant,Dining and Drinking > Restaurant > Southern Food Restaurant,amenity,restaurant
+4bf58dd8d48988d150941735,Spanish Restaurant,Dining and Drinking > Restaurant > Spanish Restaurant,amenity,restaurant
+4bf58dd8d48988d14d941735,Paella Restaurant,Dining and Drinking > Restaurant > Spanish Restaurant > Paella Restaurant,amenity,restaurant
+4bf58dd8d48988d1db931735,Tapas Restaurant,Dining and Drinking > Restaurant > Spanish Restaurant > Tapas Restaurant,amenity,restaurant
+5413605de4b0ae91d18581a9,Sri Lankan Restaurant,Dining and Drinking > Restaurant > Sri Lankan Restaurant,amenity,restaurant
+4bf58dd8d48988d1cc941735,Steakhouse,Dining and Drinking > Restaurant > Steakhouse,amenity,restaurant
+4bf58dd8d48988d158941735,Swiss Restaurant,Dining and Drinking > Restaurant > Swiss Restaurant,amenity,restaurant
+56aa371be4b08b9a8d573538,Theme Restaurant,Dining and Drinking > Restaurant > Theme Restaurant,amenity,restaurant
+4f04af1f2fb6e1c99f3db0bb,Turkish Restaurant,Dining and Drinking > Restaurant > Turkish Restaurant,amenity,restaurant
+530faca9bcbc57f1066bc2f3,Borek Place,Dining and Drinking > Restaurant > Turkish Restaurant > Borek Place,amenity,restaurant
+530faca9bcbc57f1066bc2f4,Cigkofte Place,Dining and Drinking > Restaurant > Turkish Restaurant > Cigkofte Place,amenity,restaurant
+5283c7b4e4b094cb91ec88d8,Doner Restaurant,Dining and Drinking > Restaurant > Turkish Restaurant > Doner Restaurant,amenity,restaurant
+5283c7b4e4b094cb91ec88d9,Gozleme Place,Dining and Drinking > Restaurant > Turkish Restaurant > Gozleme Place,amenity,restaurant
+5283c7b4e4b094cb91ec88db,Kofte Place,Dining and Drinking > Restaurant > Turkish Restaurant > Kofte Place,amenity,restaurant
+5283c7b4e4b094cb91ec88d6,Kokoreç Restaurant,Dining and Drinking > Restaurant > Turkish Restaurant > Kokoreç Restaurant,amenity,restaurant
+56aa371be4b08b9a8d573535,Kumpir Restaurant,Dining and Drinking > Restaurant > Turkish Restaurant > Kumpir Restaurant,amenity,restaurant
+56aa371be4b08b9a8d5734bd,Kumru Restaurant,Dining and Drinking > Restaurant > Turkish Restaurant > Kumru Restaurant,amenity,restaurant
+5283c7b4e4b094cb91ec88d5,Manti Place,Dining and Drinking > Restaurant > Turkish Restaurant > Manti Place,amenity,restaurant
+5283c7b4e4b094cb91ec88da,Meyhane,Dining and Drinking > Restaurant > Turkish Restaurant > Meyhane,amenity,restaurant
+530faca9bcbc57f1066bc2f2,Pide Place,Dining and Drinking > Restaurant > Turkish Restaurant > Pide Place,amenity,restaurant
+58daa1558bbb0b01f18ec1df,Pilavcı,Dining and Drinking > Restaurant > Turkish Restaurant > Pilavcı,amenity,restaurant
+58daa1558bbb0b01f18ec1dc,Söğüş Place,Dining and Drinking > Restaurant > Turkish Restaurant > Söğüş Place,amenity,restaurant
+56aa371be4b08b9a8d5734bf,Tantuni Restaurant,Dining and Drinking > Restaurant > Turkish Restaurant > Tantuni Restaurant,amenity,restaurant
+56aa371be4b08b9a8d5734c1,Turkish Coffeehouse,Dining and Drinking > Restaurant > Turkish Restaurant > Turkish Coffeehouse,amenity,cafe
+5283c7b4e4b094cb91ec88d4,Turkish Home Cooking Restaurant,Dining and Drinking > Restaurant > Turkish Restaurant > Turkish Home Cooking Restaurant,amenity,restaurant
+58daa1558bbb0b01f18ec1e2,Çöp Şiş Place,Dining and Drinking > Restaurant > Turkish Restaurant > Çöp Şiş Place,amenity,restaurant
+52e928d0bcbc57f1066b7e96,Ukrainian Restaurant,Dining and Drinking > Restaurant > Ukrainian Restaurant,amenity,restaurant
+52e928d0bcbc57f1066b7e9a,Varenyky Restaurant,Dining and Drinking > Restaurant > Ukrainian Restaurant > Varenyky Restaurant,amenity,restaurant
+52e928d0bcbc57f1066b7e9b,West-Ukrainian Restaurant,Dining and Drinking > Restaurant > Ukrainian Restaurant > West-Ukrainian Restaurant,amenity,restaurant
+4bf58dd8d48988d1d3941735,Vegan and Vegetarian Restaurant,Dining and Drinking > Restaurant > Vegan and Vegetarian Restaurant,amenity,restaurant
+4bf58dd8d48988d14c941735,Wings Joint,Dining and Drinking > Restaurant > Wings Joint,amenity,restaurant
+52f2ab2ebcbc57f1066b8b41,Smoothie Shop,Dining and Drinking > Smoothie Shop,amenity,cafe
+4bf58dd8d48988d1c7941735,Snack Place,Dining and Drinking > Snack Place,amenity,restaurant
+4bf58dd8d48988d1de941735,Vineyard,Dining and Drinking > Vineyard,landuse,vineyard
+4bf58dd8d48988d14b941735,Winery,Dining and Drinking > Winery,craft,winery
+4d4b7105d754a06373d81259,Event,Event,amenity,yes
+5267e4d9e4b0ec79466e48c6,Conference,Event > Conference,amenity,conference
+5267e4d9e4b0ec79466e48c9,Convention,Event > Convention,amenity,convention_centre
+63be6904847c3692a84b9bb7,Entertainment Event,Event > Entertainment Event,tourism,yes
+5267e4d9e4b0ec79466e48c7,Festival,Event > Entertainment Event > Festival,tourism,festival
+62d587aeda6648532de2b88c,Beer Festival,Event > Entertainment Event > Festival > Beer Festival,nf_fsq,nf_fsq
+5267e4d9e4b0ec79466e48d1,Music Festival,Event > Entertainment Event > Music Festival,tourism,music_festival
+52741d85e4b0d5d1e3c6a6d9,Parade,Event > Entertainment Event > Parade,nf_fsq,nf_fsq
+5bae9231bedf3950379f89c5,Sporting Event,Event > Entertainment Event > Sporting Event,nf_fsq,nf_fsq
+58daa1558bbb0b01f18ec1fa,Line,Event > Line,power,line
+63be6904847c3692a84b9bb8,Marketplace,Event > Marketplace,amenity,marketplace
+52f2ab2ebcbc57f1066b8b3b,Christmas Market,Event > Marketplace > Christmas Market,amenity,marketplace
+52f2ab2ebcbc57f1066b8b54,Stoop Sale,Event > Marketplace > Stoop Sale,nf_fsq,nf_fsq
+5267e4d8e4b0ec79466e48c5,Street Fair,Event > Marketplace > Street Fair,landuse,fairground
+53e0feef498e5aac066fd8a9,Street Food Gathering,Event > Marketplace > Street Food Gathering,amenity,marketplace
+5bae9231bedf3950379f89c3,Trade Fair,Event > Marketplace > Trade Fair,landuse,fairground
+5267e4d9e4b0ec79466e48c8,Other Event,Event > Other Event,amenity,yes
+63be6904847c3692a84b9bb9,Health and Medicine,Health and Medicine,amenity,yes
+63be6904847c3692a84b9bba,AIDS Resource,Health and Medicine > AIDS Resource,amenity,yes
+52e81612bcbc57f1066b7a3b,Acupuncture Clinic,Health and Medicine > Acupuncture Clinic,amenity,clinic
+52e81612bcbc57f1066b7a3c,Alternative Medicine Clinic,Health and Medicine > Alternative Medicine Clinic,amenity,clinic
+63be6904847c3692a84b9bbb,Assisted Living Service,Health and Medicine > Assisted Living Service,amenity,social_facility
+5f2c43a65b4c177b9a6dcc62,Blood Bank,Health and Medicine > Blood Bank,healthcare,blood_bank
+52e81612bcbc57f1066b7a3a,Chiropractor,Health and Medicine > Chiropractor,amenity,clinic
+4bf58dd8d48988d178941735,Dentist,Health and Medicine > Dentist,amenity,dentist
+63be6904847c3692a84b9bbc,Emergency Service,Health and Medicine > Emergency Service,amenity,yes
+63be6904847c3692a84b9bbd,Ambulance Service,Health and Medicine > Emergency Service > Ambulance Service,emergency,ambulance_station
+4bf58dd8d48988d194941735,Emergency Room,Health and Medicine > Emergency Service > Emergency Room,healthcare,emergency_room
+63be6904847c3692a84b9bbe,Healthcare Clinic,Health and Medicine > Healthcare Clinic,amenity,clinic
+63be6904847c3692a84b9bbf,Home Health Care Service,Health and Medicine > Home Health Care Service,healthcare,nurse
+5f2c5b8b5b4c177b9a6ddf0b,Hospice,Health and Medicine > Hospice,healthcare,hospice
+4bf58dd8d48988d196941735,Hospital,Health and Medicine > Hospital,amenity,hospital
+63be6904847c3692a84b9bc0,Children's Hospital,Health and Medicine > Hospital > Children's Hospital,amenity,hospital
+58daa1558bbb0b01f18ec1f7,Hospital Unit,Health and Medicine > Hospital > Hospital Unit,amenity,hospital
+56aa371be4b08b9a8d5734ff,Maternity Clinic,Health and Medicine > Maternity Clinic,amenity,clinic
+4bf58dd8d48988d104941735,Medical Center,Health and Medicine > Medical Center,amenity,clinic
+4f4531b14b9074f6e4fb0103,Medical Lab,Health and Medicine > Medical Lab,healthcare,laboratory
+63be6904847c3692a84b9bc1,Mental Health Service,Health and Medicine > Mental Health Service,healthcare,counselling
+52e81612bcbc57f1066b7a39,Mental Health Clinic,Health and Medicine > Mental Health Service > Mental Health Clinic,healthcare,counselling
+63be6904847c3692a84b9bc2,Psychologist,Health and Medicine > Mental Health Service > Psychologist,healthcare,psychotherapist
+63be6904847c3692a84b9bc3,Nurse,Health and Medicine > Nurse,healthcare,nurse
+63be6904847c3692a84b9bc4,Nursing Home,Health and Medicine > Nursing Home,amenity,nursing_home
+58daa1558bbb0b01f18ec1d0,Nutritionist,Health and Medicine > Nutritionist,healthcare,counselling
+522e32fae4b09b556e370f19,Optometrist,Health and Medicine > Optometrist,healthcare,optometrist
+63be6904847c3692a84b9bc5,Other Healthcare Professional,Health and Medicine > Other Healthcare Professional,amenity,yes
+5744ccdfe4b0c0459246b4af,Physical Therapy Clinic,Health and Medicine > Physical Therapy Clinic,amenity,clinic
+63be6904847c3692a84b9bc6,Physician,Health and Medicine > Physician,amenity,doctors
+63be6904847c3692a84b9bc7,Anesthesiologist,Health and Medicine > Physician > Anesthesiologist,amenity,doctors
+63be6904847c3692a84b9bc8,Cardiologist,Health and Medicine > Physician > Cardiologist,amenity,doctors
+63be6904847c3692a84b9bc9,Dermatologist,Health and Medicine > Physician > Dermatologist,amenity,doctors
+4bf58dd8d48988d177941735,Doctor's Office,Health and Medicine > Physician > Doctor's Office,amenity,doctors
+63be6904847c3692a84b9bca,"Ear, Nose and Throat Doctor","Health and Medicine > Physician > Ear, Nose and Throat Doctor",amenity,doctors
+63be6904847c3692a84b9bcb,Family Medicine Doctor,Health and Medicine > Physician > Family Medicine Doctor,amenity,doctors
+63be6904847c3692a84b9bcc,Gastroenterologist,Health and Medicine > Physician > Gastroenterologist,amenity,doctors
+63be6904847c3692a84b9bcd,General Surgeon,Health and Medicine > Physician > General Surgeon,amenity,doctors
+63be6904847c3692a84b9bce,Geriatric Doctor,Health and Medicine > Physician > Geriatric Doctor,amenity,doctors
+63be6904847c3692a84b9bcf,Internal Medicine Doctor,Health and Medicine > Physician > Internal Medicine Doctor,amenity,doctors
+63be6904847c3692a84b9bd0,Neurologist,Health and Medicine > Physician > Neurologist,amenity,doctors
+63be6904847c3692a84b9bd1,Obstetrician Gynecologist (Ob-gyn),Health and Medicine > Physician > Obstetrician Gynecologist (Ob-gyn),amenity,doctors
+63be6904847c3692a84b9bd2,Oncologist,Health and Medicine > Physician > Oncologist,amenity,doctors
+63be6904847c3692a84b9bd3,Ophthalmologist,Health and Medicine > Physician > Ophthalmologist,amenity,doctors
+63be6904847c3692a84b9bd4,Oral Surgeon,Health and Medicine > Physician > Oral Surgeon,amenity,doctors
+63be6904847c3692a84b9bd5,Orthopedic Surgeon,Health and Medicine > Physician > Orthopedic Surgeon,amenity,doctors
+63be6904847c3692a84b9bd6,Pathologist,Health and Medicine > Physician > Pathologist,amenity,doctors
+63be6904847c3692a84b9bd7,Pediatrician,Health and Medicine > Physician > Pediatrician,amenity,doctors
+63be6904847c3692a84b9bd8,Plastic Surgeon,Health and Medicine > Physician > Plastic Surgeon,amenity,doctors
+63be6904847c3692a84b9bd9,Psychiatrist,Health and Medicine > Physician > Psychiatrist,amenity,doctors
+63be6904847c3692a84b9bda,Radiologist,Health and Medicine > Physician > Radiologist,amenity,doctors
+63be6904847c3692a84b9bdb,Respiratory Doctor,Health and Medicine > Physician > Respiratory Doctor,amenity,doctors
+63be6904847c3692a84b9bdc,Urologist,Health and Medicine > Physician > Urologist,amenity,doctors
+63be6904847c3692a84b9bdd,Podiatrist,Health and Medicine > Podiatrist,healthcare,podiatrist
+63be6904847c3692a84b9bde,Sports Medicine Clinic,Health and Medicine > Sports Medicine Clinic,amenity,clinic
+56aa371be4b08b9a8d573526,Urgent Care Center,Health and Medicine > Urgent Care Center,amenity,clinic
+4d954af4a243a5684765b473,Veterinarian,Health and Medicine > Veterinarian,amenity,veterinary
+590a0744340a5803fd8508c3,Weight Loss Center,Health and Medicine > Weight Loss Center,healthcare,counselling
+63be6904847c3692a84b9bdf,Women's Health Clinic,Health and Medicine > Women's Health Clinic,amenity,clinic
+4d4b7105d754a06377d81259,Landmarks and Outdoors,Landmarks and Outdoors,tourism,yes
+52e81612bcbc57f1066b7a28,Bathing Area,Landmarks and Outdoors > Bathing Area,leisure,swimming_area
+56aa371be4b08b9a8d573544,Bay,Landmarks and Outdoors > Bay,natural,bay
+4bf58dd8d48988d1e2941735,Beach,Landmarks and Outdoors > Beach,natural,beach
+56aa371be4b08b9a8d57355e,Bike Trail,Landmarks and Outdoors > Bike Trail,route,bicycle
+5fabfc8099ce226e27fe6b0d,Boat Launch,Landmarks and Outdoors > Boat Launch,leisure,slipway
+52e81612bcbc57f1066b7a22,Botanical Garden,Landmarks and Outdoors > Botanical Garden,leisure,garden
+4bf58dd8d48988d1df941735,Bridge,Landmarks and Outdoors > Bridge,man_made,bridge
+4bf58dd8d48988d1e4941735,Campground,Landmarks and Outdoors > Campground,tourism,camp_site
+56aa371be4b08b9a8d573562,Canal,Landmarks and Outdoors > Canal,waterway,canal
+56aa371be4b08b9a8d57353b,Canal Lock,Landmarks and Outdoors > Canal Lock,water,lock
+50aaa49e4b90af0d42d5de11,Castle,Landmarks and Outdoors > Castle,historic,castle
+56aa371be4b08b9a8d573511,Cave,Landmarks and Outdoors > Cave,natural,cave_entrance
+5fac018b99ce226e27fe7573,Dam,Landmarks and Outdoors > Dam,waterway,dam
+52e81612bcbc57f1066b7a12,Dive Spot,Landmarks and Outdoors > Dive Spot,amenity,dive_site
+4bf58dd8d48988d15b941735,Farm,Landmarks and Outdoors > Farm,place,farm
+4bf58dd8d48988d15f941735,Field,Landmarks and Outdoors > Field,landuse,yes
+52e81612bcbc57f1066b7a23,Forest,Landmarks and Outdoors > Forest,landuse,forest
+56aa371be4b08b9a8d573547,Fountain,Landmarks and Outdoors > Fountain,amenity,fountain
+4bf58dd8d48988d15a941735,Garden,Landmarks and Outdoors > Garden,leisure,garden
+4bf58dd8d48988d1e0941735,Harbor or Marina,Landmarks and Outdoors > Harbor or Marina,leisure,marina
+4bf58dd8d48988d159941735,Hiking Trail,Landmarks and Outdoors > Hiking Trail,route,hiking
+5bae9231bedf3950379f89cd,Hill,Landmarks and Outdoors > Hill,natural,hill
+4deefb944765f83613cdba6e,Historic and Protected Site,Landmarks and Outdoors > Historic and Protected Site,boundary,protected_area
+4bf58dd8d48988d160941735,Hot Spring,Landmarks and Outdoors > Hot Spring,natural,hot_spring
+50aaa4314b90af0d42d5de10,Island,Landmarks and Outdoors > Island,place,island
+4bf58dd8d48988d161941735,Lake,Landmarks and Outdoors > Lake,water,lake
+4bf58dd8d48988d15d941735,Lighthouse,Landmarks and Outdoors > Lighthouse,man_made,lighthouse
+5642206c498e4bfca532186c,Memorial Site,Landmarks and Outdoors > Memorial Site,historic,memorial
+4bf58dd8d48988d12d941735,Monument,Landmarks and Outdoors > Monument,historic,monument
+4eb1d4d54b900d56c88a45fc,Mountain,Landmarks and Outdoors > Mountain,natural,peak
+55a5a1ebe4b013909087cb77,Mountain Hut,Landmarks and Outdoors > Mountain Hut,tourism,alpine_hut
+52e81612bcbc57f1066b7a13,Nature Preserve,Landmarks and Outdoors > Nature Preserve,leisure,nature_reserve
+52e81612bcbc57f1066b7a30,Nudist Beach,Landmarks and Outdoors > Nudist Beach,natural,beach
+4bf58dd8d48988d162941735,Other Great Outdoors,Landmarks and Outdoors > Other Great Outdoors,tourism,yes
+52e81612bcbc57f1066b7a14,Palace,Landmarks and Outdoors > Palace,historic,castle
+4bf58dd8d48988d163941735,Park,Landmarks and Outdoors > Park,leisure,park
+4bf58dd8d48988d1e5941735,Dog Park,Landmarks and Outdoors > Park > Dog Park,leisure,dog_park
+52e81612bcbc57f1066b7a21,National Park,Landmarks and Outdoors > Park > National Park,boundary,national_park
+63be6904847c3692a84b9be0,Natural Park,Landmarks and Outdoors > Park > Natural Park,boundary,protected_area
+5fabfe3599ce226e27fe709a,Picnic Area,Landmarks and Outdoors > Park > Picnic Area,tourism,picnic_site
+4bf58dd8d48988d1e7941735,Playground,Landmarks and Outdoors > Park > Playground,leisure,playground
+5bae9231bedf3950379f89d0,State or Provincial Park,Landmarks and Outdoors > Park > State or Provincial Park,boundary,protected_area
+63be6904847c3692a84b9be1,Urban Park,Landmarks and Outdoors > Park > Urban Park,leisure,park
+52e81612bcbc57f1066b7a25,Pedestrian Plaza,Landmarks and Outdoors > Pedestrian Plaza,place,square
+5fac010d99ce226e27fe7467,Picnic Shelter,Landmarks and Outdoors > Picnic Shelter,amenity,shelter
+4bf58dd8d48988d164941735,Plaza,Landmarks and Outdoors > Plaza,place,square
+56aa371be4b08b9a8d573541,Reservoir,Landmarks and Outdoors > Reservoir,water,reservoir
+4eb1d4dd4b900d56c88a45fd,River,Landmarks and Outdoors > River,waterway,river
+50328a4b91d4c4b30a586d6b,Rock Climbing Spot,Landmarks and Outdoors > Rock Climbing Spot,leisure,yes
+4bf58dd8d48988d133951735,Roof Deck,Landmarks and Outdoors > Roof Deck,leisure,yes
+4bf58dd8d48988d165941735,Scenic Lookout,Landmarks and Outdoors > Scenic Lookout,tourism,viewpoint
+4bf58dd8d48988d166941735,Sculpture Garden,Landmarks and Outdoors > Sculpture Garden,leisure,garden
+4eb1baf03b7b2c5b1d4306ca,Stable,Landmarks and Outdoors > Stable,building,stable
+530e33ccbcbc57f1066bbfe4,States and Municipalities,Landmarks and Outdoors > States and Municipalities,place,yes
+50aa9e094b90af0d42d5de0d,City,Landmarks and Outdoors > States and Municipalities > City,place,city
+530e33ccbcbc57f1066bbff7,Country,Landmarks and Outdoors > States and Municipalities > Country,place,country
+5345731ebcbc57f1066c39b2,County,Landmarks and Outdoors > States and Municipalities > County,place,county
+4f2a25ac4b909258e854f55f,Neighborhood,Landmarks and Outdoors > States and Municipalities > Neighborhood,place,neighbourhood
+530e33ccbcbc57f1066bbff8,State,Landmarks and Outdoors > States and Municipalities > State,place,state
+530e33ccbcbc57f1066bbff3,Town,Landmarks and Outdoors > States and Municipalities > Town,place,town
+530e33ccbcbc57f1066bbff9,Village,Landmarks and Outdoors > States and Municipalities > Village,place,village
+4bf58dd8d48988d130941735,Structure,Landmarks and Outdoors > Structure,building,yes
+4bf58dd8d48988d1e3941735,Surf Spot,Landmarks and Outdoors > Surf Spot,leisure,yes
+52e81612bcbc57f1066b7a24,Tree,Landmarks and Outdoors > Tree,natural,tree
+52f2ab2ebcbc57f1066b8b4a,Tunnel,Landmarks and Outdoors > Tunnel,tunnel,yes
+5032848691d4c4b30a586d61,Volcano,Landmarks and Outdoors > Volcano,natural,volcano
+56aa371be4b08b9a8d573560,Waterfall,Landmarks and Outdoors > Waterfall,waterway,waterfall
+56aa371be4b08b9a8d5734c3,Waterfront,Landmarks and Outdoors > Waterfront,tourism,yes
+4fbc1be21983fc883593e321,Well,Landmarks and Outdoors > Well,man_made,water_well
+5bae9231bedf3950379f89c7,Windmill,Landmarks and Outdoors > Windmill,man_made,windmill
+4d4b7105d754a06376d81259,Nightlife Spot,Nightlife Spot,leisure,nightlife
+4bf58dd8d48988d11a941735,Other Nightlife,Nightlife Spot > Other Nightlife,leisure,yes
+4d4b7105d754a06378d81259,Retail,Retail,shop,yes
+5267e446e4b0ec79466e48c4,Adult Store,Retail > Adult Store,shop,erotic
+4bf58dd8d48988d116951735,Antique Store,Retail > Antique Store,shop,antiques
+4bf58dd8d48988d127951735,Arts and Crafts Store,Retail > Arts and Crafts Store,shop,craft
+63be6904847c3692a84b9be2,Auction House,Retail > Auction House,shop,auction_house
+56aa371be4b08b9a8d5734d3,Auto Workshop,Retail > Auto Workshop,shop,car_repair
+63be6904847c3692a84b9be3,Automotive Retail,Retail > Automotive Retail,shop,yes
+4eb1c1623b7b52c0e1adc2ec,Car Dealership,Retail > Automotive Retail > Car Dealership,shop,car
+63be6904847c3692a84b9be4,Classic and Antique Car Dealership,Retail > Automotive Retail > Car Dealership > Classic and Antique Car Dealership,shop,car
+5e8f50bd03c7a9000c1e2fbc,New Car Dealership,Retail > Automotive Retail > Car Dealership > New Car Dealership,shop,car
+63be6904847c3692a84b9be5,RV and Motorhome Dealership,Retail > Automotive Retail > Car Dealership > RV and Motorhome Dealership,shop,caravan
+5e8f501a03c7a9000c1e2e88,Used Car Dealership,Retail > Automotive Retail > Car Dealership > Used Car Dealership,shop,car
+63be6904847c3692a84b9be6,Car Parts and Accessories,Retail > Automotive Retail > Car Parts and Accessories,shop,car_parts
+63be6904847c3692a84b9be7,Moped Dealership,Retail > Automotive Retail > Moped Dealership,shop,motorcycle
+63be6904847c3692a84b9be8,Motor Scooter Dealership,Retail > Automotive Retail > Motor Scooter Dealership,shop,scooter
+5032833091d4c4b30a586d60,Motorcycle Dealership,Retail > Automotive Retail > Motorcycle Dealership,shop,motorcycle
+59d79d6b2e268052fa2a3332,Motorsports Store,Retail > Automotive Retail > Motorsports Store,shop,motorcycle
+4bf58dd8d48988d124951735,Automotive Shop,Retail > Automotive Shop,shop,car_repair
+52f2ab2ebcbc57f1066b8b32,Baby Store,Retail > Baby Store,shop,baby_goods
+52f2ab2ebcbc57f1066b8b40,Betting Shop,Retail > Betting Shop,shop,bookmaker
+52f2ab2ebcbc57f1066b8b42,Big Box Store,Retail > Big Box Store,shop,department_store
+4bf58dd8d48988d1f1941735,Board Store,Retail > Board Store,shop,surf
+4bf58dd8d48988d114951735,Bookstore,Retail > Bookstore,shop,books
+52f2ab2ebcbc57f1066b8b30,Used Bookstore,Retail > Bookstore > Used Bookstore,shop,books
+4bf58dd8d48988d104951735,Boutique,Retail > Boutique,shop,boutique
+63be6904847c3692a84b9be9,Cannabis Store,Retail > Cannabis Store,shop,cannabis
+52f2ab2ebcbc57f1066b8b18,Comic Book Store,Retail > Comic Book Store,shop,anime
+63be6904847c3692a84b9bea,Computers and Electronics Retail,Retail > Computers and Electronics Retail,shop,electronics
+4eb1bdf03b7b55596b4a7491,Camera Store,Retail > Computers and Electronics Retail > Camera Store,shop,camera
+4bf58dd8d48988d122951735,Electronics Store,Retail > Computers and Electronics Retail > Electronics Store,shop,electronics
+4f04afc02fb6e1c99f3db0bc,Mobile Phone Store,Retail > Computers and Electronics Retail > Mobile Phone Store,shop,mobile_phone
+4bf58dd8d48988d10b951735,Video Games Store,Retail > Computers and Electronics Retail > Video Games Store,shop,video_games
+5454144b498ec1f095bff2f2,Construction Supplies Store,Retail > Construction Supplies Store,shop,doityourself
+4d954b0ea243a5684a65b473,Convenience Store,Retail > Convenience Store,shop,convenience
+4bf58dd8d48988d10c951735,Cosmetics Store,Retail > Cosmetics Store,shop,cosmetics
+52f2ab2ebcbc57f1066b8b17,Costume Store,Retail > Costume Store,shop,clothes
+63be6904847c3692a84b9beb,Dance Store,Retail > Dance Store,shop,clothes
+4bf58dd8d48988d1f6941735,Department Store,Retail > Department Store,shop,department_store
+52dea92d3cf9994f4e043dbb,Discount Store,Retail > Discount Store,shop,discount
+5745c2e4498e11e7bccabdbd,Drugstore,Retail > Drugstore,amenity,pharmacy
+589ddde98ae3635c072819ee,Duty-free Store,Retail > Duty-free Store,shop,duty_free
+4d954afda243a5684865b473,Eyecare Store,Retail > Eyecare Store,shop,optician
+63be6904847c3692a84b9bec,Fashion Retail,Retail > Fashion Retail,shop,clothes
+56aa371be4b08b9a8d5734cb,Batik Store,Retail > Fashion Retail > Batik Store,shop,clothes
+4bf58dd8d48988d11a951735,Bridal Store,Retail > Fashion Retail > Bridal Store,shop,clothes
+4bf58dd8d48988d105951735,Children's Clothing Store,Retail > Fashion Retail > Children's Clothing Store,shop,clothes
+4bf58dd8d48988d103951735,Clothing Store,Retail > Fashion Retail > Clothing Store,shop,clothes
+4bf58dd8d48988d102951735,Fashion Accessories Store,Retail > Fashion Retail > Fashion Accessories Store,shop,fashion_accessories
+4bf58dd8d48988d111951735,Jewelry Store,Retail > Fashion Retail > Jewelry Store,shop,jewelry
+4bf58dd8d48988d109951735,Lingerie Store,Retail > Fashion Retail > Lingerie Store,shop,clothes
+4bf58dd8d48988d106951735,Men's Store,Retail > Fashion Retail > Men's Store,shop,clothes
+4bf58dd8d48988d107951735,Shoe Store,Retail > Fashion Retail > Shoe Store,shop,shoes
+63be6904847c3692a84b9bed,Sunglasses Store,Retail > Fashion Retail > Sunglasses Store,shop,optician
+63be6904847c3692a84b9bee,Swimwear Store,Retail > Fashion Retail > Swimwear Store,shop,clothes
+52f2ab2ebcbc57f1066b8b2e,Watch Store,Retail > Fashion Retail > Watch Store,shop,watches
+4bf58dd8d48988d108951735,Women's Store,Retail > Fashion Retail > Women's Store,shop,clothes
+503287a291d4c4b30a586d65,Financial or Legal Service,Retail > Financial or Legal Service,office,yes
+52f2ab2ebcbc57f1066b8b3a,Fireworks Store,Retail > Fireworks Store,shop,pyrotechnics
+4bf58dd8d48988d1f7941735,Flea Market,Retail > Flea Market,amenity,marketplace
+56aa371be4b08b9a8d573505,Floating Market,Retail > Floating Market,amenity,marketplace
+4bf58dd8d48988d11b951735,Flower Store,Retail > Flower Store,shop,florist
+4bf58dd8d48988d1f9941735,Food and Beverage Retail,Retail > Food and Beverage Retail,shop,yes
+5370f356bcbc57f1066c94c2,Beer Store,Retail > Food and Beverage Retail > Beer Store,shop,alcohol
+4bf58dd8d48988d11d951735,Butcher,Retail > Food and Beverage Retail > Butcher,shop,butcher
+4bf58dd8d48988d117951735,Candy Store,Retail > Food and Beverage Retail > Candy Store,shop,confectionery
+4bf58dd8d48988d11e951735,Cheese Store,Retail > Food and Beverage Retail > Cheese Store,shop,cheese
+52f2ab2ebcbc57f1066b8b31,Chocolate Store,Retail > Food and Beverage Retail > Chocolate Store,shop,chocolate
+5e18993feee47d000759b256,Coffee Roaster,Retail > Food and Beverage Retail > Coffee Roaster,shop,coffee
+58daa1558bbb0b01f18ec1ca,Dairy Store,Retail > Food and Beverage Retail > Dairy Store,shop,dairy
+4bf58dd8d48988d1fa941735,Farmers Market,Retail > Food and Beverage Retail > Farmers Market,amenity,marketplace
+4bf58dd8d48988d10e951735,Fish Market,Retail > Food and Beverage Retail > Fish Market,shop,seafood
+52f2ab2ebcbc57f1066b8b1c,Fruit and Vegetable Store,Retail > Food and Beverage Retail > Fruit and Vegetable Store,shop,greengrocer
+4bf58dd8d48988d1f5941735,Gourmet Store,Retail > Food and Beverage Retail > Gourmet Store,shop,deli
+4bf58dd8d48988d118951735,Grocery Store,Retail > Food and Beverage Retail > Grocery Store,shop,supermarket
+52f2ab2ebcbc57f1066b8b45,Organic Grocery,Retail > Food and Beverage Retail > Grocery Store > Organic Grocery,shop,supermarket
+50aa9e744b90af0d42d5de0e,Health Food Store,Retail > Food and Beverage Retail > Health Food Store,shop,health_food
+52f2ab2ebcbc57f1066b8b2c,Herbs and Spices Store,Retail > Food and Beverage Retail > Herbs and Spices Store,shop,spices
+5f2c41945b4c177b9a6dc7d6,Imported Food Store,Retail > Food and Beverage Retail > Imported Food Store,shop,food
+63be6904847c3692a84b9bef,Kosher Store,Retail > Food and Beverage Retail > Kosher Store,shop,supermarket
+58daa1558bbb0b01f18ec1e8,Kuruyemişçi Shop,Retail > Food and Beverage Retail > Kuruyemişçi Shop,shop,nuts
+4bf58dd8d48988d186941735,Liquor Store,Retail > Food and Beverage Retail > Liquor Store,shop,alcohol
+63be6904847c3692a84b9bf0,Meat and Seafood Store,Retail > Food and Beverage Retail > Meat and Seafood Store,shop,seafood
+56aa371be4b08b9a8d573564,Sausage Store,Retail > Food and Beverage Retail > Sausage Store,shop,butcher
+52f2ab2ebcbc57f1066b8b46,Supermarket,Retail > Food and Beverage Retail > Supermarket,shop,supermarket
+58daa1558bbb0b01f18ec1e5,Turşucu Shop,Retail > Food and Beverage Retail > Turşucu Shop,shop,pickles
+4bf58dd8d48988d119951735,Wine Store,Retail > Food and Beverage Retail > Wine Store,shop,wine
+52f2ab2ebcbc57f1066b8b24,Framing Store,Retail > Framing Store,shop,frame
+4bf58dd8d48988d1f8941735,Furniture and Home Store,Retail > Furniture and Home Store,shop,furniture
+52f2ab2ebcbc57f1066b8b2a,Carpet Store,Retail > Furniture and Home Store > Carpet Store,shop,carpet
+63be6904847c3692a84b9bf1,Home Appliance Store,Retail > Furniture and Home Store > Home Appliance Store,shop,appliance
+63be6904847c3692a84b9bf2,Housewares Store,Retail > Furniture and Home Store > Housewares Store,shop,houseware
+58daa1558bbb0b01f18ec1b4,Kitchen Supply Store,Retail > Furniture and Home Store > Kitchen Supply Store,shop,kitchen
+55888a5a498e782e3303b43a,Lighting Store,Retail > Furniture and Home Store > Lighting Store,shop,lighting
+52f2ab2ebcbc57f1066b8b27,Mattress Store,Retail > Furniture and Home Store > Mattress Store,shop,bed
+4eb1c0253b7b52c0e1adc2e9,Garden Center,Retail > Garden Center,shop,garden_centre
+4bf58dd8d48988d128951735,Gift Store,Retail > Gift Store,shop,gift
+4bf58dd8d48988d112951735,Hardware Store,Retail > Hardware Store,shop,hardware
+4bf58dd8d48988d1fb941735,Hobby Store,Retail > Hobby Store,shop,hobby
+52f2ab2ebcbc57f1066b8b25,Knitting Store,Retail > Knitting Store,shop,wool
+52f2ab2ebcbc57f1066b8b2b,Leather Goods Store,Retail > Leather Goods Store,shop,leather
+52f2ab2ebcbc57f1066b8b29,Luggage Store,Retail > Luggage Store,shop,bag
+52c71aaf3cf9994f4e043d17,Marijuana Dispensary,Retail > Marijuana Dispensary,shop,cannabis
+50be8ee891d4fa8dcc7199a7,Market,Retail > Market,shop,general
+58daa1558bbb0b01f18ec206,Medical Supply Store,Retail > Medical Supply Store,shop,medical_supply
+4bf58dd8d48988d1ff941735,Miscellaneous Store,Retail > Miscellaneous Store,shop,variety_store
+56aa371be4b08b9a8d57354a,Mobility Store,Retail > Mobility Store,shop,medical_supply
+4bf58dd8d48988d1fe941735,Music Store,Retail > Music Store,shop,music
+5f2c5a295b4c177b9a6ddd0e,Newsagent,Retail > Newsagent,shop,newsagent
+4f04ad622fb6e1c99f3db0b9,Newsstand,Retail > Newsstand,shop,newsagent
+4bf58dd8d48988d121951735,Office Supply Store,Retail > Office Supply Store,shop,stationery
+52f2ab2ebcbc57f1066b8b22,Outdoor Supply Store,Retail > Outdoor Supply Store,shop,outdoor
+5744ccdfe4b0c0459246b4df,Outlet Mall,Retail > Outlet Mall,shop,mall
+52f2ab2ebcbc57f1066b8b35,Outlet Store,Retail > Outlet Store,shop,outpost
+63be6904847c3692a84b9bf3,Packaging Supply Store,Retail > Packaging Supply Store,shop,packaging
+63be6904847c3692a84b9bf4,Party Supply Store,Retail > Party Supply Store,shop,party
+52f2ab2ebcbc57f1066b8b34,Pawn Shop,Retail > Pawn Shop,shop,pawnbroker
+52f2ab2ebcbc57f1066b8b23,Perfume Store,Retail > Perfume Store,shop,perfumery
+4bf58dd8d48988d100951735,Pet Supplies Store,Retail > Pet Supplies Store,shop,pet
+4bf58dd8d48988d10f951735,Pharmacy,Retail > Pharmacy,amenity,pharmacy
+52f2ab2ebcbc57f1066b8b3d,Pop-Up Store,Retail > Pop-Up Store,shop,pop_up_store
+52f2ab2ebcbc57f1066b8b28,Print Store,Retail > Print Store,shop,copyshop
+4bf58dd8d48988d10d951735,Record Store,Retail > Record Store,shop,music
+4bf58dd8d48988d1fd941735,Shopping Mall,Retail > Shopping Mall,shop,mall
+5744ccdfe4b0c0459246b4dc,Shopping Plaza,Retail > Shopping Plaza,shop,mall
+4bf58dd8d48988d123951735,Smoke Shop,Retail > Smoke Shop,shop,tobacco
+52f2ab2ebcbc57f1066b8b1b,Souvenir Store,Retail > Souvenir Store,shop,gift
+4bf58dd8d48988d1f2941735,Sporting Goods Retail,Retail > Sporting Goods Retail,shop,sports
+63be6904847c3692a84b9bf5,Baseball Store,Retail > Sporting Goods Retail > Baseball Store,shop,sports
+4bf58dd8d48988d115951735,Bicycle Store,Retail > Sporting Goods Retail > Bicycle Store,shop,bicycle
+52f2ab2ebcbc57f1066b8b1a,Dive Store,Retail > Sporting Goods Retail > Dive Store,shop,scuba_diving
+52f2ab2ebcbc57f1066b8b16,Fishing Store,Retail > Sporting Goods Retail > Fishing Store,shop,fishing
+63be6904847c3692a84b9bf6,Golf Store,Retail > Sporting Goods Retail > Golf Store,shop,golf
+52f2ab2ebcbc57f1066b8b19,Gun Store,Retail > Sporting Goods Retail > Gun Store,shop,weapons
+50aaa5234b90af0d42d5de12,Hunting Supply Store,Retail > Sporting Goods Retail > Hunting Supply Store,shop,hunting
+63be6904847c3692a84b9bf7,Running Store,Retail > Sporting Goods Retail > Running Store,shop,sports
+5bae9231bedf3950379f89d2,Skate Store,Retail > Sporting Goods Retail > Skate Store,shop,sports
+56aa371be4b08b9a8d573566,Ski Store,Retail > Sporting Goods Retail > Ski Store,shop,ski
+63be6904847c3692a84b9bf8,Soccer Store,Retail > Sporting Goods Retail > Soccer Store,shop,sports
+63be6904847c3692a84b9bf9,Surf Store,Retail > Sporting Goods Retail > Surf Store,shop,surf
+63be6904847c3692a84b9bfa,Tennis Store,Retail > Sporting Goods Retail > Tennis Store,shop,sports
+52f2ab2ebcbc57f1066b8b21,Stationery Store,Retail > Stationery Store,shop,stationery
+5744ccdfe4b0c0459246b4cd,Supplement Store,Retail > Supplement Store,shop,nutrition_supplements
+63be6904847c3692a84b9bfb,Swimming Pool Supply Store,Retail > Swimming Pool Supply Store,shop,swimming_pool
+52f2ab2ebcbc57f1066b8b26,Textiles Store,Retail > Textiles Store,shop,fabric
+63be6904847c3692a84b9bfc,Tobacco Store,Retail > Tobacco Store,shop,tobacco
+4bf58dd8d48988d1f3941735,Toy Store,Retail > Toy Store,shop,toys
+56aa371be4b08b9a8d57355c,Vape Store,Retail > Vape Store,shop,e-cigarette
+4bf58dd8d48988d126951735,Video Store,Retail > Video Store,shop,video
+4bf58dd8d48988d101951735,Vintage and Thrift Store,Retail > Vintage and Thrift Store,shop,second_hand
+52e816a6bcbc57f1066b7a54,Warehouse or Wholesale Store,Retail > Warehouse or Wholesale Store,shop,wholesale
+4f4528bc4b90abdf24c9de85,Sports and Recreation,Sports and Recreation,leisure,yes
+63be6904847c3692a84b9bfd,Athletic Field,Sports and Recreation > Athletic Field,leisure,pitch
+63be6904847c3692a84b9bfe,Baseball,Sports and Recreation > Baseball,leisure,yes
+63be6904847c3692a84b9bff,Baseball Club,Sports and Recreation > Baseball > Baseball Club,leisure,sports_centre
+4bf58dd8d48988d1e8941735,Baseball Field,Sports and Recreation > Baseball > Baseball Field,leisure,pitch
+63be6904847c3692a84b9c00,Batting Cages,Sports and Recreation > Baseball > Batting Cages,leisure,yes
+63be6904847c3692a84b9c01,Basketball,Sports and Recreation > Basketball,leisure,yes
+63be6904847c3692a84b9c02,Basketball Club,Sports and Recreation > Basketball > Basketball Club,leisure,sports_centre
+4bf58dd8d48988d1e1941735,Basketball Court,Sports and Recreation > Basketball > Basketball Court,leisure,pitch
+52e81612bcbc57f1066b7a2f,Bowling Green,Sports and Recreation > Bowling Green,leisure,pitch
+4bf58dd8d48988d18a941735,Cricket Ground,Sports and Recreation > Cricket Ground,leisure,pitch
+56aa371be4b08b9a8d57351a,Curling Ice,Sports and Recreation > Curling Ice,leisure,ice_rink
+63be6904847c3692a84b9c04,Equestrian Facility,Sports and Recreation > Equestrian Facility,leisure,horse_riding
+52e81612bcbc57f1066b7a0f,Fishing Area,Sports and Recreation > Fishing Area,leisure,fishing
+63be6904847c3692a84b9c05,Football,Sports and Recreation > Football,leisure,yes
+63be6904847c3692a84b9c06,Football Club,Sports and Recreation > Football > Football Club,leisure,sports_centre
+63be6904847c3692a84b9c07,Football Field,Sports and Recreation > Football > Football Field,leisure,pitch
+63be6904847c3692a84b9c08,Golf,Sports and Recreation > Golf,shop,golf
+63be6904847c3692a84b9c09,Golf Club,Sports and Recreation > Golf > Golf Club,leisure,sports_centre
+4bf58dd8d48988d1e6941735,Golf Course,Sports and Recreation > Golf > Golf Course,leisure,golf_course
+58daa1558bbb0b01f18ec1b0,Golf Driving Range,Sports and Recreation > Golf > Golf Driving Range,leisure,golf_course
+52e81612bcbc57f1066b7a11,Gun Range,Sports and Recreation > Gun Range,leisure,gun_range
+4bf58dd8d48988d175941735,Gym and Studio,Sports and Recreation > Gym and Studio,leisure,fitness_centre
+52f2ab2ebcbc57f1066b8b47,Boxing Gym,Sports and Recreation > Gym and Studio > Boxing Gym,leisure,fitness_centre
+503289d391d4c4b30a586d6a,Climbing Gym,Sports and Recreation > Gym and Studio > Climbing Gym,leisure,fitness_centre
+52f2ab2ebcbc57f1066b8b49,Cycle Studio,Sports and Recreation > Gym and Studio > Cycle Studio,leisure,fitness_centre
+4bf58dd8d48988d134941735,Dance Studio,Sports and Recreation > Gym and Studio > Dance Studio,leisure,fitness_centre
+4bf58dd8d48988d176941735,Gym,Sports and Recreation > Gym and Studio > Gym,leisure,fitness_centre
+4bf58dd8d48988d105941735,Gym Pool,Sports and Recreation > Gym and Studio > Gym Pool,leisure,swimming_pool
+58daa1558bbb0b01f18ec203,Outdoor Gym,Sports and Recreation > Gym and Studio > Outdoor Gym,leisure,fitness_station
+5744ccdfe4b0c0459246b4b2,Pilates Studio,Sports and Recreation > Gym and Studio > Pilates Studio,leisure,fitness_centre
+4bf58dd8d48988d102941735,Yoga Studio,Sports and Recreation > Gym and Studio > Yoga Studio,leisure,fitness_centre
+63be6904847c3692a84b9c0a,Gymnastics,Sports and Recreation > Gymnastics,leisure,fitness_centre
+52f2ab2ebcbc57f1066b8b48,Gymnastics Center,Sports and Recreation > Gymnastics > Gymnastics Center,leisure,fitness_centre
+63be6904847c3692a84b9c0b,Hockey,Sports and Recreation > Hockey,leisure,yes
+63be6904847c3692a84b9c0c,Hockey Club,Sports and Recreation > Hockey > Hockey Club,leisure,sports_centre
+4f452cd44b9081a197eba860,Hockey Field,Sports and Recreation > Hockey > Hockey Field,leisure,pitch
+56aa371be4b08b9a8d57352c,Hockey Rink,Sports and Recreation > Hockey > Hockey Rink,leisure,ice_rink
+63be6904847c3692a84b9c0d,Hunting Area,Sports and Recreation > Hunting Area,leisure,yes
+5744ccdfe4b0c0459246b4b5,Indoor Play Area,Sports and Recreation > Indoor Play Area,leisure,indoor_playground
+4bf58dd8d48988d101941735,Martial Arts Dojo,Sports and Recreation > Martial Arts Dojo,amenity,dojo
+5032829591d4c4b30a586d5e,Paintball Field,Sports and Recreation > Paintball Field,leisure,pitch
+63be6904847c3692a84b9c0e,Personal Trainer,Sports and Recreation > Personal Trainer,office,personal_trainer
+4bf58dd8d48988d1f4931735,Race Track,Sports and Recreation > Race Track,highway,raceway
+56aa371be4b08b9a8d573514,Racecourse,Sports and Recreation > Race Track > Racecourse,highway,raceway
+63be6904847c3692a84b9c0f,Racquet Sports,Sports and Recreation > Racquet Sports,leisure,yes
+52e81612bcbc57f1066b7a2b,Badminton Court,Sports and Recreation > Racquet Sports > Badminton Court,leisure,pitch
+63be6904847c3692a84b9c10,Racquet Sport Club,Sports and Recreation > Racquet Sports > Racquet Sport Club,leisure,sports_centre
+63be6904847c3692a84b9c11,Racquetball Club,Sports and Recreation > Racquet Sports > Racquetball Club,leisure,sports_centre
+52e81612bcbc57f1066b7a2d,Squash Court,Sports and Recreation > Racquet Sports > Squash Court,leisure,pitch
+63be6904847c3692a84b9c12,Tennis,Sports and Recreation > Racquet Sports > Tennis,leisure,yes
+63be6904847c3692a84b9c13,Tennis Club,Sports and Recreation > Racquet Sports > Tennis > Tennis Club,leisure,sports_centre
+4e39a956bd410d7aed40cbc3,Tennis Court,Sports and Recreation > Racquet Sports > Tennis > Tennis Court,leisure,pitch
+52e81612bcbc57f1066b7a26,Recreation Center,Sports and Recreation > Recreation Center,leisure,sports_centre
+63be6904847c3692a84b9c14,Rugby,Sports and Recreation > Rugby,leisure,yes
+52e81612bcbc57f1066b7a2c,Rugby Pitch,Sports and Recreation > Rugby > Rugby Pitch,leisure,pitch
+63be6904847c3692a84b9c15,Running and Track,Sports and Recreation > Running and Track,leisure,yes
+63be6904847c3692a84b9c16,Running Club,Sports and Recreation > Running and Track > Running Club,leisure,sports_centre
+4bf58dd8d48988d106941735,Track,Sports and Recreation > Running and Track > Track,leisure,track
+58daa1558bbb0b01f18ec1ae,Sauna,Sports and Recreation > Sauna,leisure,sauna
+63be6904847c3692a84b9c17,Skating,Sports and Recreation > Skating,leisure,yes
+4bf58dd8d48988d167941735,Skate Park,Sports and Recreation > Skating > Skate Park,leisure,skate_park
+4bf58dd8d48988d168941735,Skating Rink,Sports and Recreation > Skating > Skating Rink,leisure,ice_rink
+63be6904847c3692a84b9c18,Skydiving Center,Sports and Recreation > Skydiving Center,leisure,yes
+58daa1558bbb0b01f18ec1b9,Skydiving Drop Zone,Sports and Recreation > Skydiving Center > Skydiving Drop Zone,aeroway,parachute_dropzone
+63be6904847c3692a84b9c19,Snow Sports,Sports and Recreation > Snow Sports,leisure,yes
+4bf58dd8d48988d1ec941735,Ski Chalet,Sports and Recreation > Snow Sports > Ski Chalet,tourism,chalet
+4bf58dd8d48988d1eb941735,Ski Lodge,Sports and Recreation > Snow Sports > Ski Lodge,tourism,wilderness_hut
+4bf58dd8d48988d1e9941735,Ski Resort and Area,Sports and Recreation > Snow Sports > Ski Resort and Area,landuse,winter_sports
+4eb1c0ed3b7b52c0e1adc2ea,Ski Chairlift,Sports and Recreation > Snow Sports > Ski Resort and Area > Ski Chairlift,aerialway,chair_lift
+4eb1c0f63b7b52c0e1adc2eb,Ski Trail,Sports and Recreation > Snow Sports > Ski Resort and Area > Ski Trail,route,piste
+63be6904847c3692a84b9c1a,Soccer,Sports and Recreation > Soccer,leisure,yes
+63be6904847c3692a84b9c1b,Soccer Club,Sports and Recreation > Soccer > Soccer Club,leisure,sports_centre
+4cce455aebf7b749d5e191f5,Soccer Field,Sports and Recreation > Soccer > Soccer Field,leisure,pitch
+52e81612bcbc57f1066b7a2e,Sports Club,Sports and Recreation > Sports Club,leisure,sports_centre
+4eb1bf013b7b6f98df247e07,Volleyball Court,Sports and Recreation > Volleyball Court,leisure,pitch
+63be6904847c3692a84b9c1c,Water Sports,Sports and Recreation > Water Sports,leisure,yes
+63be6904847c3692a84b9c1d,Canoe and Kayak Rental,Sports and Recreation > Water Sports > Canoe and Kayak Rental,amenity,boat_rental
+63be6904847c3692a84b9c1e,Rafting Outfitter,Sports and Recreation > Water Sports > Rafting Outfitter,tourism,rafting
+52e81612bcbc57f1066b7a29,Rafting Spot,Sports and Recreation > Water Sports > Rafting Spot,tourism,rafting
+63be6904847c3692a84b9c1f,Sailing Club,Sports and Recreation > Water Sports > Sailing Club,leisure,sports_centre
+63be6904847c3692a84b9c20,Scuba Diving Instructor,Sports and Recreation > Water Sports > Scuba Diving Instructor,amenity,dive_centre
+63be6904847c3692a84b9c21,Surfing,Sports and Recreation > Water Sports > Surfing,leisure,yes
+63be6904847c3692a84b9c22,Swimming,Sports and Recreation > Water Sports > Swimming,leisure,swimming_area
+52e81612bcbc57f1066b7a44,Swim School,Sports and Recreation > Water Sports > Swimming > Swim School,amenity,training
+63be6904847c3692a84b9c23,Swimming Club,Sports and Recreation > Water Sports > Swimming > Swimming Club,leisure,sports_centre
+4bf58dd8d48988d15e941735,Swimming Pool,Sports and Recreation > Water Sports > Swimming > Swimming Pool,leisure,swimming_pool
+4d4b7105d754a06379d81259,Travel and Transportation,Travel and Transportation,amenity,yes
+5744ccdfe4b0c0459246b4e8,Baggage Locker,Travel and Transportation > Baggage Locker,amenity,parcel_locker
+4e4c9077bd41f78e849722f9,Bike Rental,Travel and Transportation > Bike Rental,amenity,bicycle_rental
+5744ccdfe4b0c0459246b4c1,Boat Rental,Travel and Transportation > Boat Rental,amenity,boat_rental
+4bf58dd8d48988d12d951735,Boat or Ferry,Travel and Transportation > Boat or Ferry,route,ferry
+52f2ab2ebcbc57f1066b8b4b,Border Crossing,Travel and Transportation > Border Crossing,barrier,border_control
+52f2ab2ebcbc57f1066b8b50,Cable Car,Travel and Transportation > Cable Car,aerialway,cable_car
+55077a22498e5e9248869ba2,Cruise,Travel and Transportation > Cruise,tourism,cruise
+5032872391d4c4b30a586d64,Electric Vehicle Charging Station,Travel and Transportation > Electric Vehicle Charging Station,amenity,charging_station
+4bf58dd8d48988d113951735,Fuel Station,Travel and Transportation > Fuel Station,amenity,fuel
+4bf58dd8d48988d1f6931735,General Travel,Travel and Transportation > General Travel,tourism,yes
+63be6904847c3692a84b9c24,Hot Air Balloon Tour Agency,Travel and Transportation > Hot Air Balloon Tour Agency,tourism,yes
+63be6904847c3692a84b9c25,Lodging,Travel and Transportation > Lodging,tourism,lodging
+4bf58dd8d48988d1f8931735,Bed and Breakfast,Travel and Transportation > Lodging > Bed and Breakfast,tourism,guest_house
+4f4530a74b9074f6e4fb0100,Boarding House,Travel and Transportation > Lodging > Boarding House,tourism,guest_house
+63be6904847c3692a84b9c26,Cabin,Travel and Transportation > Lodging > Cabin,tourism,chalet
+4bf58dd8d48988d1ee931735,Hostel,Travel and Transportation > Lodging > Hostel,tourism,hostel
+4bf58dd8d48988d1fa931735,Hotel,Travel and Transportation > Lodging > Hotel,tourism,hotel
+4bf58dd8d48988d132951735,Hotel Pool,Travel and Transportation > Lodging > Hotel > Hotel Pool,leisure,swimming_pool
+5bae9231bedf3950379f89cb,Inn,Travel and Transportation > Lodging > Inn,tourism,guest_house
+63be6904847c3692a84b9c27,Lodge,Travel and Transportation > Lodging > Lodge,tourism,wilderness_hut
+4bf58dd8d48988d1fb931735,Motel,Travel and Transportation > Lodging > Motel,tourism,motel
+4bf58dd8d48988d12f951735,Resort,Travel and Transportation > Lodging > Resort,tourism,hotel
+56aa371be4b08b9a8d5734e1,Vacation Rental,Travel and Transportation > Lodging > Vacation Rental,tourism,apartment
+4f2a23984b9023bd5841ed2c,Moving Target,Travel and Transportation > Moving Target,nf_fsq,nf_fsq
+4c38df4de52ce0d596b336e1,Parking,Travel and Transportation > Parking,amenity,parking
+4e74f6cabd41c4836eac4c31,Pier,Travel and Transportation > Pier,man_made,pier
+4f4531504b9074f6e4fb0102,Platform,Travel and Transportation > Platform,public_transport,platform
+56aa371be4b08b9a8d57353e,Port,Travel and Transportation > Port,landuse,port
+52f2ab2ebcbc57f1066b8b53,RV Park,Travel and Transportation > RV Park,tourism,caravan_site
+4d954b16a243a5684b65b473,Rest Area,Travel and Transportation > Rest Area,highway,rest_area
+4bf58dd8d48988d1f9931735,Road,Travel and Transportation > Road,highway,road
+52f2ab2ebcbc57f1066b8b4c,Intersection,Travel and Transportation > Road > Intersection,junction,intersection
+52f2ab2ebcbc57f1066b8b52,Street,Travel and Transportation > Street,highway,residential
+52f2ab2ebcbc57f1066b8b4d,Toll Booth,Travel and Transportation > Toll Booth,barrier,toll_booth
+52f2ab2ebcbc57f1066b8b4e,Toll Plaza,Travel and Transportation > Toll Plaza,barrier,toll_booth
+4f4530164b9074f6e4fb00ff,Tourist Information and Service,Travel and Transportation > Tourist Information and Service,tourism,information
+56aa371be4b08b9a8d573520,Tour Provider,Travel and Transportation > Tourist Information and Service > Tour Provider,office,guide
+4bf58dd8d48988d12a951735,Train,Travel and Transportation > Train,route,train
+63be6904847c3692a84b9c28,Transport Hub,Travel and Transportation > Transport Hub,public_transport,station
+4bf58dd8d48988d1ed931735,Airport,Travel and Transportation > Transport Hub > Airport,aeroway,aerodrome
+5f2c42335b4c177b9a6dc927,Airfield,Travel and Transportation > Transport Hub > Airport > Airfield,aeroway,aerodrome
+4bf58dd8d48988d1ef931735,Airport Food Court,Travel and Transportation > Transport Hub > Airport > Airport Food Court,amenity,food_court
+4bf58dd8d48988d1f0931735,Airport Gate,Travel and Transportation > Transport Hub > Airport > Airport Gate,aeroway,gate
+4eb1bc533b7b2c5b1d4306cb,Airport Lounge,Travel and Transportation > Transport Hub > Airport > Airport Lounge,amenity,lounge
+56aa371be4b08b9a8d57352f,Airport Service,Travel and Transportation > Transport Hub > Airport > Airport Service,office,airport_service
+4bf58dd8d48988d1eb931735,Airport Terminal,Travel and Transportation > Transport Hub > Airport > Airport Terminal,aeroway,terminal
+60a674555c7917283bad6839,Airport Ticket Counter,Travel and Transportation > Transport Hub > Airport > Airport Ticket Counter,shop,ticket
+4bf58dd8d48988d1ec931735,Airport Tram Station,Travel and Transportation > Transport Hub > Airport > Airport Tram Station,railway,tram_stop
+5744ccdfe4b0c0459246b4e5,Baggage Claim,Travel and Transportation > Transport Hub > Airport > Baggage Claim,aeroway,baggage_claim
+63be6904847c3692a84b9c29,International Airport,Travel and Transportation > Transport Hub > Airport > International Airport,aeroway,aerodrome
+4bf58dd8d48988d1f7931735,Plane,Travel and Transportation > Transport Hub > Airport > Plane,nf_fsq,nf_fsq
+63be6904847c3692a84b9c2a,Private Airport,Travel and Transportation > Transport Hub > Airport > Private Airport,aeroway,aerodrome
+4bf58dd8d48988d1fe931735,Bus Station,Travel and Transportation > Transport Hub > Bus Station,amenity,bus_station
+52f2ab2ebcbc57f1066b8b4f,Bus Stop,Travel and Transportation > Transport Hub > Bus Stop,highway,bus_stop
+56aa371ce4b08b9a8d57356e,Heliport,Travel and Transportation > Transport Hub > Heliport,aeroway,heliport
+4bf58dd8d48988d1fc931735,Light Rail Station,Travel and Transportation > Transport Hub > Light Rail Station,railway,station
+5f2c1af1b6d05514c704319d,Marine Terminal,Travel and Transportation > Transport Hub > Marine Terminal,amenity,ferry_terminal
+4bf58dd8d48988d1fd931735,Metro Station,Travel and Transportation > Transport Hub > Metro Station,railway,station
+4bf58dd8d48988d129951735,Rail Station,Travel and Transportation > Transport Hub > Rail Station,railway,station
+4bf58dd8d48988d1ef941735,Rental Car Location,Travel and Transportation > Transport Hub > Rental Car Location,amenity,car_rental
+53fca564498e1a175f32528b,Taxi Stand,Travel and Transportation > Transport Hub > Taxi Stand,amenity,taxi
+52f2ab2ebcbc57f1066b8b51,Tram Station,Travel and Transportation > Transport Hub > Tram Station,railway,tram_stop
+54541b70498ea6ccd0204bff,Transportation Service,Travel and Transportation > Transportation Service,office,transportation_service
+63be6904847c3692a84b9c2b,Charter Bus,Travel and Transportation > Transportation Service > Charter Bus,route,bus
+63be6904847c3692a84b9c2c,Limo Service,Travel and Transportation > Transportation Service > Limo Service,office,limousine_service
+63be6904847c3692a84b9c2d,Public Transportation,Travel and Transportation > Transportation Service > Public Transportation,public_transport,station
+4bf58dd8d48988d12b951735,Bus Line,Travel and Transportation > Transportation Service > Public Transportation > Bus Line,route,bus
+4bf58dd8d48988d130951735,Taxi,Travel and Transportation > Transportation Service > Taxi,amenity,taxi
+4f04b08c2fb6e1c99f3db0bd,Travel Agency,Travel and Transportation > Travel Agency,office,travel_agent
+4f04b25d2fb6e1c99f3db0c0,Travel Lounge,Travel and Transportation > Travel Lounge,amenity,lounge
+57558b36e4b065ecebd306dd,Truck Stop,Travel and Transportation > Truck Stop,amenity,truck_stop
